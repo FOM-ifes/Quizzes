@@ -1,0 +1,31 @@
+Question
+========
+
+Welches Skalenniveau hat die Variable *Nutzungsdauer von R im Monat*?
+
+Answerlist
+----------
+* Kategorial - nominal
+* Kategorial - ordinal
+* Numerisch - intervallskaliert
+* Numerisch - verhältnisskaliert
+
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Skala Nutzungsdauer
+extype: schoice
+exsolution: 0001

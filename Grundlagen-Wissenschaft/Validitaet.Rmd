@@ -1,0 +1,30 @@
+Question
+========
+
+Für Aussagen wird ein hoher Grad an *____* Validität angenommen, wenn Alternativerklärungen für das Vorliegen oder die Höhe der gefundenen Effekte weitestgehend ausgeschlossen werden können. 
+
+Um welche Art der Validität geht es hier?
+
+
+Answerlist
+----------
+* Interne Validität
+* Externe Validität
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+
+
+Meta-information
+================
+exname: Validität
+extype: schoice
+exsolution: 10

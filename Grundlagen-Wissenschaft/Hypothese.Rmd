@@ -1,0 +1,34 @@
+Question
+========
+
+Welche Forderung stellt Popper an wissenschaftliche Hypothesen? 
+
+
+
+Answerlist
+----------
+* Sie sollen mathematisch formuliert sein.
+* Sie sollen für alle Menschen gelten.
+* Sie sollen möglichst umfangreich sein.
+* Sie sollen falsifizierbar sein.
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+
+
+Meta-information
+================
+exname: Hypothese
+extype: schoice
+exsolution: 0001

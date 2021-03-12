@@ -1,0 +1,27 @@
+Question
+========
+
+Ist *Intrinsische Motivation zur Nutzung von R* eine manifeste Variable?
+
+Answerlist
+----------
+* Ja
+* Nein
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Variablentyp
+extype: schoice
+exsolution: 01

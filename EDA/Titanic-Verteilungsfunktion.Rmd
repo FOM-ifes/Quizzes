@@ -1,0 +1,43 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Für die empirische Verteilungsfunktion $F_n(25)$ je Klasse ergibt sich:
+
+```{r}
+pdata(age ~ class, q = 25, data = titanic)
+```
+
+In welcher Klasse ist der höchste Anteil der über 25-jährigen?
+
+Answerlist
+----------
+* In der 1. Klasse.
+* In der 2. Klasse.
+* In der 3. Klasse.
+* Kann mit der gegebenen Information nicht beantwortet werden.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: Titanic Verteilungsfunktion
+extype: schoice
+exsolution: 1000

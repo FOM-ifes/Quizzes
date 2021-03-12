@@ -1,0 +1,27 @@
+Question
+========
+
+Welches Gütekriterium einer Messung ist verletzt, wenn die Messerergebnisse stark schwanken?
+
+Answerlist
+----------
+* Reliabilität
+* Validität
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+
+
+Meta-information
+================
+exname: Güte Messung
+extype: schoice
+exsolution: 10

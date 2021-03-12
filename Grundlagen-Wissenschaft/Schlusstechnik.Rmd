@@ -1,0 +1,41 @@
+Question
+========
+
+Annahmen: 
+
+* Alle Menschen haben einen Geburtstag.  
+
+* Ich bin ein Mensch. 
+
+Schlussfolgerung: 
+
+Ich habe Geburtstag.  
+
+
+
+Welche Art der Schlussfolgerung liegt vor?
+
+Answerlist
+----------
+* Induktion
+* Deduktion
+* Abduktion
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+
+
+Meta-information
+================
+exname: Schlusstechnik
+extype: schoice
+exsolution: 010

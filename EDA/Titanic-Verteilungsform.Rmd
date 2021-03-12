@@ -1,0 +1,43 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+titanic <- titanic %>% 
+  filter(age > 14)
+```
+
+Question
+========
+
+Für die Altersverteilung der Passagiere die mind. 15 Jahre sieht wie folgt aus:
+
+```{r, results="hide", fig.height = 4, fig.width = 6, fig.cap = "", warning=FALSE}
+gf_histogram( ~ age, data = titanic, center=17.5, binwidth = 5)
+```
+
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Die Verteilung ist symmetrisch.
+* Die Verteilung ist rechtsschief.
+* Die Verteilung ist linksschief.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Titanic Verteilungsform
+extype: schoice
+exsolution: 010

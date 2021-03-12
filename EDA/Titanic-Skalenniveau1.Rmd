@@ -1,0 +1,40 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Ein Datensatz der Passagierliste der Titanic hat folgende Struktur:
+
+```{r str}
+str(titanic)
+```
+
+Welches Skalenniveau hat die Variable `class` (Klasse)?
+
+Answerlist
+----------
+* Kategorial - nominal
+* Kategorial - ordinal
+* Numerisch - intervall
+* Numerisch - verhältnis
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Titanic Skalenniveau 1
+extype: schoice
+exsolution: 0100

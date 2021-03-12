@@ -1,0 +1,28 @@
+Question
+========
+
+Fiktives Beispiel: Anhand von Logdateien wird festgestellt, das Apple Nutzer:innen länger mit R arbeiten als Windows Nutzer:innen. 
+
+Ist hier eine Kausalaussage: *Nutzung von Apple erhöht Nutzungsdauer von R* möglich?
+
+Answerlist
+----------
+* Ja
+* Nein
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Schlussmoeglichkeit
+extype: schoice
+exsolution: 01

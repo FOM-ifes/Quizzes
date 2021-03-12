@@ -1,0 +1,29 @@
+Question
+========
+
+Wie sollte eine Stichprobe sein, damit sie eine Generalisierung auf die zugrundeliegende Popultion zulässt?
+
+Answerlist
+----------
+* Sie sollte mindestens 100 Beobachtungen enthalten
+* Sie sollte mindestens 1000 Beobachtungen enthalten
+* Sie sollte zufällig sein
+* Sie sollte genau so viele Frauen wie Männer enthalten
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Stichprobe
+extype: schoice
+exsolution: 0010

@@ -1,0 +1,47 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Es soll analysiert werden, wie hoch der Anteil der Überlebenden unter den weiblichen Passagieren der Titanic ist.
+
+Dazu wurden *testweise* zwei verschiedene Analysen durchgeführt. 
+
+```{r}
+# Versuch 1
+tally(gender ~ survived, data = titanic, format = "proportion")
+```
+
+und
+
+```{r}
+# Versuch 2
+tally(survived ~ gender, data = titanic, format = "proportion")
+```
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Es haben ca. 68 Prozent der weiblichen Passgiere überlebt.
+* Es haben ca. 74 Prozent der weiblichen Passgiere überlebt.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Titanic Anteil
+extype: schoice
+exsolution: 01

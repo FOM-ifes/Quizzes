@@ -1,0 +1,26 @@
+Question
+========
+
+Sind diejenigen, die die RStudio Cloud nutzen eine zufällige Stichprobe aller R Nutzer:innen?
+
+Answerlist
+----------
+* Ja
+* Nein
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Stichprobe Cloud
+extype: schoice
+exsolution: 01

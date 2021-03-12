@@ -1,0 +1,31 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Was gilt für die Variable *Anzahl Überlebender je Klasse*?
+
+Answerlist
+----------
+* Die Variable ist diskret.
+* Die Variable ist stetig.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Titanic Skalenniveau 2
+extype: schoice
+exsolution: 10
