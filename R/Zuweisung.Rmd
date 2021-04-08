@@ -8,6 +8,7 @@ Answerlist
 * `%>%`
 * `<-`
 * `:=`
+* `==`
 
 Solution
 ========
@@ -16,10 +17,11 @@ Answerlist
 ----------
 * Falsch. `%>%` *übergibt* Ergebnisse.
 * Richtig. `erg <- analyse()` speichert im R Objekt `erg` das Ergebnis von `analyse()`
-* Falsch.
+* Falsch. 
+* Falsch. `==` überprüft (logisch) die Gleichheit.
 
 Meta-information
 ================
 exname: mean
 extype: schoice
-exsolution: 010
+exsolution: 0100

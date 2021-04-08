@@ -10,10 +10,10 @@ gf_point(y ~ x, data = Meine.Daten)
 
 Answerlist
 ----------
-* `y` und `x` sind beides Variablen des Datensatzes `Meine.Daten`.
-* `y` ist eine Variable, `x` eine Beobachtung des Datensatzes `Meine.Daten`.
-* `y` ist eine Beobachtung, `x` eine Variable des Datensatzes `Meine.Daten`.
-* `y` und `x` sind beides Beobachtungen des Datensatzes `Meine.Daten`.
+* `y` und `x` sind beides Variablen der Datentabelle `Meine.Daten`.
+* `y` ist eine Variable, `x` eine Beobachtung der Datentabelle `Meine.Daten`.
+* `y` ist eine Beobachtung, `x` eine Variable der Datentabelle `Meine.Daten`.
+* `y` und `x` sind beides Beobachtungen der Datentabelle `Meine.Daten`.
 
 
 Solution
