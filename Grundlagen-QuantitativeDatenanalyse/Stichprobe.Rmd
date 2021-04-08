@@ -1,7 +1,7 @@
 Question
 ========
 
-Wie sollte eine Stichprobe sein, damit sie eine Generalisierung auf die zugrundeliegende Popultion zulässt?
+Wie sollte eine Stichprobe sein, damit sie eine Generalisierung auf die zugrundeliegende Population zulässt?
 
 Answerlist
 ----------

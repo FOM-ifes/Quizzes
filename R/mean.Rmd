@@ -1,0 +1,35 @@
+Question
+========
+
+Ergeben
+
+```{r, eval=FALSE}
+mean(y ~ x, data = Meine.Daten)
+```
+
+und 
+
+```{r, eval=FALSE}
+mean(x ~ y, data = Meine.Daten)
+```
+
+im Allgemeinen das selbe Ergebnis?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d.h. je, `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d.h. je, `y`.
+* Richtig. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d.h. je, `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d.h. je, `y`.
+
+Meta-information
+================
+exname: mean
+extype: schoice
+exsolution: 01

@@ -1,0 +1,31 @@
+Question
+========
+
+Beim R Aufruf
+
+```{r, eval = FALSE}
+str(Meine.Daten)
+```
+
+Was ist hier die *Funktion*?
+
+Answerlist
+----------
+* `str()`
+* `Meine.Daten`
+* Es gibt keine Funktion.
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
+* Falsch. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
+* Falsch. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
+
+Meta-information
+================
+exname: Funktion
+extype: schoice
+exsolution: 100

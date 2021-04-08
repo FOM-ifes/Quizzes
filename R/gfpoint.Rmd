@@ -1,0 +1,33 @@
+Question
+========
+
+Worauf beziehen sich `x` und `y` bei dem Funktionsaufruf?
+
+```{r, eval=FALSE}
+gf_point(y ~ x, data = Meine.Daten)
+```
+
+
+Answerlist
+----------
+* `y` und `x` sind beides Variablen des Datensatzes `Meine.Daten`.
+* `y` ist eine Variable, `x` eine Beobachtung des Datensatzes `Meine.Daten`.
+* `y` ist eine Beobachtung, `x` eine Variable des Datensatzes `Meine.Daten`.
+* `y` und `x` sind beides Beobachtungen des Datensatzes `Meine.Daten`.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
+
+Meta-information
+================
+exname: gfpoint
+extype: schoice
+exsolution: 1000
