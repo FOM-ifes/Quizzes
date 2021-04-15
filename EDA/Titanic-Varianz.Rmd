@@ -1,0 +1,44 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Es soll analysiert werden, wie hoch der Ticketpreis auf der Titanic war.
+
+
+```{r}
+var( ~ fare, data = titanic)
+```
+
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Die Standardabweichung (`sd( ~ fare, data = titanic)`) wird kleiner sein als die Varianz.
+* Die Standardabweichung (`sd( ~ fare, data = titanic)`) wird genau so groß sein wie die Varianz.
+* Die Standardabweichung (`sd( ~ fare, data = titanic)`) wird größer sein als die Varianz.
+* Keine Aussage möglich.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Titanic Varianz
+extype: schoice
+exsolution: 1000

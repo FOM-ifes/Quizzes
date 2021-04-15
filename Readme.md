@@ -44,5 +44,10 @@ wiederholung4 <- c("EDA/Titanic-Beobachtung.Rmd",
 "EDA/Titanic-Skalenniveau2.Rmd",
 "EDA/Titanic-Verteilungsform.Rmd", 
 "EDA/Titanic-Verteilungsfunktion.Rmd")
+
+wiederholung5 <- c("EDA/Titanic-Mittelwert.Rmd", 
+"EDA/Titanic-Varianz.Rmd", 
+"EDA/Titanic-Boxplot.Rmd", 
+"EDA/Titanic-Korrelation.Rmd")
 ```
 

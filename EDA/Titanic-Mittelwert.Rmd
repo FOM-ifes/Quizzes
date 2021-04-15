@@ -1,0 +1,46 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Es soll analysiert werden, wie hoch der Ticketpreis auf der Titanic war.
+
+```{r, eval=FALSE}
+mean( ~ fare, data = titanic)
+```
+```{r, echo=FALSE}
+mosaic:::mean( ~ fare, data = titanic)
+```
+
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Die Meisten Passagiere haben `r round(mosaic:::mean( ~ fare, data = titanic),2)` bezahlt.
+* Die eine Hälfte der Passagiere hat über`r round(mosaic:::mean( ~ fare, data = titanic),2)` bezahlt, die andere Hälfte weniger.
+* Alle Passagiere haben `r round(mosaic:::mean( ~ fare, data = titanic),2)` bezahlt.
+* Keine der anderen Aussagen stimmt.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Titanic Mittelwert
+extype: schoice
+exsolution: 0001

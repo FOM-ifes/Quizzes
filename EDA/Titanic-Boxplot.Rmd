@@ -1,0 +1,41 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Ein Boxplot des Alters in Abhängigkeit davon, ob die Katastrophe überlebt wurde oder nicht, ergibt folgendes Ergebnis:
+
+
+```{r, warning=FALSE}
+gf_boxplot(age ~ survived, data = titanic)
+```
+
+
+Stimmt die Aussage: *Die Abbildung zeigt, dass der arithmetische Mittelwert des Alters bei den nicht-Überlebenden genaus so groß ist wie bei den Überlebenden.*?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Titanic Boxplot
+extype: schoice
+exsolution: 01
