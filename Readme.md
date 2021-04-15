@@ -49,5 +49,10 @@ wiederholung5 <- c("EDA/Titanic-Mittelwert.Rmd",
 "EDA/Titanic-Varianz.Rmd", 
 "EDA/Titanic-Boxplot.Rmd", 
 "EDA/Titanic-Korrelation.Rmd")
+
+wiederholung6 <- c("Normalverteilung/Parameter.Rmd", 
+"Normalverteilung/Wkeit.Rmd", 
+"Normalverteilung/Quantile.Rmd", 
+"Normalverteilung/z-Wert.Rmd")
 ```
 
