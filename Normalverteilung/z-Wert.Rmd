@@ -12,7 +12,7 @@ Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Welchen z-Wert hat eine 
 Solution
 ========
 
-$$z=\frac{x-\mu}{\sigma}=\frac{6-10}{2}=-2$$´
+$$z=\frac{x-\mu}{\sigma}=\frac{6-10}{2}=-2$$
 
 
 Meta-information
