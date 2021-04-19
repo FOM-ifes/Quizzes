@@ -17,7 +17,7 @@ gf_boxplot(age ~ survived, data = titanic)
 ```
 
 
-Stimmt die Aussage: *Die Abbildung zeigt, dass der arithmetische Mittelwert des Alters bei den nicht-Überlebenden genaus so groß ist wie bei den Überlebenden.*?
+Stimmt die Aussage: *Die Abbildung zeigt, dass der arithmetische Mittelwert des Alters bei den Nicht-Überlebenden genau so groß ist wie bei den Überlebenden.*?
 
 Answerlist
 ----------
