@@ -1,0 +1,31 @@
+Question
+========
+
+Für eine beliebige Anwendung: Wann ist das Bestimmtheitsmaß $R^2$ *gut*?
+
+Answerlist
+----------
+* Bei $R^2 \approx 1$.
+* Ab $R^2 > 0.9$.
+* Ab $R^2 > 0.8$.
+* Ab $R^2 > 0.5$.
+* Keine pauschale Aussage möglich.
+
+
+Solution
+========
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Einordnung R-Quadrat
+extype: schoice
+exsolution: 00001

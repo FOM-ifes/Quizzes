@@ -54,5 +54,12 @@ wiederholung6 <- c("Normalverteilung/Parameter.Rmd",
 "Normalverteilung/Wkeit.Rmd", 
 "Normalverteilung/Quantile.Rmd", 
 "Normalverteilung/z-Wert.Rmd")
+
+wiederholung7 <- c("Regression/Korrelation.Rmd", 
+"Regression/KorrelationRegression.Rmd", 
+"Regression/Regressionsgleichung.Rmd", 
+"Regression/yDach.Rmd", 
+"Regression/InterpretationR2.Rmd", 
+"Regression/EinordungR2.Rmd"
 ```
 
