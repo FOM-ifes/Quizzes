@@ -60,6 +60,6 @@ wiederholung7 <- c("Regression/Korrelation.Rmd",
 "Regression/Regressionsgleichung.Rmd", 
 "Regression/yDach.Rmd", 
 "Regression/InterpretationR2.Rmd", 
-"Regression/EinordungR2.Rmd"
+"Regression/EinordungR2.Rmd")
 ```
 
