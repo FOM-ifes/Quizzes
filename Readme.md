@@ -55,11 +55,18 @@ wiederholung6 <- c("Normalverteilung/Parameter.Rmd",
 "Normalverteilung/Quantile.Rmd", 
 "Normalverteilung/z-Wert.Rmd")
 
-wiederholung7 <- c("Regression/Korrelation.Rmd", 
+wiederholung7 <- c("Regression/Modellgleichung.Rmd",
+"Regression/Korrelation.Rmd", 
 "Regression/KorrelationRegression.Rmd", 
 "Regression/Regressionsgleichung.Rmd", 
 "Regression/yDach.Rmd", 
 "Regression/InterpretationR2.Rmd", 
 "Regression/EinordungR2.Rmd")
+
+wiederholung8 <- c("Regression/Nullhypothese.Rmd", 
+"Regression/Stichprobe.Rmd", 
+"Regression/Bootstrapping.Rmd",
+"Regression/SimulationH0.Rmd", 
+"Regression/Signifikanz.Rmd")
 ```
 

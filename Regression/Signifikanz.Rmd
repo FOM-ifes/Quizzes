@@ -1,0 +1,28 @@
+Question
+========
+
+In einer wissenschaftlichen Studie wird von einem *signifikanten* Zusammenhang gesprochen.
+
+Welche Interpretation ist richtig?
+
+Answerlist
+----------
+* Der Zusammenhang ist (sehr) stark.
+* Der Zusammenhang ist (sehr) schwach.
+* Eine Aussage über die Stärke des Zusammenhangs ist nicht möglich.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Signifikanz
+extype: schoice
+exsolution: 001

@@ -20,10 +20,10 @@ Wie lautet die geschätzte Regressionsgleichung (gerundet)?
 
 Answerlist
 ----------
-* $\hat{\text{mpg}} = `r coefs[1]`  `r coefs[2]` \cdot \text{wt}$
-* $\hat{\text{mpg}} = `r coefs[2]` + `r coefs[1]` \cdot \text{wt}$
-* $\hat{\text{wt}} = `r coefs[1]`  `r coefs[2]` \cdot \text{mpg}$
-* $\hat{\text{wt}} = `r coefs[2]` + `r coefs[1]` \cdot \text{mpg}$
+* $\widehat{\text{mpg}} = `r coefs[1]`  `r coefs[2]` \cdot \text{wt}$
+* $\widehat{\text{mpg}} = `r coefs[2]` + `r coefs[1]` \cdot \text{wt}$
+* $\widehat{\text{wt}} = `r coefs[1]`  `r coefs[2]` \cdot \text{mpg}$
+* $\widehat{\text{wt}} = `r coefs[2]` + `r coefs[1]` \cdot \text{mpg}$
 
 
 

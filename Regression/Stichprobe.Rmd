@@ -1,0 +1,32 @@
+Question
+========
+
+Angenommen es gelte
+
+$$\beta_1=0.$$
+
+Folgt dann daraus, dass auch 
+
+$$\hat{\beta_1}=0$$
+gelten muss?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Stichprobe
+extype: schoice
+exsolution: 01
