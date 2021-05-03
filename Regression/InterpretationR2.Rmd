@@ -20,9 +20,9 @@ Welche Interpretation ist richtig?
 
 Answerlist
 ----------
-* $`r r2`$ der Beobachtungen werden richtig modelliert.
-* $`r r2`$ der Variation von `mpg` kann linear durch `wt` modelliert werden.
-* Die Wahrscheinlichkeit dass das lineare Modell stimmt liegt bei $`r r2`$.
+* $`r r2*100`\,\%$ der Beobachtungen werden richtig modelliert.
+* $`r r2*100`\,\%$ der Variation von `mpg` kann linear durch `wt` modelliert werden.
+* Die Wahrscheinlichkeit, dass das lineare Modell stimmt, liegt bei $`r r2*100`\,\%$.
 
 
 
