@@ -25,7 +25,7 @@ set.seed(1896)
 # Bootstrapping
 Bootvtlg <- do(1000)* lm(mpg ~ wt, data = resample(mtcars))
 # Bootstrap Verteilung
-gf_histogram( ~ wt, data = Bootvtlg, center = ~ coef(erglm)[2], nbins = 21)
+gf_histogram( ~ wt, data = Bootvtlg, center =  coef(erglm)[2], bins = 21)
 # Standardfehler (se)
 sd( ~ wt, data = Bootvtlg)
 ```
