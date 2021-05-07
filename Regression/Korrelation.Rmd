@@ -22,9 +22,9 @@ Welche Korrelation erwarten Sie zwischen Verbrauch in `mpg` und Gewicht in `wt`?
 
 Answerlist
 ----------
-* $r<0$
+* $r < 0$.
 * $r \approx 0$.
-* $r>0$.
+* $r > 0$.
 
 
 

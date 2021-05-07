@@ -25,7 +25,7 @@ set.seed(1896)
 # Permutationsverteilung
 Nullvtlg <- do(1000)* lm(mpg ~ shuffle(wt), data = mtcars)
 # Verteilung geschätzte Steigung
-gf_histogram( ~ wt, data = Nullvtlg, center = 0, nbins = 21) %>%
+gf_histogram( ~ wt, data = Nullvtlg, center = 0, bins = 21) %>%
  gf_vline(xintercept = ~ coef(erglm)[2]) 
 ```
 
