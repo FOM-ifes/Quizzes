@@ -68,5 +68,11 @@ wiederholung8 <- c("Regression/Nullhypothese.Rmd",
 "Regression/Bootstrapping.Rmd",
 "Regression/SimulationH0.Rmd", 
 "Regression/Signifikanz.Rmd")
+
+wiederholung9 <- c("Regression/KategorialesX.Rmd", 
+"Regression/GleichungKategorialsX.Rmd", 
+"Regression/NullhypotheseKategorialesX.Rmd", 
+"Regression/PWert.Rmd")
+
 ```
 

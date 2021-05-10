@@ -1,0 +1,49 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Eine lineare Regression der abhängigen Variable ($y$) `volume` auf die unabhängige Variable ($x$) `dayType` ergibt:
+
+```{r}
+# Lineares Modell schätzen
+erglm <- lm(volume ~ dayType, data = RailTrail)
+# Geschätzte Koeffizienten
+coef(erglm)
+```
+
+Die Simualtion von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
+
+```{r}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Permutationsverteilung
+Nullvtlg <- do(1000)* lm(volume ~ shuffle(dayType), data = RailTrail)
+# Bestimmung p-Wert
+pwert <- prop( ~ abs(dayTypeweekend) >= abs(coef(erglm)[2]), 
+               data = Nullvtlg)
+pwert
+```
+
+Stimmt die Aussage: Die Wahrscheinlichkeit, dass die Nullhypothese stimmt liegt bei `r pwert`?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: p-Wert
+extype: schoice
+exsolution: 01

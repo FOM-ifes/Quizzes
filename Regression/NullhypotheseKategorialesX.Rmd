@@ -1,0 +1,52 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Eine lineare Regression der abhängigen Variable ($y$) `volume` auf die unabhängige Variable ($x$) `dayType` ergibt:
+
+```{r}
+# Lineares Modell schätzen
+erglm <- lm(volume ~ dayType, data = RailTrail)
+# Geschätzte Koeffizienten
+coef(erglm)
+```
+
+Die Simualtion von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
+
+```{r}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Permutationsverteilung
+Nullvtlg <- do(1000)* lm(volume ~ shuffle(dayType), data = RailTrail)
+# Verteilung geschätzte Steigung
+gf_histogram( ~ dayTypeweekend, data = Nullvtlg, center = 0, bins = 21) %>%
+ gf_vline(xintercept = ~ coef(erglm)[2]) 
+```
+
+Wie lautet die Nullhypothese?
+
+Answerlist
+----------
+* $H_0: \beta_{dayTypeweekend} \neq 0$.
+* $H_0: \hat{\beta}_{dayTypeweekend} \neq 0$.
+* $H_0: \beta_{dayTypeweekend} = 0$.
+* $H_0: \hat{\beta}_{dayTypeweekend} = 0$.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Nullhypothese X Kategorial
+extype: schoice
+exsolution: 0010
