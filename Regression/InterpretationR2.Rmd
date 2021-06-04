@@ -9,7 +9,7 @@ r2 <- lm(mpg ~ wt, data = mtcars) %>%
 Question
 ========
 
-Das Bestimmtheitsmaß $R^2$ (`rsquared()`) einer linearen Regression des Verbrauchs `mpg` auf das Gewicht `wt` des Datensatzes `mtcars` ergibt:
+Das Bestimmtheitsmaß $R^2$ (`rsquared()`) einer linearen Regression der Reichweite `mpg` auf das Gewicht `wt` des Datensatzes `mtcars` ergibt:
 
 ```{r}
 erglm <- lm(mpg ~ wt, data = mtcars)

@@ -17,7 +17,7 @@ Also
 
 $$\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$$.
 
-Wird das zufällige Ziehen simuliert (mit Zurücklegen, *Bootstrapping*) ergibt sich folgendes Ergebnis:
+Wird das zufällige Ziehen simuliert (mit Zurücklegen, *Bootstrapping*) ergibt sich folgendes Ergebnis für die Verteilung der geschätzten Steigung:
 
 ```{r}
 # Zufallszahlengenerator setzen

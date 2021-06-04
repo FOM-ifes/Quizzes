@@ -18,7 +18,7 @@ Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
 - `mpg`: *Miles/(US) gallon*, d. h. die Entfernung in Meilen ($\approx$ 1,6km), die das Auto mit einer Gallone Benzin ($\approx$ 3,8l) fährt.
 - `wt`: *Weight (1000 lbs)*, d. h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
 
-Welche Korrelation erwarten Sie zwischen Verbrauch in `mpg` und Gewicht in `wt`?
+Welche Korrelation erwarten Sie zwischen Reichweite in `mpg` und Gewicht in `wt`?
 
 Answerlist
 ----------

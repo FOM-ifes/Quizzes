@@ -23,8 +23,8 @@ coef(erglm)
 
 Answerlist
 ----------
-* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1, \,\text{i ist Wochenende} \\ 0, \,\text{i ist Werktag}\end{cases}$
-* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1, \,\text{i ist Werktag} \\ 0, \,\text{i ist Weochenende}\end{cases}$
+* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1: \,\text{i ist Wochenende} \\ 0: \,\text{i ist Werktag}\end{cases}$
+* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1: \,\text{i ist Werktag} \\ 0: \,\text{i ist Weochenende}\end{cases}$
 
 Solution
 ========
