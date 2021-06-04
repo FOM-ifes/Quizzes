@@ -1,0 +1,53 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+set.seed(1896)
+n <- 200
+geschlecht <- sample(c("m","w"), size = n, replace = TRUE)
+alter <- runif(n, 18,90)
+
+ym <- 20 + 5 * (geschlecht=="w") + 0.05 * alter
+ausgaben <- ym + rnorm(n, sd = sqrt(4)*sd(ym))
+Kaufdaten <- data.frame(ausgaben, alter, geschlecht)
+```
+
+Question
+========
+
+Einem Unternehmen liegt eine Stichprobe von 200 Kund:innen zu ihren `ausgaben` (in Euro), ihrem Alter (`alter`) sowie dem `geschlecht` mit den Ausprägungen `m` und `w` vor in der Datentabelle `Kaufdaten` vor.
+
+Eine lineare Regression der Ausgaben auf die demographischen Daten ergibt folgendes Ergebnis:
+
+```{r}
+erglm <- lm(ausgaben ~ alter + geschlecht, data = Kaufdaten)
+summary(erglm)
+```
+
+
+Wenn Kunden mit hohen Ausgaben angesprochen werden sollen, wie lautet dann die Zielgruppenbeschreibung?
+
+
+Answerlist
+----------
+* Männliche, jüngere Kunden
+* Mänliche, ältere Kunden
+* Weibliche, jüngere Kundinnen
+* Weibliche, ältere Kundinnen
+* Geschlecht und Alter stehen in keinem Zusammenhang mit den Ausgaben
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Targeting
+extype: schoice
+exsolution: 00010

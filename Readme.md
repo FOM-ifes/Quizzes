@@ -72,7 +72,7 @@ wiederholung8 <- c("Regression/Nullhypothese.Rmd",
 wiederholung9 <- c("Regression/KategorialesX.Rmd", 
 "Regression/GleichungKategorialsX.Rmd", 
 "Regression/NullhypotheseKategorialesX.Rmd", 
+"Regression/Targeting.Rmd",
 "Regression/PWert.Rmd")
-
 ```
 
