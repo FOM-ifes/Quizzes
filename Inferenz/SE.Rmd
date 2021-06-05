@@ -1,0 +1,24 @@
+Question
+========
+
+Wie entwickelt sich der Standardfehler $se$ mit zunehmenden Stichprobenumfang $n$ ($n \rightarrow \infty$)?
+
+Answerlist
+----------
+* $se \rightarrow 0$.
+* $se \rightarrow \infty$.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Standardfehler
+extype: schoice
+exsolution: 10

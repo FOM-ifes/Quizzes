@@ -72,7 +72,19 @@ wiederholung8 <- c("Regression/Nullhypothese.Rmd",
 wiederholung9 <- c("Regression/KategorialesX.Rmd", 
 "Regression/GleichungKategorialsX.Rmd", 
 "Regression/NullhypotheseKategorialesX.Rmd", 
-"Regression/Targeting.Rmd",
-"Regression/PWert.Rmd")
+"Regression/PWert.Rmd",
+"Regression/Targeting.Rmd")
+
+wiederholung10 <- c("Inferenz/Parameter.Rmd", 
+"Inferenz/ParameterStipro.Rmd", 
+"Inferenz/Schaetzer.Rmd", 
+"Inferenz/SE.Rmd", 
+"Inferenz/Konfidenzintervall.Rmd")
+
+wiederholung11 <- c("Inferenz/Nullhypothese.Rmd", 
+"Inferenz/pZweifel.Rmd", 
+"Inferenz/pTeststatistik.Rmd", 
+"Inferenz/Testentscheidung.Rmd", 
+"Inferenz/Fehler.Rmd")
 ```
 

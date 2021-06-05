@@ -18,7 +18,7 @@ Für uns hier relevant:
 - `mpg`: *Miles/(US) gallon*, d.h. die Entfernung in Meilen ($\approx$ 1,6km), die das Auto mit einer Gallone Benzin ($\approx$ 3,8l) fährt.
 - `wt`: *Weight (1000 lbs)*, d.h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
 
-Es soll ein lineares Modell mit der Reichweite `mpg`als abhängige Variable ($y$) und dem Gewicht `wt` als unabhänige Variable ($x$) gebildet werden.
+Es soll ein lineares Modell mit der Reichweite `mpg` als abhängige Variable ($y$) und dem Gewicht `wt` als unabhänige Variable ($x$) gebildet werden.
 
 Was würde gelten, wenn es in der Population keinen linearen Zusammenhang zwischem dem Verbrauch und dem Gewicht geben würde?
 

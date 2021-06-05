@@ -1,0 +1,27 @@
+Question
+========
+
+Es werden zwei Stichproben $A, B$ aus der selben Population gezogen und eine metrisch stetige Variable wird analysiert.
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* $\mu_A = \mu_B$.
+* $\bar{x}_A = \bar{x}_B$.
+* Keine der beiden obigen Aussagen stimmt.
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Parameter Stichprobe
+extype: schoice
+exsolution: 100

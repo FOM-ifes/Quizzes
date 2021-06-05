@@ -1,0 +1,23 @@
+Question
+========
+
+Wann steigen die Zweifel daran, dass die Nullhypothese stimmt?
+
+Answerlist
+----------
+* Bei einem kleinen p-Wert.
+* Bei einem großen p-Wert.
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: p-Wert Zweifel
+extype: schoice
+exsolution: 10

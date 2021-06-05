@@ -1,0 +1,25 @@
+Question
+========
+
+Wie entwickelt sich der p-Wert (c.p.) bei $H_0: \mu = \mu_0$, wenn der Abstand zwischen $\bar{x}$ und $\mu_0$ größer wird?
+
+Answerlist
+----------
+* Der p-Wert wird kleiner.
+* Der p-Wert wird größer.
+* Der p-Wert ändert sich nicht.
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: p-Wert Teststatistik
+extype: schoice
+exsolution: 100
