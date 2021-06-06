@@ -6,6 +6,8 @@ Wie entwickelt sich der Standardfehler $se$ mit zunehmenden Stichprobenumfang $n
 Answerlist
 ----------
 * $se \rightarrow 0$.
+* $se \rightarrow 1$.
+* $se \rightarrow sd$.
 * $se \rightarrow \infty$.
 
 
@@ -15,6 +17,8 @@ Solution
 Answerlist
 ----------
 * Richtig
+* Falsch
+* Falsch
 * Falsch
 
 Meta-information

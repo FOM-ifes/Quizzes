@@ -1,7 +1,7 @@
 Question
 ========
 
-Es soll die Gleichheit der Mittelwerte einer metrischen Variable für zwei Gruppen, $A,B$, überprüft werden.
+Es soll die Gleichheit der Mittelwerte einer metrischen Variable für zwei Gruppen, $A$ und $B$, überprüft werden.
 
 Wie lautet die Nullhypothese?
 
