@@ -25,4 +25,4 @@ Meta-information
 ================
 exname: Standardfehler
 extype: schoice
-exsolution: 10
+exsolution: 1000
