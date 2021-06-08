@@ -13,7 +13,7 @@ Kaufdaten <- data.frame(ausgaben, alter, geschlecht)
 Question
 ========
 
-Einem Unternehmen liegt eine Stichprobe von 200 Kund:innen zu ihren `ausgaben` (in Euro), ihrem Alter (`alter`) sowie dem `geschlecht` mit den Ausprägungen `m` und `w` vor in der Datentabelle `Kaufdaten` vor.
+Einem Unternehmen liegt eine Stichprobe von 200 Kund\*innen zu ihren `ausgaben` (in Euro), ihrem Alter (`alter`) sowie dem `geschlecht` mit den Ausprägungen `m` und `w` in der Datentabelle `Kaufdaten` vor.
 
 Eine lineare Regression der Ausgaben auf die demographischen Daten ergibt folgendes Ergebnis:
 
@@ -23,7 +23,7 @@ summary(erglm)
 ```
 
 
-Wenn Kunden mit hohen Ausgaben angesprochen werden sollen, wie lautet dann die Zielgruppenbeschreibung?
+Wenn Kund\*innen mit hohen Ausgaben angesprochen werden sollen, wie lautet dann die Zielgruppenbeschreibung?
 
 
 Answerlist
