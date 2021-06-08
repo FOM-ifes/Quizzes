@@ -19,7 +19,7 @@ erglm <- lm(volume ~ dayType, data = RailTrail)
 coef(erglm)
 ```
 
-Wählen Sie eine Antwort:
+Wie lautet die Regressionsgleichung?
 
 Answerlist
 ----------
