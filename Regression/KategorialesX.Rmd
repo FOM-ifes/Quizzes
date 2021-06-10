@@ -35,7 +35,7 @@ Answerlist
 ----------
 * `weekday`.
 * `weekend`.
-* Kann mit der vorhandenen Information nicht beantwortet werden.
+* Das kann mit der vorhandenen Information nicht beantwortet werden.
 
 
 Solution
