@@ -29,7 +29,7 @@ Wenn Kund\*innen mit hohen Ausgaben angesprochen werden sollen, wie lautet dann 
 Answerlist
 ----------
 * Männliche, jüngere Kunden
-* Mänliche, ältere Kunden
+* Männliche, ältere Kunden
 * Weibliche, jüngere Kundinnen
 * Weibliche, ältere Kundinnen
 * Geschlecht und Alter stehen in keinem Zusammenhang mit den Ausgaben
