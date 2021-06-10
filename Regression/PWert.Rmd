@@ -27,7 +27,7 @@ pwert <- prop( ~ abs(dayTypeweekend) >= abs(coef(erglm)[2]),
 pwert
 ```
 
-Stimmt die Aussage: Die Wahrscheinlichkeit, dass die Nullhypothese stimmt liegt bei `r pwert`?
+Stimmt die Aussage: Die Wahrscheinlichkeit, dass die Nullhypothese stimmt, liegt bei `r pwert`?
 
 Answerlist
 ----------
