@@ -86,5 +86,8 @@ wiederholung11 <- c("Inferenz/Nullhypothese.Rmd",
 "Inferenz/pTeststatistik.Rmd", 
 "Inferenz/Testentscheidung.Rmd", 
 "Inferenz/Fehler.Rmd")
+
+wiederholung12 <- c("Offene-Fragen/Histogramm.Rmd", 
+"Offene-Fragen/Inferenz.Rmd")
 ```
 

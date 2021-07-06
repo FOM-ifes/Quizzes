@@ -1,0 +1,50 @@
+```{r libs, include = FALSE}
+library(mosaic)
+library(Pareto)
+```
+
+
+```{r data generation, echo = FALSE, results = "hide"}
+# Random Data
+set.seed(1896)
+n <- 1000
+rt <- 50
+ra <- 4
+x <- rPareto(n, rt, ra)
+```
+
+
+Question
+========
+
+Für die Schadenssumme von Versicherungsfällen ergeben sich folgendes Histogramm:
+
+```{r}
+gf_histogram( ~ x)
+```
+
+Was können Sie der Abbildung entnehmen?
+
+Solution
+========
+
+Die Verteilung der Schadenssumme ist
+
+- unimodal
+
+- rechtsschief
+
+- Schwerpunkt der Verteilung zwischen ca. 50 und 75.
+
+- Spannweite ca. zwischen 50 und 275.
+
+Meta-information
+================
+extype: string
+expoints: 4
+exsolution: nil
+exname: Histogramm Essay
+exextra[essay,logical]: TRUE
+exextra[essay_format,character]: editor
+exextra[essay_required,logical]: FALSE
+exextra[essay_fieldlines,numeric]: 3
