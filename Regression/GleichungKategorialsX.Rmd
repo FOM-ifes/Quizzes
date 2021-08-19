@@ -10,7 +10,7 @@ Der Datensatz `RailTrail` enthält Wegnutzungsdaten. Für die Lösung dieser Auf
 - `volume`: Geschätzte Anzahl der Nutzer\*innen des Weges;
 - `dayType`: Art des Tages: Ausprägungen `weekday`, Werktag, und `weekend`, Wochenende.
 
-Eine lineare Regression der abhängigen Variable ($y$) `volume` auf die unabhängige Variable ($x$) `dayType` ergibt:
+Eine lineare Regression der abhängigen Variable `volume` ($y$) auf die unabhängige Variable `dayType` ($x$) ergibt:
 
 ```{r}
 # Lineares Modell schätzen

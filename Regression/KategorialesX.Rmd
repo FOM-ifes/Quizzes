@@ -21,7 +21,7 @@ str(RailTrail)
 head(RailTrail)
 ```
 
-Eine lineare Regression der abhängigen Variable ($y$) `volume` auf die unabhängige Variable ($x$) `dayType` ergibt:
+Eine lineare Regression der abhängigen Variable `volume` ($y$) auf die unabhängige Variable `dayType` ($x$) ergibt:
 
 ```{r}
 # Lineares Modell schätzen
@@ -31,6 +31,7 @@ coef(erglm)
 ```
 
 Wann ist der Mittelwert der Anzahl der Nutzer\*innen in der Stichprobe höher?
+
 Answerlist
 ----------
 * `weekday`.
