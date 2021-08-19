@@ -16,7 +16,7 @@ Solution
 Answerlist
 ----------
 * Falsch. `%>%` *übergibt* Ergebnisse.
-* Richtig. `erg <- analyse()` speichert im R Objekt `erg` das Ergebnis von `analyse()`
+* Richtig. `erg <- analyse()` speichert im R-Objekt `erg` das Ergebnis von `analyse()`
 * Falsch. 
 * Falsch. `==` überprüft (logisch) die Gleichheit.
 

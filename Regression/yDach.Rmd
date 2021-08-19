@@ -11,10 +11,12 @@ Question
 
 Mit dem Ergebnis:
 
-$$\widehat{\text{mpg}} = `r coefs[1]`  `r coefs[2]` \cdot \text{wt}$$
+$\widehat{\text{mpg}} = `r coefs[1]`  `r coefs[2]` \cdot \text{wt}$
+
 Bei 
 
-$$\text{wt}=4$$
+$\text{wt}=4$
+
 Wie lautet ihre Prognose für $\widehat{\text{mpg}}$?
 
 
@@ -22,7 +24,7 @@ Wie lautet ihre Prognose für $\widehat{\text{mpg}}$?
 Solution
 ========
 
-$$\widehat{\text{mpg}} = `r coefs[1]` + `r coefs[2]` \cdot 4 = `r coefs[1]+coefs[2]*4`$$
+$\widehat{\text{mpg}} = `r coefs[1]` + `r coefs[2]` \cdot 4 = `r coefs[1]+coefs[2]*4`$
 
 Meta-information
 ================

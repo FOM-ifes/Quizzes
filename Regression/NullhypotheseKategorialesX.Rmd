@@ -14,13 +14,13 @@ erglm <- lm(volume ~ dayType, data = RailTrail)
 coef(erglm)
 ```
 
-Die Simualtion von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
+Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
 
-```{r}
+```{r, fig.cap=""}
 # Zufallszahlengenerator setzen
 set.seed(1896)
 # Permutationsverteilung
-Nullvtlg <- do(1000)* lm(volume ~ shuffle(dayType), data = RailTrail)
+Nullvtlg <- do(1000) * lm(volume ~ shuffle(dayType), data = RailTrail)
 # Verteilung geschätzte Steigung
 gf_histogram( ~ dayTypeweekend, data = Nullvtlg, center = 0, bins = 21) %>%
  gf_vline(xintercept = ~ coef(erglm)[2]) 
@@ -30,10 +30,10 @@ Wie lautet die Nullhypothese?
 
 Answerlist
 ----------
-* $H_0: \beta_{dayTypeweekend} \neq 0$.
-* $H_0: \hat{\beta}_{dayTypeweekend} \neq 0$.
-* $H_0: \beta_{dayTypeweekend} = 0$.
-* $H_0: \hat{\beta}_{dayTypeweekend} = 0$.
+* $H_0: \beta_{\text{dayTypeweekend}} \neq 0$.
+* $H_0: \hat{\beta}_{\text{dayTypeweekend}} \neq 0$.
+* $H_0: \beta_{\text{dayTypeweekend}} = 0$.
+* $H_0: \hat{\beta}_{\text{dayTypeweekend}} = 0$.
 
 Solution
 ========

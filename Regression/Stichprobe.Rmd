@@ -3,11 +3,12 @@ Question
 
 Angenommen es gelte
 
-$$\beta_1=0.$$
+$\beta_1=0.$
 
 Folgt dann daraus, dass auch 
 
-$$\hat{\beta_1}=0$$
+$\hat{\beta_1}=0$
+
 gelten muss?
 
 Answerlist

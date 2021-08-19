@@ -8,11 +8,11 @@ Question
 
 Angenommen es gilt
 
-$$r_{x,y} < 0$$
+$r_{x,y} < 0$
 
 Was folgt dann für ein lineares Modell
 
-$$y=\beta_0 + \beta_1 \cdot x + \epsilon?$$
+$y=\beta_0 + \beta_1 \cdot x + \epsilon?$
 
 
 Answerlist

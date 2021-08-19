@@ -6,7 +6,8 @@ Question
 ========
 
 Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Was gilt für 
-$$F(6)=P(X \leq 6)?$$
+
+$F(6)=P(X \leq 6)?$
 
 
 Answerlist

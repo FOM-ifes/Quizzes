@@ -5,8 +5,8 @@ Was gilt für die Variable Variable *Anzahl Nutzer:innen RStudio Cloud*?
 
 Answerlist
 ----------
-* *Anzahl Nutzer:innen RStudio Cloud* ist stetig
-* *Anzahl Nutzer:innen RStudio Cloud* ist diskret
+* *Anzahl Nutzer:innen RStudio Cloud* ist stetig.
+* *Anzahl Nutzer:innen RStudio Cloud* ist diskret.
 
 
 

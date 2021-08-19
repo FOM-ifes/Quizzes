@@ -21,10 +21,10 @@ Solution
 
 Answerlist
 ----------
-* Richtig, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
-* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
-* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
-* Falsch, die meisten R Funktionen, z.B. auch `gf_point()`, werden verwendet um Variablen, d.h. Spalten, eines Datensatzes zu analysieren.
+* Richtig, die meisten R Funktionen, z. B. auch `gf_point()`, werden verwendet, um Variablen, d. h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z. B. auch `gf_point()`, werden verwendet, um Variablen, d. h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z. B. auch `gf_point()`, werden verwendet, um Variablen, d. h. Spalten, eines Datensatzes zu analysieren.
+* Falsch, die meisten R Funktionen, z. B. auch `gf_point()`, werden verwendet, um Variablen, d. h. Spalten, eines Datensatzes zu analysieren.
 
 Meta-information
 ================

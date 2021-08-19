@@ -7,7 +7,7 @@ Question
 
 Welche Parameter hat diese Normalverteilung?
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.cap=""}
 gf_dist("norm", mean=10, sd=2)
 ```
 

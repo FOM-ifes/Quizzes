@@ -3,12 +3,13 @@ Question
 
 Es soll die Nullhypothese
 
-$$H_0: \mu \geq 50$$
+$H_0: \mu \geq 50$
+
 getestet werden.
 
 Das Ergebnis der Stichprobe lautet:
 
-$$\bar{x} = 55.$$
+$\bar{x} = 55.$
 
 Welche Aussage stimmt?
 
@@ -16,7 +17,7 @@ Answerlist
 ----------
 * $H_0$ wird verworfen.
 * $H_0$ wird nicht verworfen.
-* Ob $H_0$ hier verworfen wird hängt vom geschätzten Standardfehler ab.
+* Ob $H_0$ hier verworfen wird, hängt vom geschätzten Standardfehler ab.
 
 Solution
 ========

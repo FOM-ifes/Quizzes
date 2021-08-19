@@ -1,7 +1,7 @@
 Question
 ========
 
-Sind diejenigen, die die RStudio Cloud nutzen eine zufällige Stichprobe aller R Nutzer:innen?
+Sind diejenigen, die die RStudio Cloud nutzen, eine zufällige Stichprobe aller R-Nutzer:innen?
 
 Answerlist
 ----------

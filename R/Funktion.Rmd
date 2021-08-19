@@ -20,9 +20,9 @@ Solution
 
 Answerlist
 ----------
-* Richtig. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
-* Falsch. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
-* Falsch. Die Funktion `str()` gibt die *Stuktur* eines Objektes in R zurück. Hier die Stuktur des Datensatzes `Meine.Daten`.
+* Richtig. Die Funktion `str()` gibt die *Struktur* eines Objektes in R zurück. Hier die Struktur des Datensatzes `Meine.Daten`.
+* Falsch. Die Funktion `str()` gibt die *Struktur* eines Objektes in R zurück. Hier die Struktur des Datensatzes `Meine.Daten`.
+* Falsch. Die Funktion `str()` gibt die *Struktur* eines Objektes in R zurück. Hier die Struktur des Datensatzes `Meine.Daten`.
 
 Meta-information
 ================

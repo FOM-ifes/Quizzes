@@ -1,7 +1,7 @@
 Question
 ========
 
-Es werden zwei Stichproben $A$ und $B$ aus der selben Population gezogen und eine metrisch stetige Variable wird analysiert.
+Es werden zwei Stichproben $A$ und $B$ aus derselben Population gezogen und eine metrisch stetige Variable wird analysiert.
 
 Welche Aussage stimmt?
 

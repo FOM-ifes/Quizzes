@@ -14,7 +14,7 @@ erglm <- lm(volume ~ dayType, data = RailTrail)
 coef(erglm)
 ```
 
-Die Simualtion von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
+Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
 
 ```{r}
 # Zufallszahlengenerator setzen

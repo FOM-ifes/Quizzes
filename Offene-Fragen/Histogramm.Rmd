@@ -17,9 +17,9 @@ x <- rPareto(n, rt, ra)
 Question
 ========
 
-Für die Schadenssumme von Versicherungsfällen ergeben sich folgendes Histogramm:
+Für die Schadenssumme von Versicherungsfällen ergibt sich folgendes Histogramm:
 
-```{r}
+```{r, fig.cap=""}
 gf_histogram( ~ x)
 ```
 

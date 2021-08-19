@@ -1,7 +1,7 @@
 Question
 ========
 
-Welches Symbol wird verwendet um bei einer metrischen Variable den theoretischen Mittelwert einer Population zu beschreiben?
+Welches Symbol wird verwendet, um bei einer metrischen Variable den theoretischen Mittelwert einer Population zu beschreiben?
 
 
 Answerlist

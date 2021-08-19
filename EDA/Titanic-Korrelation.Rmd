@@ -16,7 +16,7 @@ Für den Korrelationskoeffizienten $r_{xy}$ zwischen dem Alter ($x$) und dem Tic
 cor(fare ~ age, data = titanic, use = "complete.obs")
 ```
 
-*Hinweis*: Die Option `use = "complete.obs"` stellt sicher, dass nur Beobachtungen verwendet werden, für die die Werte beider Variablen vorliegen, d.h. es gibt keine fehlenden Werte (`NA`)
+*Hinweis*: Die Option `use = "complete.obs"` stellt sicher, dass nur Beobachtungen verwendet werden, für die die Werte beider Variablen vorliegen, d. h., es gibt keine fehlenden Werte (`NA`).
 
 Würde sich der Korrelationskoeffizient ändern, wenn der Fahrpreis in einer anderen Währung angegeben wäre?
 

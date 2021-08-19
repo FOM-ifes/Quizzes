@@ -21,7 +21,7 @@ Solution
 Answerlist
 ----------
 * Falsch. `str()` ist die Funktion.
-* Richtig. `Meine.Daten` ist der *Input* für die Funktion `str()`. Von welchem R Objekt soll die Struktur ausgegeben werden?
+* Richtig. `Meine.Daten` ist der *Input* für die Funktion `str()`. Von welchem R-Objekt soll die Struktur ausgegeben werden?
 * Falsch. `Meine.Daten` ist das Funktionsargument (der *Input*) für die Funktion `str()`.
 
 Meta-information

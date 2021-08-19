@@ -9,14 +9,14 @@ library(mosaic)
 Question
 ========
 
-Es soll analysiert werden, wie hoch der Ticketpreis auf der Titanic war.
+Es soll analysiert werden, wie der Ticketpreis auf der Titanic streut.
 
 
 ```{r}
 var(fare ~ 1, data = titanic)
 ```
 
-*Hinweis*: Statt `var(y ~ 1)`, d.h. Bestimmung der Varianz ohne unabhängige Variable, also durch eine Konstante (`1`), ist auch `var( ~ y)` möglich.
+*Hinweis*: Statt `var(y ~ 1)`, d. h. Bestimmung der Varianz ohne unabhängige Variable, also durch eine Konstante (`1`), ist auch `var( ~ y)` möglich.
 
 Welche Aussage stimmt?
 

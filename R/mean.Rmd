@@ -13,7 +13,7 @@ und
 mean(x ~ y, data = Meine.Daten)
 ```
 
-im Allgemeinen das selbe Ergebnis?
+im Allgemeinen dasselbe Ergebnis?
 
 Answerlist
 ----------
@@ -25,8 +25,8 @@ Solution
 
 Answerlist
 ----------
-* Falsch. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d.h. je, `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d.h. je, `y`.
-* Richtig. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d.h. je, `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d.h. je, `y`.
+* Falsch. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d. h. je `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d. h. je `y`.
+* Richtig. `mean(y ~ x)` berechnet den Mittelwert von `y` in Abhängigkeit, d. h. je `x`, `mean(x ~ y)` berechnet den Mittelwert von `x` in Abhängigkeit, d. h. je `y`.
 
 Meta-information
 ================
