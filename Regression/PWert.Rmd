@@ -5,7 +5,7 @@ library(mosaic)
 Question
 ========
 
-Eine lineare Regression der abhängigen Variable ($y$) `volume` auf die unabhängige Variable ($x$) `dayType` ergibt:
+Eine lineare Regression der abhängigen Variable `volume` ($y$) auf die unabhängige Variable `dayType` ($x$) ergibt:
 
 ```{r}
 # Lineares Modell schätzen
