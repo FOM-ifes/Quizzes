@@ -4,7 +4,7 @@ library(exams)
 
 Quizzes <- list(
 
-Wdh_WissGL_1   = c("Grundlagen-Wissenschaft/Schlusstechnik.Rmd",
+Wdh_GLWiss_1   = c("Grundlagen-Wissenschaft/Schlusstechnik.Rmd",
                    "Grundlagen-Wissenschaft/Hypothese.Rmd", 
                    "Grundlagen-Wissenschaft/Validitaet.Rmd"),
 
