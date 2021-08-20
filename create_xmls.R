@@ -79,6 +79,6 @@ Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd",
 )
 
 for(i in 1:length(Quizzes)){
-  exams2moodle(Quizzes[[i]], name = names(Quizzes[i]), rule = "none")
+  exams2moodle(Quizzes[[i]], name = names(Quizzes[i]), dir = "xml", rule = "none")
 }
 
