@@ -78,13 +78,19 @@ Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd",
 
 )
 
+# Eins exportieren
+quiz <- "Wdh_Offen_1"
+# moodle
+exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
+# html
+exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
+
+# Alle exportieren
 # Export zu moodle
 for(i in 1:length(Quizzes)){
   exams2moodle(Quizzes[[i]], name = names(Quizzes[i]), dir = "xml", rule = "none")
 }
-
 # Export als html
 for(i in 1:length(Quizzes)){
   exams2html(Quizzes[[i]], converter = "pandoc-mathjax")
 }
-
