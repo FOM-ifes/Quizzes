@@ -73,6 +73,10 @@ Wdh_Inferenz_2  = c("Inferenz/Nullhypothese.Rmd",
                     "Inferenz/Testentscheidung.Rmd", 
                     "Inferenz/Fehler.Rmd"),
 
+Wdh_LogReg_1    = c("LogRegression/Wahrscheinlichkeit.Rmd",
+                    "LogRegression/Signifikanz.Rmd",
+                    "LogRegression/ModellVergleich.Rmd"),
+
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
                     "Offene-Fragen/Inferenz.Rmd")
 
