@@ -30,7 +30,7 @@ coef(ergglm)
 coef(ergglm) %>% exp()
 ```
 
-Für welche Variable(n) $x_k$ führt ein höherer Wert im Modell zu einer erhöhten die Wahrscheinlichkeit dafür, dass es sich um ein Auto mit Automatikgetriebe handelt ($\hat{P}(y=0)$)?
+Für welche Variable(n) $x_k$ führt ein höherer Wert im Modell zu einer erhöhten Wahrscheinlichkeit dafür, dass es sich um ein Auto mit Automatikgetriebe handelt ($\hat{P}(y=0)$)?
 
 Answerlist
 ----------
