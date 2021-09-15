@@ -98,3 +98,7 @@ for(i in 1:length(Quizzes)){
 for(i in 1:length(Quizzes)){
   exams2html(Quizzes[[i]], converter = "pandoc-mathjax")
 }
+# Export als pdf
+for(i in 1:length(Quizzes)){
+  exams2pdf(Quizzes[[i]], name = names(Quizzes[i]), dir = "pdf")
+}
