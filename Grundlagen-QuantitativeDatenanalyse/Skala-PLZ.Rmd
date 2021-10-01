@@ -7,7 +7,7 @@ Answerlist
 ----------
 * Nominal
 * Ordinal
-* Numerisch
+* Metrisch
 
 
 Solution
