@@ -8,7 +8,7 @@ titanic <- read.csv("titanic.csv")
 Question
 ========
 
-Ein Datensatz der Passagierliste der Titanic hat folgende Struktur:
+Die Datentabelle der Titanic hat folgende Struktur:
 
 ```{r str}
 str(titanic)
