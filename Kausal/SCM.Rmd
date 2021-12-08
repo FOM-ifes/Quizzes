@@ -80,4 +80,4 @@ Meta-information
 ================
 exname: SCM
 extype: schoice
-exsolution: 0010
+exsolution: 1000
