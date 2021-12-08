@@ -1,0 +1,24 @@
+Question
+========
+
+Welche Annahme ist *stärker*, d.h. welche Entscheidung ist kritischer zu hinterfragen?
+
+Answerlist
+----------
+* Einen Pfeil von $A$ nach $B$ zu zeichnen.
+* Keinen Pfeil von $A$ nach $B$ zu zeichnen.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Annahme
+extype: schoice
+exsolution: 01

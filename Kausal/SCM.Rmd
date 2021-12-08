@@ -1,0 +1,83 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(ggplot2)
+library(ggdag)
+theme.fom <- theme_classic(22*1.04)
+theme.fom <- theme.fom
+theme_set(
+  theme.fom  
+)
+
+co <- data.frame(x=c(0,1,2), y=c(0,1,0), name=c("A", "B", "C"))
+
+DAG_A <- dagify(B ~ A,
+                C ~ A + B,
+                coords = co) %>% 
+  ggdag() + 
+  geom_dag_point() + 
+  geom_dag_text(size = 6) +
+  theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(12, "pt"), type = "closed")) +
+  ggtitle("Abbildung A")
+
+DAG_B <- dagify(A ~ B,
+                C ~ A + B,
+                coords = co) %>% 
+  ggdag() + 
+  geom_dag_point() + 
+  geom_dag_text(size = 6) +
+  theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(12, "pt"), type = "closed")) +
+  ggtitle("Abbildung B")
+
+DAG_C <- dagify(B ~ C + A,
+                C ~ A,
+                coords = co) %>% 
+  ggdag() + 
+  geom_dag_point() + 
+  geom_dag_text(size = 6) +
+  theme_dag_blank() +
+  geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(12, "pt"), type = "closed")) +
+  ggtitle("Abbildung C")
+
+DAGS <- gridExtra::grid.arrange(DAG_A, DAG_B, DAG_C, nrow = 1)
+```
+
+Question
+========
+
+Angenommen es gelten folgende kausalen Abhängigkeiten:
+
+- $B=f_B(A, U_B)$. Schreibweise als `R`-Formel: `B ~ A`
+- $C=f_C(A,B, U_C)$. Schreibweise als `R`-Formel: `C ~ A + B`
+
+
+Welche Abbildung zeigt das entsprechenden kausale Diagramm?
+
+```{r, echo=FALSE, fig.cap="", fig.height=4, fig.width=12, out.width="80%"}
+plot(DAGS)
+```
+
+
+Answerlist
+----------
+* Abbildung A.
+* Abbildung B.
+* Abbildung C.
+* Keine der Abbildungen.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: SCM
+extype: schoice
+exsolution: 0010

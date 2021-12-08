@@ -79,6 +79,12 @@ Wdh_LogReg_1    = c("LogRegression/Wahrscheinlichkeit.Rmd",
                     "LogRegression/Signifikanz.Rmd",
                     "LogRegression/ModellVergleich.Rmd"),
 
+Wdh_Kausal_1    = c("Kausal/Inferenz.Rmd",
+                    "Kausal/SCM.Rmd",
+                    "Kausal/Adj_1.Rmd",
+                    "Kausal/Adj_2.Rmd",
+                    "Kausal/Annahme.Rmd"),
+
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
                     "Offene-Fragen/Inferenz.Rmd")
 
