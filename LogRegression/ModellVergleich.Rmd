@@ -20,7 +20,7 @@ Für uns hier relevant:
 - `hp`: *Gross horsepower*, d.h. Motorstärke in PS;
 - `wt`: *Weight (1000 lbs)*, d.h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
 
-Es soll zwei logistische Regressionsmodelle mit der Getriebeart `am` als abhängige Variable ($y$) und unterschiedlichen unabhängigen Variablen ($x_k$) verglichen werden.
+Es sollen zwei logistische Regressionsmodelle mit der Getriebeart `am` als abhängige Variable ($y$) und unterschiedlichen unabhängigen Variablen ($x_k$) verglichen werden.
 
 Für vorliegende Stichprobe gilt:
 
