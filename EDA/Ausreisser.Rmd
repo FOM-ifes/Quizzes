@@ -19,7 +19,7 @@ Answerlist
 ----------
 * Richtig
 * Falsch
-* Richtig
+* Falsch
 
 
 Meta-information
