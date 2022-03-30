@@ -1,0 +1,29 @@
+Question
+========
+
+Welche Visualisierung ist für nominale Variablen geeignet?
+
+
+Answerlist
+----------
+* Säulendiagramm.
+* Histogramm.
+* Boxplot.
+* Alle Abbildungen sind geeignet.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Wahl Visualisierung
+extype: schoice
+exsolution: 1000

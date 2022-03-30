@@ -1,0 +1,29 @@
+Question
+========
+
+Eine Grundschule misst die Größe von 100 Schüler:innen der 1. Klasse und 100 Schüler:innen der 4. Klasse. Welche Verteilungsform wird sich ergeben?
+
+
+Answerlist
+----------
+* Normalverteilung.
+* Rechtsschief.
+* Linksschief.
+* Bimodal.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Verteilungsform
+extype: schoice
+exsolution: 0001

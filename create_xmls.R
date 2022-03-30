@@ -38,6 +38,12 @@ Wdh_EDA_2      = c("EDA/Titanic-Mittelwert.Rmd",
                    "EDA/Titanic-Boxplot.Rmd", 
                    "EDA/Titanic-Korrelation.Rmd"),
 
+Wdh_EDA_3      = c("EDA/Visualisierung.Rmd", 
+                   "EDA/Verteilungsform.Rmd",
+                   "EDA/Rueckschluss.Rmd",
+                   "EDA/Ausreisser.Rmd", 
+                   "EDA/Korrelation.Rmd"),
+
 Wdh_Norm_1     = c("Normalverteilung/Parameter.Rmd", 
                    "Normalverteilung/Wkeit.Rmd", 
                    "Normalverteilung/Quantile.Rmd", 
