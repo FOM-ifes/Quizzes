@@ -38,6 +38,12 @@ Wdh_EDA_2      = c("EDA/Titanic-Mittelwert.Rmd",
                    "EDA/Titanic-Boxplot.Rmd", 
                    "EDA/Titanic-Korrelation.Rmd"),
 
+Wdh_EDA_3      = c("EDA/Visualisierung.Rmd", 
+                   "EDA/Verteilungsform.Rmd",
+                   "EDA/Rueckschluss.Rmd",
+                   "EDA/Ausreisser.Rmd", 
+                   "EDA/Korrelation.Rmd"),
+
 Wdh_Norm_1     = c("Normalverteilung/Parameter.Rmd", 
                    "Normalverteilung/Wkeit.Rmd", 
                    "Normalverteilung/Quantile.Rmd", 
@@ -78,6 +84,12 @@ Wdh_Inferenz_2  = c("Inferenz/Nullhypothese.Rmd",
 Wdh_LogReg_1    = c("LogRegression/Wahrscheinlichkeit.Rmd",
                     "LogRegression/Signifikanz.Rmd",
                     "LogRegression/ModellVergleich.Rmd"),
+
+Wdh_Kausal_1    = c("Kausal/Inferenz.Rmd",
+                    "Kausal/SCM.Rmd",
+                    "Kausal/Adj_1.Rmd",
+                    "Kausal/Adj_2.Rmd",
+                    "Kausal/Annahme.Rmd"),
 
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
                     "Offene-Fragen/Inferenz.Rmd")
