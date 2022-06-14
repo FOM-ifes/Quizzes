@@ -20,8 +20,8 @@ Answerlist
 ----------
 * Kategorial - nominal
 * Kategorial - ordinal
-* Numerisch - intervall
-* Numerisch - verhältnis
+* Metrisch - intervall
+* Metrsich - verhältnis
 
 Solution
 ========

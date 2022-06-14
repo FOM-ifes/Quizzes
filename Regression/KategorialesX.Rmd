@@ -5,7 +5,7 @@ library(mosaic)
 Question
 ========
 
-Der Datensatz `RailTrail` enthält Wegnutzungsdaten. Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
+Die Datentabelle `RailTrail` enthält Wegnutzungsdaten. Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
 
 - `volume`: Geschätzte Anzahl der Nutzer\*innen des Weges;
 - `dayType`: Art des Tages: Ausprägungen `weekday`, Werktag, und `weekend`, Wochenende.

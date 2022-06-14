@@ -1,7 +1,7 @@
 Question
 ========
 
-In einer wissenschaftlichen Studie wird von einem *signifikanten* Zusammenhang gesprochen.
+In einer wissenschaftlichen Studie wird von einem *statistisch signifikanten* Zusammenhang gesprochen.
 
 Welche Interpretation ist richtig?
 

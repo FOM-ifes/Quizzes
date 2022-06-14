@@ -109,10 +109,10 @@ for(i in 1:length(Quizzes)){
   exams2moodle(Quizzes[[i]], name = names(Quizzes[i]), dir = "xml", rule = "none")
 }
 # Export als html
-for(i in 1:length(Quizzes)){
-  exams2html(Quizzes[[i]], converter = "pandoc-mathjax")
-}
+# for(i in 1:length(Quizzes)){
+#   exams2html(Quizzes[[i]], converter = "pandoc-mathjax")
+# }
 # Export als pdf
-for(i in 1:length(Quizzes)){
-  exams2pdf(Quizzes[[i]], name = names(Quizzes[i]), dir = "pdf")
-}
+# for(i in 1:length(Quizzes)){
+#   exams2pdf(Quizzes[[i]], name = names(Quizzes[i]), dir = "pdf")
+# }

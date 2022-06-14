@@ -15,7 +15,7 @@ Die Datentabelle der Passagierliste der Titanic hat folgende Struktur:
 str(titanic)
 ```
 
-Die ersten 6. Beobachtungen sehen wie folgt aus:
+Die ersten 6 Beobachtungen sehen wie folgt aus:
 
 ```{r head}
 head(titanic)

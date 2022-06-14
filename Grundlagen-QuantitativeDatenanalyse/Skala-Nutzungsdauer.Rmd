@@ -7,8 +7,8 @@ Answerlist
 ----------
 * Kategorial - nominal
 * Kategorial - ordinal
-* Numerisch - intervallskaliert
-* Numerisch - verhältnisskaliert
+* Metrisch - intervallskaliert
+* Metrisch - verhältnisskaliert
 
 
 

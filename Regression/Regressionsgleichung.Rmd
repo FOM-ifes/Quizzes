@@ -9,7 +9,7 @@ coefs <- lm(mpg ~ wt, data = mtcars) %>%
 Question
 ========
 
-Eine lineare Regression der Reichweite `mpg` auf das Gewicht `wt` des Datensatzes `mtcars` ergibt:
+Eine lineare Regression der Reichweite `mpg` auf das Gewicht `wt` der Datentabelle `mtcars` ergibt:
 
 ```{r}
 erglm <- lm(mpg ~ wt, data = mtcars)
