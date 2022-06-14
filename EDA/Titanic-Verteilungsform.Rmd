@@ -11,7 +11,7 @@ titanic <- titanic %>%
 Question
 ========
 
-Für die Altersverteilung der Passagiere, die mind. 15 Jahre alt sind, sieht wie folgt aus:
+Die Altersverteilung der Passagiere, die mind. 15 Jahre alt sind, sieht wie folgt aus:
 
 ```{r, results="hide", fig.height = 4, fig.width = 6, fig.cap = "", warning=FALSE}
 gf_histogram( ~ age, data = titanic, center = 17.5, binwidth = 5)

@@ -15,10 +15,10 @@ head(mtcars)
 
 Für uns hier relevant:
 
-- `am`: *Transmission*, d.h. Getriebart mit 0 -- Automatikgetriebe, 1 -- Schaltgetriebe;
-- `cyl`: *Number of cylinders*, d.h. Anzahl der Zylinder;
-- `hp`: *Gross horsepower*, d.h. Motorstärke in PS;
-- `wt`: *Weight (1000 lbs)*, d.h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
+- `am`: *Transmission*, d. h. Getriebart mit 0 -- Automatikgetriebe, 1 -- Schaltgetriebe;
+- `cyl`: *Number of cylinders*, d. h. Anzahl der Zylinder;
+- `hp`: *Gross horsepower*, d. h. Motorstärke in PS;
+- `wt`: *Weight (1000 lbs)*, d. h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
 
 Es sollen zwei logistische Regressionsmodelle mit der Getriebeart `am` als abhängige Variable ($y$) und unterschiedlichen unabhängigen Variablen ($x_k$) verglichen werden.
 
