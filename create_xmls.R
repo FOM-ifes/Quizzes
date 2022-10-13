@@ -1,6 +1,7 @@
 # Quizze
 
 library(exams)
+library(mosaic)
 
 Quizzes <- list(
 
@@ -29,11 +30,11 @@ Wdh_EDA_1      = c("EDA/Titanic-Beobachtung.Rmd",
                    "EDA/Titanic-Skalenniveau1.Rmd", 
                    "EDA/Titanic-Skalenniveau2.Rmd",
                    "EDA/Titanic-Anteil.Rmd",
-                   "EDA/Titanic-Anteilsfrage.Rmd",
-                   "EDA/Titanic-Verteilungsform.Rmd"),
+                   "EDA/Titanic-Anteilsfrage.Rmd"),
 
 Wdh_EDA_2      = c("EDA/Titanic-Mittelwert.Rmd", 
                    "EDA/Titanic-Varianz.Rmd",
+                   "EDA/Titanic-Verteilungsform.Rmd",
                    "EDA/Titanic-Verteilungsfunktion.Rmd",
                    "EDA/Titanic-Boxplot.Rmd", 
                    "EDA/Titanic-Korrelation.Rmd"),
@@ -97,7 +98,7 @@ Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Offen_1"
+quiz <- "Wdh_EDA_2"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
