@@ -20,7 +20,7 @@ Wdh_GLQD_2     = c("Grundlagen-QuantitativeDatenanalyse/Typ-Motivation.Rmd",
                    "Grundlagen-QuantitativeDatenanalyse/Schlussmoeglichkeit.Rmd"),
 
 Wdh_R_1        = c("R/gfpoint.Rmd", 
-                   "R/mean.Rmd", 
+                   "R/prop.Rmd", 
                    "R/Zuweisung.Rmd", 
                    "R/Funktion.Rmd", 
                    "R/Funktionsargument.Rmd"),
@@ -98,7 +98,7 @@ Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_EDA_2"
+quiz <- "Wdh_EDA_3"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
