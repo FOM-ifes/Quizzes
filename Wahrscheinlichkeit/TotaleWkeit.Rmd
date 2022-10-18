@@ -1,0 +1,35 @@
+Question
+========
+
+Angenommen 80% der Studierenden arbeiten aktiv mit. Von diesen bestehen bestehen 90% die Klausur. 
+Von denjenigen, die nicht mitarbeiten, bestehen nur 20%. 
+
+In diesem fiktiven Beispiel: Wie viel Prozent aller Studierenden bestehen die Klausur?
+
+Was gilt?
+
+Answerlist
+----------
+* 20%
+* 50%
+* 76%
+* 90%
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig: Von 100 Studierenden arbeiten 80 mit. Von diesen bestehen 90%, also 72. Von den 20, die nicht mitarbeiten bestehen 20%, also 4. Insgesamt bestehen damit 72+4=76 von 100 Studierenden.
+* Falsch
+
+
+Meta-information
+================
+exname: Totale Wahrscheinlichkeit
+extype: schoice
+exsolution: 0010

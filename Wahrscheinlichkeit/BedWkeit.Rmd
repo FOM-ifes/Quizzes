@@ -1,0 +1,32 @@
+Question
+========
+
+Sei $Pr(A)$ die Wahrscheinlichkeit eines Ereignisses $A$. $Pr(A|B)$ ist die bedingte Wahrscheinlichkeit von $A$, gegeben $B$. 
+
+Was gilt?
+
+Answerlist
+----------
+* $Pr(A) = Pr(A|B)$.
+* $Pr(A) > Pr(A|B)$.
+* $Pr(A) < Pr(A|B)$.
+* Keine allgemeine Aussage möglich.
+
+
+Solution
+========
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Bedingte Wahrscheinlichkeit
+extype: schoice
+exsolution: 0001

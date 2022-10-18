@@ -1,7 +1,6 @@
 # Quizze
 
 library(exams)
-library(mosaic)
 
 Quizzes <- list(
 
@@ -93,12 +92,17 @@ Wdh_Kausal_1    = c("Kausal/Inferenz.Rmd",
                     "Kausal/Annahme.Rmd"),
 
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
-                    "Offene-Fragen/Inferenz.Rmd")
+                    "Offene-Fragen/Inferenz.Rmd"),
 
+
+Wdh_Wkeit = c("Wahrscheinlichkeit/BedWkeit.Rmd",
+              "Wahrscheinlichkeit/TotaleWkeit.Rmd",
+              "Wahrscheinlichkeit/Bayes.Rmd")
+  
 )
 
 # Eins exportieren
-quiz <- "Wdh_EDA_3"
+quiz <- "Wdh_Wkeit"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
