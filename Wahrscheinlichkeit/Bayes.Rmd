@@ -4,7 +4,7 @@ Question
 Angenommen 80% der Studierenden arbeiten aktiv mit. Von diesen bestehen bestehen 90% die Klausur. 
 Von denjenigen, die nicht mitarbeiten, bestehen nur 20%. 
 
-In diesem fiktiven Beispiel: Wie viel Prozent aller Studierenden bestehen die Klausur?
+In diesem fiktiven Beispiel: Wie viel Prozent derjenigen Studierenden, die die Klausur bestehen, haben mitgearbeitet?
 
 Was gilt?
 
