@@ -85,7 +85,9 @@ Wdh_LogReg_1    = c("LogRegression/Wahrscheinlichkeit.Rmd",
                     "LogRegression/Signifikanz.Rmd",
                     "LogRegression/ModellVergleich.Rmd"),
 
-Wdh_Kausal_1    = c("Kausal/Inferenz.Rmd",
+Wdh_Kausal_1    = c("Kausal/Counterfactual.Rmd",
+                    "Kausal/Inferenz.Rmd",
+                    "Kausal/KausaleLeiter.Rmd",
                     "Kausal/SCM.Rmd",
                     "Kausal/Adj_1.Rmd",
                     "Kausal/Adj_2.Rmd",
@@ -102,7 +104,7 @@ Wdh_Wkeit = c("Wahrscheinlichkeit/BedWkeit.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Wkeit"
+quiz <- "Wdh_Kausal_1"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
