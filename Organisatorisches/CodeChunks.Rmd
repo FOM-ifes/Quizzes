@@ -1,0 +1,50 @@
+```{r echo = FALSE}
+x <- 42
+```
+
+Question
+========
+
+In R Markdown: An welcher Stelle stehen die R Befehle, die ausgewertet werden sollen?
+
+Answerlist
+----------
+* Im `YAML` Header.
+* Im Fließtext.
+* In abgesetzten `Code-Chunks`.
+
+
+Solution
+========
+
+In abgesetzten Code Chunks.
+
+
+Hier wird der R Variable `x` der Wert `42` zugewiesen (`<-`):
+
+````{verbatim}
+```{r}
+x <- 42
+```
+````
+
+Und hier wird `y` das Ergebnis der Funktion `log()`, $ln()=log_e()$, mit dem Funktionsargument `x` zugewiesen. Wenn `x` noch keinen Wert hat, würde dies zu einer Fehlermeldung führen.
+
+````{verbatim}
+```{r}
+y <- log(x)
+```
+````
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Code Chunks
+extype: schoice
+exsolution: 001

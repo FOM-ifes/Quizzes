@@ -1,0 +1,27 @@
+Question
+========
+
+Wie soll die Hausarbeit geschrieben werden?
+
+Answerlist
+----------
+* In Word o.ä., die R Befehle und Ausgaben werden dort hineinkopiert.
+* In R Markdown.
+
+
+Solution
+========
+
+Aus Gründen der Transparenz und Reproduzierbarkeit in R Markdown.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Hausarbeit
+extype: schoice
+exsolution: 01

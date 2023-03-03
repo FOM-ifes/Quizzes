@@ -4,6 +4,11 @@ library(exams)
 
 Quizzes <- list(
 
+Wdh_Orga = c("Organisatorisches/Klausur.Rmd",
+             "Organisatorisches/Hausarbeit.Rmd",
+             "Organisatorisches/CodeChunks.Rmd",
+             "Organisatorisches/Knit.Rmd"),
+  
 Wdh_GLWiss_1   = c("Grundlagen-Wissenschaft/Schlusstechnik.Rmd",
                    "Grundlagen-Wissenschaft/Hypothese.Rmd", 
                    "Grundlagen-Wissenschaft/Validitaet.Rmd"),
@@ -104,7 +109,7 @@ Wdh_Wkeit = c("Wahrscheinlichkeit/BedWkeit.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Kausal_1"
+quiz <- "Wdh_Orga"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
