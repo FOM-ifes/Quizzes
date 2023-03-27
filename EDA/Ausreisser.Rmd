@@ -1,7 +1,8 @@
 Question
 ========
 
-Eine Personalerin analysiert die Gehaltsstuktur eines Unternehmens mit 1000 Mitarbeiter:innen. Die Top-Verdienerin erhält einen Zusatzbonus von 100.000 Euro.
+Eine Personalerin analysiert die Gehaltsstuktur eines Unternehmens mit 1000 Mitarbeiter:innen. 
+Die Top-Verdienerin erhält einen Zusatzbonus von 100000 Euro.
 
 Welche Aussage stimmt?
 
@@ -17,8 +18,8 @@ Solution
 
 Answerlist
 ----------
-* Richtig
-* Falsch
+* Richtig, da der Zusatzbetrag 100000 für den Mittelwert durch die Anzahl der Mitarbeiter geteilt wird. Der Mittelwert ist also empfindlich gegenüber Ausreißern.
+* Falsch, der Median (der mittlere Wert einer aufsteigend sortierten Reihe von Daten) ändert sich nicht und ist damit unempfindlich gegenüber Ausreißern.
 * Falsch
 
 

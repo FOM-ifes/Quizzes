@@ -4,10 +4,10 @@ library(exams)
 
 Quizzes <- list(
 
-Wdh_Orga = c("Organisatorisches/Klausur.Rmd",
-             "Organisatorisches/Hausarbeit.Rmd",
-             "Organisatorisches/CodeChunks.Rmd",
-             "Organisatorisches/Knit.Rmd"),
+Wdh_Orga        = c("Organisatorisches/Klausur.Rmd",
+                    "Organisatorisches/Hausarbeit.Rmd",
+                    "Organisatorisches/CodeChunks.Rmd",
+                    "Organisatorisches/Knit.Rmd"),
   
 Wdh_GLWiss_1   = c("Grundlagen-Wissenschaft/Schlusstechnik.Rmd",
                    "Grundlagen-Wissenschaft/Hypothese.Rmd", 
@@ -74,37 +74,37 @@ Wdh_LinReg_3   = c("Regression/KategorialesX.Rmd",
                    "Regression/PWert.Rmd",
                    "Regression/Targeting.Rmd"),
 
-Wdh_Inferenz_1  = c("Inferenz/Parameter.Rmd", 
-                    "Inferenz/ParameterStipro.Rmd", 
-                    "Inferenz/Schaetzer.Rmd", 
-                    "Inferenz/SE.Rmd", 
-                    "Inferenz/Konfidenzintervall.Rmd"),
+Wdh_Inferenz_1 = c("Inferenz/Parameter.Rmd", 
+                   "Inferenz/ParameterStipro.Rmd", 
+                   "Inferenz/Schaetzer.Rmd", 
+                   "Inferenz/SE.Rmd", 
+                   "Inferenz/Konfidenzintervall.Rmd"),
 
-Wdh_Inferenz_2  = c("Inferenz/Nullhypothese.Rmd", 
-                    "Inferenz/pZweifel.Rmd", 
-                    "Inferenz/pTeststatistik.Rmd", 
-                    "Inferenz/Testentscheidung.Rmd", 
-                    "Inferenz/Fehler.Rmd"),
+Wdh_Inferenz_2 = c("Inferenz/Nullhypothese.Rmd", 
+                   "Inferenz/pZweifel.Rmd", 
+                   "Inferenz/pTeststatistik.Rmd", 
+                   "Inferenz/Testentscheidung.Rmd", 
+                   "Inferenz/Fehler.Rmd"),
 
-Wdh_LogReg_1    = c("LogRegression/Wahrscheinlichkeit.Rmd",
-                    "LogRegression/Signifikanz.Rmd",
-                    "LogRegression/ModellVergleich.Rmd"),
+Wdh_LogReg_1   = c("LogRegression/Wahrscheinlichkeit.Rmd",
+                   "LogRegression/Signifikanz.Rmd",
+                   "LogRegression/ModellVergleich.Rmd"),
 
-Wdh_Kausal_1    = c("Kausal/Counterfactual.Rmd",
-                    "Kausal/Inferenz.Rmd",
-                    "Kausal/KausaleLeiter.Rmd",
-                    "Kausal/SCM.Rmd",
-                    "Kausal/Adj_1.Rmd",
-                    "Kausal/Adj_2.Rmd",
-                    "Kausal/Annahme.Rmd"),
+Wdh_Kausal_1   = c("Kausal/Counterfactual.Rmd",
+                   "Kausal/Inferenz.Rmd",
+                   "Kausal/KausaleLeiter.Rmd",
+                   "Kausal/SCM.Rmd",
+                   "Kausal/Adj_1.Rmd",
+                   "Kausal/Adj_2.Rmd",
+                   "Kausal/Annahme.Rmd"),
 
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
                     "Offene-Fragen/Inferenz.Rmd"),
 
 
-Wdh_Wkeit = c("Wahrscheinlichkeit/BedWkeit.Rmd",
-              "Wahrscheinlichkeit/TotaleWkeit.Rmd",
-              "Wahrscheinlichkeit/Bayes.Rmd")
+Wdh_Wkeit       = c("Wahrscheinlichkeit/BedWkeit.Rmd",
+                    "Wahrscheinlichkeit/TotaleWkeit.Rmd",
+                    "Wahrscheinlichkeit/Bayes.Rmd")
   
 )
 

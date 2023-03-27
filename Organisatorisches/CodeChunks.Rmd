@@ -5,7 +5,7 @@ x <- 42
 Question
 ========
 
-In R Markdown: An welcher Stelle stehen die R Befehle, die ausgewertet werden sollen?
+In R Markdown: An welcher Stelle stehen die R-Befehle, die ausgewertet werden sollen?
 
 Answerlist
 ----------
@@ -20,7 +20,7 @@ Solution
 In abgesetzten Code Chunks.
 
 
-Hier wird der R Variable `x` der Wert `42` zugewiesen (`<-`):
+Hier wird der R-Variablen `x` der Wert `42` zugewiesen (`<-`):
 
 ````{verbatim}
 ```{r}

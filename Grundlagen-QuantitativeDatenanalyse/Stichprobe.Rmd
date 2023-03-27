@@ -14,6 +14,9 @@ Answerlist
 Solution
 ========
 
+Der Umfang der Stichprobe hat keinen Einfluss auf die Generalisierung, sondern nur auf die Sicherheit, mit der das Ergebnis auf die zugrundeliegende Population übertragen werden kann.
+Zufällig soll sie sein, damit unverzerrt auf die Population geschlossen werden kann.
+
 Answerlist
 ----------
 * Falsch

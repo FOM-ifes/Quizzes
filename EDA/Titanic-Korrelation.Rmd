@@ -29,6 +29,8 @@ Answerlist
 Solution
 ========
 
+Der Korrelationskoeffizient ist eine dimensionslose Größe, die im Bereich von $-1$ und $+1$ liegen kann. Daher ist er unabhängig von der Einheit (Währung).
+
 Answerlist
 ----------
 * Falsch

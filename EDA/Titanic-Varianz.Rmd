@@ -31,11 +31,13 @@ Answerlist
 Solution
 ========
 
+Die Standardabweichung ist die (positive) Quadratwurzel der Varianz.
+
 Answerlist
 ----------
-* Richtig
-* Falsch
-* Falsch
+* Richtig, da die Varianz größer eins ist, wird die Wurzel kleiner sein.
+* Falsch, das wäre nur der Fall, wenn die Varianz eins wäre.
+* Falsch, das wäre der Fall, wenn die Varianz kleiner eins wäre.
 * Falsch
 
 Meta-information

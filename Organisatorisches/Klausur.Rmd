@@ -6,9 +6,9 @@ Wie ist die Klausur aufgebaut?
 Answerlist
 ----------
 * Rechenaufgaben bilden den Schwerpunkt.
-* Es gibt nur Multiple-Choice Aufgaben.
+* Es gibt nur Multiple-Choice-Aufgaben.
 * Es gibt nur offene (Text-)Aufgaben.
-* Es gibt eine Kombination von MC und offenen Aufgaben.
+* Es gibt eine Kombination von MC- und offenen Aufgaben.
 
 Solution
 ========

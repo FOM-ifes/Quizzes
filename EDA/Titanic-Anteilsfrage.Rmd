@@ -28,6 +28,8 @@ Answerlist
 Solution
 ========
 
+`class ~ survived` bestimmt den Anteil der Klassen (abhängige Variable) unter den Überlebenden (unabhängige Variable).
+
 Answerlist
 ----------
 * Falsch

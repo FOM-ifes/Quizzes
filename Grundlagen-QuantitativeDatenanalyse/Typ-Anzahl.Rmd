@@ -1,18 +1,19 @@
 Question
 ========
 
-Was gilt für die Variable Variable *Anzahl Nutzer:innen RStudio Cloud*?
+Was gilt für die Variable Variable *Anzahl Nutzer:innen RStudio-/posit-Cloud*?
 
 Answerlist
 ----------
-* *Anzahl Nutzer:innen RStudio Cloud* ist stetig.
-* *Anzahl Nutzer:innen RStudio Cloud* ist diskret.
-
-
+* *Anzahl Nutzer:innen RStudio-/posit-Cloud* ist stetig.
+* *Anzahl Nutzer:innen RStudio-/posit-Cloud* ist diskret.
 
 
 Solution
 ========
+
+Bei *Anzahl* sind keine Zwischenstufen möglich, daher *diskret*.
+Stetige Merkmalen können beliebig viele Zwischenstufen (Nachkommastellen) haben.
 
 Answerlist
 ----------

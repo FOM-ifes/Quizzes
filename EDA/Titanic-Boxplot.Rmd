@@ -28,10 +28,18 @@ Answerlist
 Solution
 ========
 
+Anatomie Boxplot:
+
+- Unterer Rand der Box: 1. Quartil,
+- Strich in der Mitte: 2. Quartil oder Median,
+- oberer Rand: 3. Quartil.
+- Die Antennen gehen jeweils bis zu dem Wert, der größer (kleiner) oder gleich dem ersten (dritten) Quartil minus (plus) dem 1.5-fachen Interquartilsabstand ist.
+- Außerhalb der Antennen liegende Werte sind potentielle Ausreißer.
+
 Answerlist
 ----------
-* Falsch
-* Richtig
+* Falsch, der Strich in der Mitte zeigt den Median, nicht den Mittelwert.
+* Richtig, der Strich in der Mitte zeigt den Median, nicht den Mittelwert.
 
 
 Meta-information

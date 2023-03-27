@@ -21,8 +21,8 @@ Solution
 
 Answerlist
 ----------
-* Richtig
-* Falsch
+* Richtig, *Anzahl* kann nur in ganzen Schritten beobachtet werden.,
+* Falsch, ein stetiges Merkmal hat (theoretisch) beliebig viele Zwischenschritte (Nachkommastellen).
 
 Meta-information
 ================

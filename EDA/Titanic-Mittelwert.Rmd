@@ -48,10 +48,10 @@ Solution
 
 Answerlist
 ----------
-* Falsch
-* Falsch
-* Falsch
-* Richtig
+* Falsch, der häufigste Wert ist der Modalwert.
+* Falsch, der Wert, der eine Reihe von Daten in zwei Hälften teilt, ist der Median.
+* Falsch, die Passagiere haben alle *im Mittel* `r mf` bezahlt.
+* Richtig, hier stimmt keine der anderen Antworten.
 
 Meta-information
 ================

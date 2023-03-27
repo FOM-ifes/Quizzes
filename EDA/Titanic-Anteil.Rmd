@@ -35,10 +35,12 @@ Answerlist
 Solution
 ========
 
+`y ~ x`: abhängige Variable `~` unabhängige Variable
+
 Answerlist
 ----------
-* Falsch
-* Richtig
+* Falsch, mit `gender ~ survived` wird der Anteil der weiblichen Passagiere unter den Überlebenden bestimmt.
+* Richtig, mit `survived ~ gender` wird der Anteil der Überlebenden unter den weiblichen Passagiere bestimmt.
 
 Meta-information
 ================

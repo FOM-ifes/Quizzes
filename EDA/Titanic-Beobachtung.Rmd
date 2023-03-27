@@ -3,6 +3,7 @@
 # download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
 include_supplement("titanic.csv")
 titanic <- read.csv("titanic.csv")
+library(mosaic)
 ```
 
 Question
@@ -34,10 +35,10 @@ Solution
 
 Answerlist
 ----------
-* Falsch
-* Richtig
-* Falsch
-* Falsch
+* Falsch, *Titanic* ist die Datentabelle.
+* Richtig, *Passagier:in* ist die Beobachtungseinheit, zu der verschiedene Werte erfasst werden.
+* Falsch, *Geschlecht* ist ein Merkmal, das eine:r Passagier:in zugeordnet werden kann.
+* Falsch, *Southampton* ist ein Merkmal, das eine:r Passagier:in zugeordnet werden kann.
 
 Meta-information
 ================

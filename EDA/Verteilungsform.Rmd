@@ -1,7 +1,8 @@
 Question
 ========
 
-Eine Grundschule misst die Größe von 100 Schüler:innen der 1. Klasse und 100 Schüler:innen der 4. Klasse. Welche Verteilungsform wird sich ergeben?
+Eine Grundschule misst die Größe von 100 Schüler:innen der 1. Klasse und 100 Schüler:innen der 4. Klasse. 
+Welche Verteilungsform wird sich ergeben?
 
 
 Answerlist
@@ -17,10 +18,10 @@ Solution
 
 Answerlist
 ----------
-* Falsch
-* Falsch
-* Falsch
-* Richtig
+* Falsch, Größe ist zwar näherungsweise normalverteilt, durch die gemeinsame Erfassung der 1. und 4. Klassen werden sich aber zwei Schwerpunkte in der Verteilung ergeben.
+* Falsch, Größe ist näherungsweise normalverteilt und damit symmetrisch.
+* Falsch, Größe ist näherungsweise normalverteilt und damit symmetrisch.
+* Richtig, da die Größenverteilung in der 1. und der 4. Klasse unterschiedliche Schwerpunkte haben wird. Die Schüler:innen der 4. Klasse sind im Mittel größer.
 
 Meta-information
 ================

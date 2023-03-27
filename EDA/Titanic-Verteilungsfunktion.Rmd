@@ -28,6 +28,9 @@ Answerlist
 Solution
 ========
 
+Die empirische Verteilungsfunktion gibt den Anteil der Werte aus, die kleiner dem gegebenen Quantil `q` sind.
+Der Anteil der bis 25-Jährigen ist in der ersten Klasse am kleinsten und damit der über 25-Jährigen mit `r 1 - pdata(age ~ class, q = 25, data = titanic)[1, 2]` am größten.
+
 Answerlist
 ----------
 * Richtig

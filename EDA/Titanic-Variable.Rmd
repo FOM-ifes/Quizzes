@@ -34,10 +34,10 @@ Solution
 
 Answerlist
 ----------
-* Falsch
-* Falsch
-* Richtig
-* Falsch
+* Falsch, *Titanic* ist die Datentabelle.
+* Falsch, *Mr. Braund* ist eine Beobachtung der Variablen `last`.
+* Richtig, `gender` (Spaltenbezeichnung) ist eine der Variablen.
+* Falsch, *Southampton* ist eine Beobachtung der Variablen `embarked`.
 
 Meta-information
 ================

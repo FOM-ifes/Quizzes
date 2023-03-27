@@ -14,8 +14,8 @@ Solution
 
 Answerlist
 ----------
-* Richtig
-* Falsch
+* Richtig, da der Korrelationskoeffizient nur ein Maß für den linearen Zusammenhang von zwei Variablen ist.
+* Falsch, es könnte ein nicht linearer Zusammenhang vorliegen. Der Korrelationskoeffizient ist nur ein Maß für den linearen Zusammenhang von zwei Variablen.
 
 
 Meta-information

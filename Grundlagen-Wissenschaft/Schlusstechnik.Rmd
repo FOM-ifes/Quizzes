@@ -25,6 +25,8 @@ Answerlist
 Solution
 ========
 
+ Deduktion: Vom Allgemeinen (*Alle Menschen haben Geburtstag*) zum Speziellen (*Ich bin ein Mensch*).
+
 
 Answerlist
 ----------

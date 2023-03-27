@@ -5,9 +5,9 @@ Was passiert bei `Knit`?
 
 Answerlist
 ----------
-* Text, R Befehle und Ergebnisse, insbesondere die Ausgaben der R Befehle einer R Markdown Datei werden in ein gemeinsames Dokument (z.B. html oder pdf) zusammengeführt.
+* Text, R-Befehle und Ergebnisse, insbesondere die Ausgaben der R-Befehle einer R-Markdown-Datei werden in ein gemeinsames Dokument (z.B. html oder pdf) zusammengeführt.
 * Der Text wird auf Rechtschreibfehler überprüft.
-* Es wird überprüft, ob die R Befehle funktionieren.
+* Es wird überprüft, ob die R-Befehle funktionieren.
 
 
 

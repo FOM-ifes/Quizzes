@@ -17,9 +17,9 @@ Solution
 
 Answerlist
 ----------
-* Richtig
-* Falsch
-* Falsch
+* Richtig, ein Säulendiagramm kann für nominale, ordinale oder metrische (i.$\,$d.$\,$R. diskrete) Werte verwendet werden.
+* Falsch, ein Histogramm erfordert metrische Werte (i.$\,$d.$\,$R. stetig).
+* Falsch, ein Boxplot setzt mindestens Ordinalskalierung voraus.
 * Falsch
 
 Meta-information

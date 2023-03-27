@@ -12,6 +12,8 @@ Answerlist
 Solution
 ========
 
+Reliabilität bedeutet Zuverlässigkeit einer Messung, Validität, dass das Richtige gemessen wird.
+
 
 Answerlist
 ----------

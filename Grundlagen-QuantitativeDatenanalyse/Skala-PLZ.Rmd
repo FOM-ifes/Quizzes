@@ -13,6 +13,9 @@ Answerlist
 Solution
 ========
 
+Auch wenn es sich bei Postleitzahlen um Ziffern handelt, sind es keine Zahlen, damit kann nicht gerechnet werden (metrisch). 
+Auch können die Postleitzahlen inhaltlich nicht sinnvoll sortiert werden (ordinal). 
+Daher sind sie nominalskaliert.
 
 Answerlist
 ----------

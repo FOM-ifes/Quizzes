@@ -1,7 +1,8 @@
 Question
 ========
 
-Ein Unternehmen betreibt 50 Filialen. Mit Hilfe welcher Statistik der Filialen kann auf den Gesamtumsatz geschlossen werden?
+Ein Unternehmen betreibt 50 Filialen. 
+Mit Hilfe welcher Statistik der Filialen kann auf den Gesamtumsatz geschlossen werden?
 
 Answerlist
 ----------
@@ -13,6 +14,10 @@ Answerlist
 
 Solution
 ========
+
+Der Median teilt die Daten in zwei Hälften, die eine Hälfte zeigt kleinere Werte, die andere größere.
+Der Mittelwert ist der Durchschnittswert.
+Über die Aufsummierung der Mittelwerte der Filialumsätze kann auf den Gesamtumsatz geschlossen werden.
 
 Answerlist
 ----------

@@ -12,6 +12,8 @@ Answerlist
 Solution
 ========
 
+*Motivation* kann nicht direkt gemessen werden und ist daher *latent*.
+
 
 Answerlist
 ----------
