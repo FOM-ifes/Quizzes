@@ -19,6 +19,7 @@ Answerlist
 Solution
 ========
 
+Satz von Bayes: $Pr(B|A) = \frac{Pr(A|B)\cdot Pr(B)}{Pr(A)}$.
 
 Answerlist
 ----------

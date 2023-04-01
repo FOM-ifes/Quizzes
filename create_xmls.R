@@ -109,7 +109,7 @@ Wdh_Wkeit       = c("Wahrscheinlichkeit/BedWkeit.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Orga"
+quiz <- "Wdh_Wkeit"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html

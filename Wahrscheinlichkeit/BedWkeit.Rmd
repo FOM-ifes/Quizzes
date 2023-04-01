@@ -16,6 +16,7 @@ Answerlist
 Solution
 ========
 
+Die bedingte Wahrscheinlichkeit kann gleich sein, kleiner oder größer sein. Daher gilt hier, dass keine allgemeine Aussage möglich ist.
 
 Answerlist
 ----------
