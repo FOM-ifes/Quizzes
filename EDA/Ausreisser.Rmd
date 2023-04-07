@@ -8,8 +8,8 @@ Welche Aussage stimmt?
 
 Answerlist
 ----------
-* Der Arithmetische Mittelwert des Gehalts erhöht sich um 100 Euro.
-* Der Median des Gehalts erhöht sich um 100 Euro.
+* Der Arithmetische Mittelwert des Gehalts erhöht sich durch den Zusatzbonus um 100 Euro.
+* Der Median des Gehalts erhöht sich durch den Zusatzbonus um 100 Euro.
 * Keine der anderen Aussagen stimmt.
 
 
