@@ -9,7 +9,7 @@ library(mosaic)
 Question
 ========
 
-Die Datentabelle der Passagierliste der Titanic hat folgende Struktur:
+Die Datentabelle der einer Stichprobe der Passagierliste der Titanic hat folgende Struktur:
 
 ```{r str}
 str(titanic)
@@ -38,7 +38,7 @@ Answerlist
 * Falsch, *Titanic* ist die Datentabelle.
 * Richtig, *Passagier:in* ist die Beobachtungseinheit, zu der verschiedene Werte erfasst werden.
 * Falsch, *Geschlecht* ist ein Merkmal, das eine:r Passagier:in zugeordnet werden kann.
-* Falsch, *Southampton* ist ein Merkmal, das eine:r Passagier:in zugeordnet werden kann.
+* Falsch, *Southampton* ist eine Ausprägung, die das Merkmal `embarked` für einzelne Passagiere angenommen hat.
 
 Meta-information
 ================

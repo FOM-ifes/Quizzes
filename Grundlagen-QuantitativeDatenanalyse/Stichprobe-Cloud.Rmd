@@ -12,7 +12,7 @@ Answerlist
 Solution
 ========
 
-Nein, da es mögliche Einflussgrößen (z.B. die Software soll auf einem Tablett genutzt werden) geben kann, die die Gruppenzugehörigkeit (Cloud oder keine Cloud) beeinflussen.
+Nein, da es mögliche Einflussgrößen (z.B. die Software soll auf einem Tablet genutzt werden) geben kann, die die Gruppenzugehörigkeit (Cloud oder keine Cloud) beeinflussen.
 
 Answerlist
 ----------
