@@ -8,7 +8,7 @@ titanic <- read.csv("titanic.csv")
 Question
 ========
 
-Die Datentabelle der Passagierliste der Titanic hat folgende Struktur:
+Die Datentabelle einer Stichprobe der Passagierliste der Titanic hat folgende Struktur:
 
 ```{r str}
 str(titanic)
@@ -37,7 +37,7 @@ Answerlist
 * Falsch, *Titanic* ist die Datentabelle.
 * Falsch, *Mr. Braund* ist eine Beobachtung der Variablen `last`.
 * Richtig, `gender` (Spaltenbezeichnung) ist eine der Variablen.
-* Falsch, *Southampton* ist eine Beobachtung der Variablen `embarked`.
+* Falsch, *Southampton* ist eine Ausprägung der Variablen `embarked`.
 
 Meta-information
 ================

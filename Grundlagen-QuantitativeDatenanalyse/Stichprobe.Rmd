@@ -8,7 +8,7 @@ Answerlist
 * Sie sollte mindestens 100 Beobachtungen enthalten.
 * Sie sollte mindestens 1000 Beobachtungen enthalten.
 * Sie sollte zufällig sein.
-* Sie sollte genau so viele Frauen wie Männer enthalten.
+* Sie sollte genauso viele Frauen wie Männer enthalten.
 
 
 Solution

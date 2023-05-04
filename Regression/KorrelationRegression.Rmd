@@ -10,17 +10,17 @@ Angenommen es gilt
 
 $r_{x,y} < 0$
 
-Was folgt dann für ein lineares Modell
+Was folgt dann für ein lineares Modell der Stichprobe
 
-$y=\beta_0 + \beta_1 \cdot x + \epsilon?$
+$\hat{y}=b_0 + b_1 \cdot x$?
 
 
 Answerlist
 ----------
-* $\hat{\beta}_0 < 0$
-* $\hat{\beta}_0 > 0$
-* $\hat{\beta}_1 < 0$
-* $\hat{\beta}_1 > 0$
+* $b_0 < 0$
+* $b_0 > 0$
+* $b_1 < 0$
+* $b_1 > 0$
 * Keine der anderen Antworten stimmt.
 
 

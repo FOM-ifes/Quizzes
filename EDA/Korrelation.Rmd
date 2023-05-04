@@ -1,7 +1,7 @@
 Question
 ========
 
-Kann ein Zusammenhang zwischen zwei metrischen Variablen $x$ und $y$ vorliegen, obwohl der Korrelationskoeffizient $r$ Null ist?
+Kann ein Zusammenhang zwischen zwei metrischen Variablen $x$ und $y$ vorliegen, obwohl der Korrelationskoeffizient $r$ null ist?
 
 Answerlist
 ----------

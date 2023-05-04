@@ -19,12 +19,13 @@ Answerlist
 Solution
 ========
 
+Satz der Totalen Wahrscheinlichkeit: $Pr(A)=Pr(A|B)\cdot Pr(B) + Pr(A|\bar B)\cdot Pr(\bar B)$. *Hinweis:* $Pr(\bar B)$ ist die Wahrscheinlichkeit dafür, dass $B$ nicht eintritt.
 
 Answerlist
 ----------
 * Falsch
 * Falsch
-* Richtig: Von 100 Studierenden arbeiten 80 mit. Von diesen bestehen 90%, also 72. Von den 20, die nicht mitarbeiten bestehen 20%, also 4. Insgesamt bestehen damit 72+4=76 von 100 Studierenden.
+* Richtig: Von 100 Studierenden arbeiten 80 mit. Von diesen bestehen 90%, also 72. Von den 20, die nicht mitarbeiten bestehen 20%, also 4. Insgesamt bestehen damit 72+4=76 von 100 Studierenden. 
 * Falsch
 
 
