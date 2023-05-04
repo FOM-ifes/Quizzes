@@ -22,7 +22,7 @@ Answerlist
 * Wie hoch ist der Anteil der Passagiere in der 1. Klasse?
 * Wie hoch ist der Anteil der Überlebenden?
 * Wie hoch ist der Anteil der Passagiere aus der 1. Klasse unter den Überlebenden?
-* Wie hoch ist der Anteil der Überlebenden unten den Passagieren der 1. Klasse?
+* Wie hoch ist der Anteil der Überlebenden unter den Passagieren der 1. Klasse?
 
 
 Solution
