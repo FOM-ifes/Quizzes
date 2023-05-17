@@ -1,11 +1,9 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
 set.seed(1896)
-x <- runif(100, 1,7)
-y <- sqrt((x-3.5)^2 + 1 + rnorm(100, sd = 0.5))*2
-Daten <- data.frame(x = x, y = y) %>%
-  filter(y<=7) %>% filter(y >=1)
-
+x <- runif(50, -3, 3)
+y <- scale(1/(1+exp(-x))+0.025*rnorm(50))
+Daten <- data.frame(x = x, y = y)
 ```
 
 Question
@@ -38,7 +36,7 @@ Answerlist
 Solution
 ========
 
-Der Zusammenhang ist quadratisch, nicht linear. Im Residualplot ist ein Muster erkennbar. 
+Der Zusammenhang ist eine logistische Funktion, $y=\frac{1}{1+e^{-x}}$, daher nicht linear. Im Residualplot ist ein Muster erkennbar. 
 
 Answerlist
 ----------

@@ -15,7 +15,7 @@ Kredit <- loans_full_schema %>%
 Question
 ========
 
-Von einer Peer-to-Peer Kreditplattform liegen folgende Daten vor (siehe [hier](https://openintrostat.github.io/openintro/reference/loans_full_schema.html)):
+Von einer Peer-to-Peer-Kreditplattform liegen folgende Daten vor (siehe [hier](https://openintrostat.github.io/openintro/reference/loans_full_schema.html)):
 
 - `zins`: Zinssatz in Prozent.
 - `laufzeit`: Laufzeit in Monaten.
@@ -28,7 +28,12 @@ erglm <- lm(zins ~ laufzeit + h.ausfall, data = Kredit)
 summary(erglm)
 ```
 
-Stimmt die Aussage: Es werden $0.1333$ der Beobachtungen richtig modelliert?
+```{r include=FALSE}
+R2 <- rsquared(erglm) |> round(4)
+```
+
+
+Stimmt die Aussage: Es werden $`r R2*100`$ % ($=`r R2` \cdot 100$) der Beobachtungen richtig modelliert?
 
 Answerlist
 ----------
@@ -39,7 +44,7 @@ Answerlist
 Solution
 ========
 
-Es wird $0.1333$ der Variation des Zinssatzes modelliert.
+Es wird $`r R2*100`$ % der Variation des Zinssatzes modelliert.
 
 Answerlist
 ----------

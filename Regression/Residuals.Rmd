@@ -15,7 +15,7 @@ Kredit <- loans_full_schema %>%
 Question
 ========
 
-Von einer Peer-to-Peer Kreditplattform liegen folgende Daten vor (siehe [hier](https://openintrostat.github.io/openintro/reference/loans_full_schema.html)):
+Von einer Peer-to-Peer-Kreditplattform liegen folgende Daten vor (siehe [hier](https://openintrostat.github.io/openintro/reference/loans_full_schema.html)):
 
 - `zins`: Zinssatz in Prozent.
 - `laufzeit`: Laufzeit in Monaten.
