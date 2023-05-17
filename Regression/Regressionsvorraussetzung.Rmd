@@ -11,7 +11,7 @@ Daten <- data.frame(x = x, y = y) %>%
 Question
 ========
 
-In der Datentabelle `Daten` liegen die Variablen `x` und `y`vor, dessen Zusammenhang analysiert werden soll.
+In der Datentabelle `Daten` liegen die Variablen `x` und `y` vor, dessen Zusammenhang analysiert werden soll.
 
 ```{r, warning=FALSE, fig.cap=""}
 # Lineare Modellierung
