@@ -1,0 +1,56 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(openintro)
+library(mosaic)
+data(loans_full_schema)
+set.seed(1896)
+Kredit <- loans_full_schema %>%
+  slice_sample(n = 200) %>%
+  rename(zins = interest_rate,
+         laufzeit = term) %>%
+  mutate(h.ausfall = ifelse(num_historical_failed_to_pay>0, "ja", "nein")) %>%
+  select(zins, laufzeit,h.ausfall)
+
+```
+
+Question
+========
+
+Von einer Peer-to-Peer-Kreditplattform liegen folgende Daten vor (siehe [hier](https://openintrostat.github.io/openintro/reference/loans_full_schema.html)):
+
+- `zins`: Zinssatz in Prozent.
+- `laufzeit`: Laufzeit in Monaten.
+- `hausfall`: Ist in der Vergangenheit schon einmal eine Zahlung ausgefallen (`ja`, `nein`)?
+
+```{r, warning=FALSE, fig.cap=""}
+# Lineare Modellierung
+erglm <- lm(zins ~ laufzeit + h.ausfall, data = Kredit)
+# Ergebniszusammenfassung
+summary(erglm)
+```
+
+Bei welcher Ausprägung der Variable `hausfall` ist der modellierte Zinssatz höher?
+
+Answerlist
+----------
+* `ja`.
+* `nein`.
+* Keine Antwort möglich.
+
+
+Solution
+========
+
+Die Änderung im Modell, wenn `hausfall == "nein"` ist negativ ($-1.77197$).
+
+Answerlist
+----------
+
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Kategorial Interpretation
+extype: schoice
+exsolution: 100

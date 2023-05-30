@@ -78,6 +78,13 @@ Wdh_LinReg_3   = c("Regression/KategorialesX.Rmd",
                    "Regression/PWert.Rmd",
                    "Regression/Targeting.Rmd"),
 
+Wdh_LinReg_4   = c("Regression/Residuals.Rmd",
+                   "Regression/Estimate.Rmd",
+                   "Regression/KategorialInt.Rmd",
+                   "Regression/KreditR2.Rmd",
+                   "Regression/pWertVergleich.Rmd",
+                   "Regression/Regressionsvorraussetzung.Rmd"),
+
 Wdh_Inferenz_1 = c("Inferenz/Parameter.Rmd", 
                    "Inferenz/ParameterStipro.Rmd", 
                    "Inferenz/Schaetzer.Rmd", 
@@ -108,7 +115,7 @@ Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Wkeit"
+quiz <- "Wdh_LinReg_4"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html
