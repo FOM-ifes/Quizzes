@@ -17,7 +17,7 @@ Also
 
 $\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$.
 
-Die Simualtion von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `mpg` und `wt` gibt, ergibt folgendes Ergebnis:
+Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `mpg` und `wt` gibt, ergibt folgendes Ergebnis:
 
 ```{r, fig.cap=""}
 # Zufallszahlengenerator setzen
@@ -47,6 +47,6 @@ Answerlist
 
 Meta-information
 ================
-exname: Simualtion Nullhypothese
+exname: Simulation Nullhypothese
 extype: schoice
 exsolution: 01

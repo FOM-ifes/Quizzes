@@ -48,6 +48,6 @@ Answerlist
 
 Meta-information
 ================
-exname: Simualtion Bootstrap
+exname: Simulation Bootstrap
 extype: schoice
 exsolution: 10
