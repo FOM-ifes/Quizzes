@@ -1,4 +1,6 @@
 ```{r data generation, echo = FALSE, results = "hide"}
+detach(package:mosaic, unload = TRUE)
+detach(name = package:ggformula, unload = TRUE)
 library(ggplot2)
 library(ggdag)
 theme.fom <- theme_classic(22*1.04)
