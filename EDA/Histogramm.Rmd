@@ -1,7 +1,7 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
 xA <- c(10.2,10.8,10.9,11.2,11.6,12.1)
-xB <- sort(23-A)
+xB <- sort(23-xA)
 xC <- c(1,2,3)
 ```
 
