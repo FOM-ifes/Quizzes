@@ -47,7 +47,8 @@ Wdh_EDA_2      = c("EDA/Titanic-Mittelwert.Rmd",
                    "EDA/Titanic-Boxplot.Rmd", 
                    "EDA/Titanic-Korrelation.Rmd"),
 
-Wdh_EDA_3      = c("EDA/Visualisierung.Rmd", 
+Wdh_EDA_3      = c("EDA/Visualisierung.Rmd",
+                   "EDA/Histogramm.Rmd",
                    "EDA/Verteilungsform.Rmd",
                    "EDA/Rueckschluss.Rmd",
                    "EDA/Ausreisser.Rmd", 
@@ -110,12 +111,13 @@ Wdh_Kausal_1   = c("Kausal/Counterfactual.Rmd",
                    "Kausal/Annahme.Rmd"),
 
 Wdh_Offen_1     = c("Offene-Fragen/Histogramm.Rmd", 
-                    "Offene-Fragen/Inferenz.Rmd")
+                    "Offene-Fragen/Inferenz.Rmd",
+                    "Offene-Fragen/Regression.Rmd")
 
 )
 
 # Eins exportieren
-quiz <- "Wdh_LinReg_4"
+quiz <- "Wdh_EDA_3"
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 # html

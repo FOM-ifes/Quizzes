@@ -19,7 +19,7 @@ Von einer Peer-to-Peer-Kreditplattform liegen folgende Daten vor (siehe [hier](h
 
 - `zins`: Zinssatz in Prozent.
 - `laufzeit`: Laufzeit in Monaten.
-- `hausfall`: Ist in der Vergangenheit schon einmal eine Zahlung ausgefallen (`ja`, `nein`)?
+- `h.hausfall`: Ist in der Vergangenheit schon einmal eine Zahlung ausgefallen (`ja`, `nein`)?
 
 ```{r, warning=FALSE, fig.cap=""}
 # Lineare Modellierung
@@ -28,7 +28,7 @@ erglm <- lm(zins ~ laufzeit + h.ausfall, data = Kredit)
 summary(erglm)
 ```
 
-Bei welcher Ausprägung der Variable `hausfall` ist der modellierte Zinssatz höher?
+Bei welcher Ausprägung der Variable `h.hausfall` ist der modellierte Zinssatz höher?
 
 Answerlist
 ----------
