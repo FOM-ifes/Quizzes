@@ -38,9 +38,9 @@ $$\widehat{\text{score}}_i=`r round(coef(erglm)[1],2)` + `r round(coef(erglm)[2]
 
 Im Modell der Stichprobe wird c.p. im Mittelwert ein um $`r round(coef(erglm)[2],2)`$ bessere Bewertung beobachtet, wenn ein um eine Einheit besseres Aussehen beobachtet wird. Die Bewertung ist dabei c.p. im Mittelwert um `r round(coef(erglm)[3],2)` bei Männern höher als bei Frauen.
 
-In der Stichprobe wird $R^2=`r round(rsquared(erglm))`\%$, also $`r round(rsquared(erglm)*100)`\%$ der Variation der Evaluierung durch Aussehen und Geschlecht modelliert.
+In der Stichprobe wird $R^2=`r round(rsquared(erglm),2)`$, also $`r round(rsquared(erglm)*100)`\%$ der Variation der Evaluierung durch Aussehen und Geschlecht modelliert.
 
-Die Nullhypothesen, es gibt keinen Zusammenhang, d. h., $H_0: \beta_{\text{beauty}}=0$ und $H_0: \beta_{\text{male}}=0$ werden beide mit p-Werten $<0.05$ zum Niveau $\alpha=5\%$ verworfen, d. h., es wird auf einen statisch erkennbaren Zusammenhang geschlossen.
+Die Nullhypothesen, es gibt keinen Zusammenhang, d. h., $H_0: \beta_{\text{beauty}}=0$ und $H_0: \beta_{\text{male}}=0$ werden beide mit p-Werten $<0.05$ zum Niveau $\alpha=5\%$ verworfen, d. h., es wird auf einen statistisch erkennbaren Zusammenhang geschlossen.
 
 
 Meta-information
