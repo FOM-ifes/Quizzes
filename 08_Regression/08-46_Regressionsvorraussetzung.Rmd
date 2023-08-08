@@ -1,0 +1,53 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+set.seed(1896)
+x <- runif(50, -3, 3)
+y <- scale(1/(1+exp(-x))+0.025*rnorm(50))
+Daten <- data.frame(x = x, y = y)
+```
+
+Question
+========
+
+In der Datentabelle `Daten` liegen die Variablen `x` und `y` vor, dessen Zusammenhang analysiert werden soll.
+
+```{r, warning=FALSE, fig.cap=""}
+# Lineare Modellierung
+erglm <- lm(y ~ x, data = Daten)
+# Streudiagramm mit Regressionsgerade
+gf_point(y ~ x, data = Daten) |> 
+  gf_lm()
+```
+
+Die Abbildung der Residuen (`resid()`, $\hat{y}_i-y_i$) gegen die angepassten Werte (`fitted()`, $\hat{y}_i$) dieser Modellierung ergibt:
+
+```{r, fig.cap=""}
+gf_point(resid(erglm) ~ fitted(erglm), data = Daten)
+```
+
+Ist bei diesen Daten eine lineare Modellierung angemessen? 
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+Solution
+========
+
+Der Zusammenhang ist eine logistische Funktion, $y=\frac{1}{1+e^{-x}}$, daher nicht linear. 
+Im Residualplot ist ein Muster erkennbar. 
+
+Answerlist
+----------
+
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Regressionsvorraussetzung
+extype: schoice
+exsolution: 01

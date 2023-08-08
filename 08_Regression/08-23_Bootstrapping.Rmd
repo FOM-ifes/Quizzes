@@ -1,0 +1,55 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+```
+
+Question
+========
+
+Für die vorliegende Stichprobe gilt:
+
+```{r}
+erglm <- lm(mpg ~ wt, data = mtcars)
+coef(erglm)
+```
+
+Also 
+
+$\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$.
+
+Wird das zufällige Ziehen simuliert (mit Zurücklegen, *Bootstrapping*), ergibt sich folgendes Ergebnis für die Verteilung der geschätzten Steigung:
+
+```{r, fig.cap=""}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Bootstrapping
+Bootvtlg <- do(1000)* lm(mpg ~ wt, data = resample(mtcars))
+# Bootstrap Verteilung
+gf_histogram( ~ wt, data = Bootvtlg, center =  coef(erglm)[2], bins = 21)
+# Standardfehler (se)
+sd( ~ wt, data = Bootvtlg)
+```
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Der Standardfehler $se$ (hier: `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Schätzwerten.
+* Der Standardfehler $se$ (hier: `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Beobachtungen.
+
+Solution
+========
+
+Der Standardfehler ist die Standabweichung der Stichprobenstatistik (hier die *geschätzte* Steigung) beim Ziehen von (unendlich) vielen Stichproben.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Simulation Bootstrap
+extype: schoice
+exsolution: 10

@@ -1,0 +1,37 @@
+Question
+========
+
+Angenommen es gelte
+
+$\beta_1=0.$
+
+Folgt dann daraus, dass auch 
+
+$\hat{\beta_1}=0$
+
+gelten muss?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+
+Solution
+========
+
+$\beta_1$ bezieht sich auf den wahren (in der Regel unbekannten) Wert des Parameters in der Population.
+$\hat\beta_1$ ist der aus einer Stichprobe geschätzte Wert (Punktschätzer).
+Diese können variieren.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Stichprobe
+extype: schoice
+exsolution: 01

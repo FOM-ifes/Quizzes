@@ -1,0 +1,27 @@
+Question
+========
+
+Wie können in R Ergebnisse zugewiesen werden?
+
+Answerlist
+----------
+* `|>` (oder `%>%`)
+* `<-`
+* `:=`
+* `==`
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch. `|>` bzw. `%>%` *übergibt* Ergebnisse.
+* Richtig. `erg <- analyse()` speichert im R-Objekt `erg` das Ergebnis von `analyse()`
+* Falsch. 
+* Falsch. `==` überprüft (logisch) die Gleichheit.
+
+Meta-information
+================
+exname: mean
+extype: schoice
+exsolution: 0100

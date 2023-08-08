@@ -1,0 +1,47 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+```
+
+Question
+========
+
+Angenommen es gilt
+
+$r_{x,y} < 0$.
+
+Was folgt dann für ein lineares Modell der Stichprobe
+
+$\hat{y}=b_0 + b_1 \cdot x$?
+
+
+Answerlist
+----------
+* $b_0 < 0$
+* $b_0 > 0$
+* $b_1 < 0$
+* $b_1 > 0$
+* Keine der anderen Antworten stimmt.
+
+
+
+Solution
+========
+
+$b_0$ ist der $y$-Achsenabschnitt (`Intercept`), $b_1$ die Steigung.
+Wenn der Korrelationskoeffizient negativ ist, wird $y$ mit zunehmenden $x$ im Mittel kleiner.
+Daher ist die Steigung negativ.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Zusammenhang Korrelation Regression
+extype: schoice
+exsolution: 00100

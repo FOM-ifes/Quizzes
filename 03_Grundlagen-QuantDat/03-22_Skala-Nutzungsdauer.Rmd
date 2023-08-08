@@ -1,0 +1,34 @@
+Question
+========
+
+Welches Skalenniveau hat die Variable *Nutzungsdauer von R im Monat*?
+
+Answerlist
+----------
+* Kategorial -- nominal
+* Kategorial -- ordinal
+* Metrisch -- intervallskaliert
+* Metrisch -- verhältnisskaliert
+
+
+
+Solution
+========
+
+Mit *Nutzungsdauer* kann gerechnet werden, z.$\,$B. kann der Durchschnitt bestimmt werden, daher *metrisch*.
+Zwei Stunden Nutzungsdauer sind doppelt so viel wie eine Stunde, daher *verhältnisskaliert*.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Skala Nutzungsdauer
+extype: schoice
+exsolution: 0001

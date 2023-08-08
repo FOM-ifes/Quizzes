@@ -1,0 +1,44 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Die Datentabelle `RailTrail` enthält Wegnutzungsdaten. Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
+
+- `volume`: Geschätzte Anzahl der Nutzer:innen des Weges;
+- `dayType`: Art des Tages: Ausprägungen `weekday`, Werktag, und `weekend`, Wochenende.
+
+Eine lineare Regression der abhängigen Variable `volume` ($y$) auf die unabhängige Variable `dayType` ($x$) ergibt:
+
+```{r}
+# Lineares Modell schätzen
+erglm <- lm(volume ~ dayType, data = RailTrail)
+# Geschätzte Koeffizienten
+coef(erglm)
+```
+
+Wie lautet die Regressionsgleichung?
+
+Answerlist
+----------
+* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1: \,\text{i ist Wochenende} \\ 0: \,\text{i ist Werktag}\end{cases}$
+* $\widehat{volume}_i = `r round(coef(erglm)[1])` + `r round(coef(erglm)[2])` \cdot \begin{cases}1: \,\text{i ist Werktag} \\ 0: \,\text{i ist Wochenende}\end{cases}$
+
+Solution
+========
+
+`dayType` ist eine kategoriale Variable mit den Ausprägungen `weekday` und `weekend`.
+Der Koeffizient heißt `dayTypeweekend` (Indikatorvariable für `weekend` mit den Ausprägungen 1 bei `weekend`, sonst 0), somit ist `weekday` die Referenzkategorie.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Gleichung X Kategorial
+extype: schoice
+exsolution: 10

@@ -1,0 +1,26 @@
+Question
+========
+
+Wann sind die Zweifel größer, dass die Nullhypothese stimmt?
+
+Answerlist
+----------
+* Bei einem kleinen p-Wert.
+* Bei einem großen p-Wert.
+
+Solution
+========
+
+Je kleiner der p-Wert ist, desto unwahrscheinlicher ist es, einen mindestens so extremen Wert zu beobachten wie den in der Stichprobe, wenn die $H_0$ zutreffen würde.
+Damit sind bei einem kleinen p-Wert die Zweifel größer, dass die $H_0$ zutrifft.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: p-Wert Zweifel
+extype: schoice
+exsolution: 10

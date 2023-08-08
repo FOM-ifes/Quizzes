@@ -1,0 +1,35 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Was gilt für die Quantile?
+
+
+Answerlist
+----------
+* `xqnorm(0.1, mean = 10, sd = 2)` < `xqnorm(0.9, mean = 10, sd = 2)`
+* `xqnorm(0.1, mean = 10, sd = 2)` = `xqnorm(0.9, mean = 10, sd = 2)`
+* `xqnorm(0.1, mean = 10, sd = 2)` > `xqnorm(0.9, mean = 10, sd = 2)`
+
+
+
+Solution
+========
+
+Die Quantilsfunktion $F^{-1}(p)$ ist die Umkehrfunktion der Verteilungsfunktion $F(q)$. 
+Da die Verteilungsfunktion monoton steigend ist (je größer $q$, desto größer $p$), ist auch die Umkehrfunktion monoton steigend (je größer $p$, desto größer $q$).
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Quantile Normalverteilung
+extype: schoice
+exsolution: 100

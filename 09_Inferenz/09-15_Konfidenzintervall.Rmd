@@ -1,0 +1,27 @@
+Question
+========
+
+Stimmt die Aussage: *Mit einer Wahrscheinlichkeit von $95\,\%$ wird der Wert $x_i$ einer Beobachtung $i$ vom 95\%-Konfidenzintervall überdeckt*?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+Solution
+========
+
+Das 95\%-Konfidenzintervall beinhaltet 95$\,$\% der Stichprobenstatistiken (z.$\,$B. Mittelwerte) beim Ziehen von (unendlich) vielen Stichproben. 
+Es bezieht sich also auf eine Verteilung aggregierter Werte und nicht von Beobachtungen.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Konfidenzintervall
+extype: schoice
+exsolution: 01

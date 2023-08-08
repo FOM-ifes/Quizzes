@@ -1,0 +1,46 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Die Datentabelle `mtcars` enthält Daten zu Autos (aus dem Jahre 1974):
+
+```{r}
+data(mtcars)
+str(mtcars)
+head(mtcars)
+```
+
+Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
+
+- `mpg`: *Miles/(US) gallon*, d. h. die Entfernung in Meilen ($\approx$ 1.6 km), die das Auto mit einer Gallone Benzin ($\approx$ 3,8 l) fährt;
+- `wt`: *Weight (1000 lbs)*, d. h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
+
+Welche Korrelation erwarten Sie zwischen Reichweite in `mpg` und Gewicht in `wt`?
+
+Answerlist
+----------
+* $r < 0$.
+* $r \approx 0$.
+* $r > 0$.
+
+
+
+Solution
+========
+
+Der Zusammenhang zwischen Reichweite und Gewicht wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein).
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Korrelation mtcars
+extype: schoice
+exsolution: 100

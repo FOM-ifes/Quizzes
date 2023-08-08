@@ -1,0 +1,59 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Eine lineare Regression der abhängigen Variablen `volume` ($y$) auf die unabhängige Variable `dayType` ($x$) ergibt:
+
+```{r}
+# Lineares Modell schätzen
+erglm <- lm(volume ~ dayType, data = RailTrail)
+# Geschätzte Koeffizienten
+coef(erglm)
+```
+
+Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
+
+```{r, fig.cap=""}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Permutationsverteilung
+Nullvtlg <- do(1000) * lm(volume ~ shuffle(dayType), data = RailTrail)
+# Verteilung geschätzte Steigung
+gf_histogram( ~ dayTypeweekend, data = Nullvtlg, center = 0, bins = 21) |>
+  gf_vline(xintercept = ~ coef(erglm)[2]) 
+```
+
+Wie lautet die Nullhypothese?
+
+Answerlist
+----------
+* $H_0: \beta_{\text{dayTypeweekend}} \neq 0$.
+* $H_0: \hat{\beta}_{\text{dayTypeweekend}} \neq 0$.
+* $H_0: \beta_{\text{dayTypeweekend}} = 0$.
+* $H_0: \hat{\beta}_{\text{dayTypeweekend}} = 0$.
+
+Solution
+========
+
+$\hat\beta$ sind die aus der Stichprobe geschätzten Koeffizienten und nicht die Werte der Parameter in der Population.
+Hypothesen beziehen sich immer auf die Population.
+
+Wenn es keinen Zusammenhang gibt, muss der Wert des Parameters in der Population $\beta_{\text{dayTypeweekend}}$ gleich null sein.
+Das ist auch am Histogramm zu erkennen, der Schwerpunkt der Verteilung liegt bei null.
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Nullhypothese X Kategorial
+extype: schoice
+exsolution: 0010

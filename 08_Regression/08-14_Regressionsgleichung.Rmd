@@ -1,0 +1,48 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+coefs <- lm(mpg ~ wt, data = mtcars) |>
+  coef() |>
+  round()
+```
+
+Question
+========
+
+Eine lineare Regression der Reichweite `mpg` auf das Gewicht `wt` der Datentabelle `mtcars` ergibt:
+
+```{r}
+erglm <- lm(mpg ~ wt, data = mtcars)
+erglm
+```
+
+Wie lautet die geschätzte Regressionsgleichung (gerundet)?
+
+Answerlist
+----------
+* $\widehat{\text{mpg}} = `r coefs[1]`  `r coefs[2]` \cdot \text{wt}$
+* $\widehat{\text{mpg}} = `r coefs[2]` + `r coefs[1]` \cdot \text{wt}$
+* $\widehat{\text{wt}} = `r coefs[1]`  `r coefs[2]` \cdot \text{mpg}$
+* $\widehat{\text{wt}} = `r coefs[2]` + `r coefs[1]` \cdot \text{mpg}$
+
+
+
+Solution
+========
+
+In der Formel `mpg ~ wt` steht `mpg` vor der Tilde, ist also die abhängige Variable, die vor dem Gleichheitszeichen steht.
+Der Wert unter `(Intercept)` ist der $y$-Achsenabschnitt und unter `wt` die Steigung für die unabhängige Variable `wt`.
+
+Answerlist
+----------
+
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Regressionsgleichung
+extype: schoice
+exsolution: 1000

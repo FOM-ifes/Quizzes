@@ -1,0 +1,25 @@
+Question
+========
+
+Kann ein Zusammenhang zwischen zwei metrischen Variablen $x$ und $y$ vorliegen, obwohl der Korrelationskoeffizient $r$ null ist?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+Solution
+========
+
+Answerlist
+----------
+* Richtig, da der Korrelationskoeffizient nur ein Maß für den linearen Zusammenhang von zwei Variablen ist. Es könnte also ein nicht linearer Zusammenhang vorliegen.
+* Falsch, es könnte ein nicht linearer Zusammenhang vorliegen. Der Korrelationskoeffizient ist nur ein Maß für den linearen Zusammenhang von zwei Variablen.
+
+
+Meta-information
+================
+exname: Korrelation
+extype: schoice
+exsolution: 10

@@ -1,0 +1,36 @@
+Question
+========
+
+Für eine beliebige Anwendung: Wann ist das Bestimmtheitsmaß $R^2$ *gut*?
+
+Answerlist
+----------
+* Bei $R^2 \approx 1$.
+* Ab $R^2 > 0.9$.
+* Ab $R^2 > 0.8$.
+* Ab $R^2 > 0.5$.
+* Keine pauschale Aussage möglich.
+
+
+Solution
+========
+
+Das Bestimmheitsmaß liegt im Bereich von $0$ bis $+1$ und besagt, welcher Anteil der Variation der abhängigen Variablen durch das Modell erklärt wird.
+*Gut* hängt von der Fragestellung ab und kann nicht pauschal bewertet werden.
+
+*Hinweis:* Das Bestimmtheitsmaß ist kein geeignetes Gütekriterium zur Selektion von Modellen, auch besagt es nicht, ob die lineare Regression die geeignete Methode ist.
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Einordnung R-Quadrat
+extype: schoice
+exsolution: 00001

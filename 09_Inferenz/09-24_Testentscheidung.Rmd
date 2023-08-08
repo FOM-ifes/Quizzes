@@ -1,0 +1,39 @@
+Question
+========
+
+Es soll die Nullhypothese
+
+$H_0: \mu \geq \mu_0 = 50$
+
+getestet werden.
+
+Das Ergebnis der Stichprobe lautet:
+
+$\hat\mu = \bar{x} = 55.$
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* $H_0$ wird verworfen.
+* $H_0$ wird nicht verworfen.
+* Ob $H_0$ hier verworfen wird, hängt vom geschätzten Standardfehler ab.
+
+Solution
+========
+
+Da der Wert des Punktschätzers $\hat\mu=\bar{x}=55$ größer ist als der Wert unter der Annahme der $H_0$ (hier $\mu_0 = 50$) und die Nullhypothese einseitig formuliert ist ($\mu\geq\mu_0$), kann die $H_0$ nicht verworfen werden.
+Wenn es zweiseitiger Test wäre ($H_0=\mu_0$) oder die Nullhypothese andersherum formuliert wäre ($\mu\leq\mu_0$), hinge es von der Streuung der Stichprobenstatistiken, also vom Standardfehler ab.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Testentscheidung
+extype: schoice
+exsolution: 010

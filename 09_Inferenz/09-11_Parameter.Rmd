@@ -1,0 +1,31 @@
+Question
+========
+
+Welches Symbol wird verwendet, um bei einer metrischen Variable den theoretischen Mittelwert einer Population zu beschreiben?
+
+
+Answerlist
+----------
+* $p$.
+* $\pi$.
+* $\bar{x}$.
+* $\mu$.
+
+Solution
+========
+
+Für die Population werden i.$\,$d.$\,$R. griechische Buchstaben (also $\pi$, $\mu$) verwendet, für die Stichprobe i.$\,$d.$\,$R. lateinische ($p$, $\bar{x}$). 
+$\pi$ steht für den Anteil in der Population, $\mu$ für den Erwartungswert (= Mittelwert) in der Population.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Parameter
+extype: schoice
+exsolution: 0001

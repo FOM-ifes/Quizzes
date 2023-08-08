@@ -1,0 +1,28 @@
+Question
+========
+
+Sind diejenigen, die die RStudio-/posit-Cloud nutzen, eine zufällige Stichprobe aller R-Nutzer:innen?
+
+Answerlist
+----------
+* Ja
+* Nein
+
+
+Solution
+========
+
+Nein, da es mögliche Einflussgrößen (z.$\,$B. die Software soll auf einem Tablet genutzt werden) geben kann, die die Gruppenzugehörigkeit (Cloud oder keine Cloud) beeinflussen.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+
+Meta-information
+================
+exname: Stichprobe Cloud
+extype: schoice
+exsolution: 01

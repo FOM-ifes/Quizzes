@@ -1,0 +1,43 @@
+Question
+========
+
+Annahmen: 
+
+* Alle Menschen haben einen Geburtstag.  
+
+* Ich bin ein Mensch. 
+
+Schlussfolgerung: 
+
+Ich habe Geburtstag.  
+
+
+
+Welche Art der Schlussfolgerung liegt vor?
+
+Answerlist
+----------
+* Induktion
+* Deduktion
+* Abduktion
+
+
+Solution
+========
+
+ 
+
+
+Answerlist
+----------
+* Falsch, Induktion schließt vom Speziellen (und wiederholt Beobachteten) auf das Allgemeine.
+* Richtig, Deduktion schließt vom Allgemeinen (*Alle Menschen haben Geburtstag*) auf das Spezielle (*Ich bin ein Mensch*).
+* Falsch, Abduktion ist eine Verknüpfung verschiedener (spezieller) Beobachtungen und Ableitung eines (allgemeinen) Schlusses.
+
+
+
+Meta-information
+================
+exname: Schlusstechnik
+extype: schoice
+exsolution: 010

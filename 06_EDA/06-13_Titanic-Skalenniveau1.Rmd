@@ -1,0 +1,40 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Die Datentabelle der Titanic hat folgende Struktur:
+
+```{r str}
+str(titanic)
+```
+
+Welches Skalenniveau hat die Variable `class` (Klasse)?
+
+Answerlist
+----------
+* Kategorial -- nominal
+* Kategorial -- ordinal
+* Metrisch -- intervallskaliert
+* Metrisch -- verhältnisskaliert
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, die Kategorien der Variablen `class` können in eine Reihenfolge gebracht werden. `1` ist besser als `2` und `2` besser als `3`, daher ordinalskaliert.
+* Richtig, die Kategorien der Variablen `class` können in eine Reihenfolge gebracht werden. `1` ist besser als `2` und `2` besser als `3`.
+* Falsch, `class` sind zwar Ziffern, aber keine Zahlen, mit denen gerechnet werden kann.
+* Falsch, `class` sind zwar Ziffern, aber keine Zahlen, mit denen gerechnet werden kann.
+
+Meta-information
+================
+exname: Titanic Skalenniveau 1
+extype: schoice
+exsolution: 0100

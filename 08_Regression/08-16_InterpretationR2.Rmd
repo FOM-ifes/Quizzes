@@ -1,0 +1,48 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+r2 <- lm(mpg ~ wt, data = mtcars) |>
+  rsquared() |> 
+  round(3)
+```
+
+Question
+========
+
+Das Bestimmtheitsmaß $R^2$ (`rsquared()`) einer linearen Regression der Reichweite `mpg` auf das Gewicht `wt` der Datentabelle `mtcars` ergibt:
+
+```{r}
+erglm <- lm(mpg ~ wt, data = mtcars)
+rsquared(erglm)
+```
+
+Welche Interpretation ist richtig?
+
+Answerlist
+----------
+* $`r r2*100`\,\%$ der Beobachtungen von `mpg` werden richtig modelliert.
+* $`r r2*100`\,\%$ der Variation von `mpg` kann linear durch `wt` modelliert werden.
+* Die Wahrscheinlichkeit, dass das lineare Modell stimmt, liegt bei $`r r2*100`\,\%$.
+
+
+
+
+Solution
+========
+
+Zur Erinnerung: 
+$R^2 = \frac{\sum (\hat{y}_i-\bar{y})^2}{\sum (y_i-\bar{y})^2}$.
+Somit gibt das Bestimmtheitsmaß den Anteil der durch das Modell erklärten Variation von $y$ wieder.
+
+Answerlist
+----------
+
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Interpretation R-Quadrat
+extype: schoice
+exsolution: 010

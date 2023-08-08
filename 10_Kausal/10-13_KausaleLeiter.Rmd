@@ -1,0 +1,31 @@
+Question
+========
+
+Auf der Kausalen Leiter nach Pearl: Welche Stufe benötigt am meisten Annahmen über den datengenerierenden Prozess?
+
+Answerlist
+----------
+* Assoziation.
+* Intervention.
+* Counterfactual.
+* Alle Ebenen gleich.
+
+Solution
+========
+
+- Für die Ebene der *Assoziation* werden nur Beobachtungen benötigt, aus denen möglicherweise Zusammenhänge abgeleitet werden können.
+- Auf der Ebene der *Intervention* werden unabhängige Variablen beeinflusst, von denen erwartet wird, dass sie in einem kausalen Zusammenhang zu abhängigen Variablen stehen.
+- Auf der Ebene des *Counterfactuals* müssen darüber hinaus Annahmen über nicht-eingetretene *Was-wäre-wenn*-Szenarien getroffen werden. Daher müssen hier die meisten Annahmen über den datengenerierenden Prozess getroffen werden.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Kausale Leiter
+extype: schoice
+exsolution: 0010

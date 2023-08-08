@@ -1,0 +1,24 @@
+Question
+========
+
+Welche Annahme ist *stärker*, d.h., welche Entscheidung ist kritischer zu hinterfragen?
+
+Answerlist
+----------
+* Einen Pfeil von $A$ nach $B$ zu zeichnen.
+* Keinen Pfeil von $A$ nach $B$ zu zeichnen.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, einen Pfeil von $A$ nach $B$ zu zeichnen, bedeutet, es liegt keine kausale von $B$ nach $A$ vor, es kann eine von $A$ nach $B$ vorliegen.
+* Richtig, keinen Pfeil zu zeichnen, bedeutet, es liegt **weder** eine kausale Beziehung $B$ nach $A$ **noch** von $A$ nach $B$ vor.
+
+
+Meta-information
+================
+exname: Annahme
+extype: schoice
+exsolution: 01

@@ -1,0 +1,39 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Was gilt für 
+
+$F(6)=Pr(X \leq 6)?$
+
+
+Answerlist
+----------
+* $F(6) < 0.01$
+* $F(6) < 0.05$
+* $F(6) > 0.95$
+* $F(6) > 0.99$
+
+
+Solution
+========
+
+Da 6 zwei Standardabweichungen $\sigma$ **unter** dem Erwartungswert $\mu = 10$ liegt, ist $F(6)$ somit kleiner als 0.5. 
+Nach der 68-95-99.7\%-Regel gilt, dass etwa 95$\,$\% der Werte im Bereich von $\pm 2\cdot\sigma$ um den Erwartungswert liegen.
+Damit wird $F(6)$ kleiner 0.05 sein, aber noch nicht kleiner als 0.01.
+
+Answerlist
+----------
+* Falsch 
+* Richtig (`xpnorm(6, mean = 10, sd = 2)`)
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Wahrscheinlichkeit Normalverteilung
+extype: schoice
+exsolution: 0100

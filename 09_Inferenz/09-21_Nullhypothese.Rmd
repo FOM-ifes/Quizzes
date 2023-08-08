@@ -1,0 +1,34 @@
+Question
+========
+
+Es soll überprüft werden, ob sich die Mittelwerte für zwei Gruppen, $A$ und $B$, unterscheiden.
+
+Wie lautet die Nullhypothese?
+
+Answerlist
+----------
+* $\mu_A \neq \mu_B$.
+* $\mu_A = \mu_B$.
+* $\bar{x}_A \neq \bar{x}_B$.
+* $\bar{x}_A = \bar{x}_B$.
+
+
+Solution
+========
+
+Hypothesen beziehen sich auf die Population, daher griechische Buchstaben für den Parameter, hier $\mu$.
+Da eine Hypothese (hier *Unterschied in den Mittelwerten*) nicht bewiesen werden kann, wird versucht, die Gegenhypothese (*kein Unterschied*) zu widerlegen (zu *falsifizieren*).
+Die Gegenhypothese wird als Nullhypothese bezeichnet.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: Nullhypothese
+extype: schoice
+exsolution: 0100

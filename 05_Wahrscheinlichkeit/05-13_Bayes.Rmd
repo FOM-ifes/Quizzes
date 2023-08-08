@@ -1,0 +1,36 @@
+Question
+========
+
+Angenommen 80% der Studierenden arbeiten aktiv mit. Von diesen bestehen bestehen 90% die Klausur. 
+Von denjenigen, die nicht mitarbeiten, bestehen nur 20%. 
+
+In diesem fiktiven Beispiel: Wie viel Prozent derjenigen Studierenden, die die Klausur bestehen, haben mitgearbeitet?
+
+Was gilt?
+
+Answerlist
+----------
+* ca. 20%
+* ca. 50%
+* ca. 80%
+* ca. 95%
+
+
+Solution
+========
+
+Satz von Bayes: $Pr(B|A) = \frac{Pr(A|B)\cdot Pr(B)}{Pr(A)}$.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig: Von 100 Studierenden arbeiten 80 mit. Von diesen bestehen 90%, also 72. Von den 20, die nicht mitarbeiten, bestehen 20%, also 4. Insgesamt bestehen damit 72 + 4 = 76 Studierende. Von diesen haben 72 mitgearbeitet: 72/76=0.947.
+
+
+Meta-information
+================
+exname: Satz von Bayes
+extype: schoice
+exsolution: 0001

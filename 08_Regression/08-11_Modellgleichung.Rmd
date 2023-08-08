@@ -1,0 +1,45 @@
+```{r data generation, echo = FALSE, results = "hide"}
+set.seed(1896)
+library(mosaic)
+x <- runif(30, min = -5, max = 10)
+y <- -10 + 2*x + rnorm(30, sd = 2)
+```
+
+Question
+========
+
+Ein Streudiagramm zeigt folgendes Bild:
+
+```{r, echo = FALSE, fig.cap=""}
+gf_point(y ~ x)
+```
+
+Welches Modell liegt den Daten zugrunde?
+
+Answerlist
+----------
+* $y = -10 - 2 \cdot x + \epsilon$
+* $y = +10 - 2 \cdot x + \epsilon$
+* $y = -10 + 2 \cdot x + \epsilon$
+* $y = +10 + 2 \cdot x + \epsilon$
+
+
+
+Solution
+========
+
+Die Steigung der Punktewolke ist positiv, der $y$-Achsenabschnitt wird bei $x=0$ abgelesen, hier $y_{x=0}\approx-10$.
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Modellgleichung
+extype: schoice
+exsolution: 0010

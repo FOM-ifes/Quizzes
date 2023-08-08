@@ -1,0 +1,38 @@
+Question
+========
+
+Ergeben
+
+```{r, eval=FALSE}
+prop(y ~ x, data = Meine.Daten)
+```
+
+und 
+
+```{r, eval=FALSE}
+prop(x ~ y, data = Meine.Daten)
+```
+
+im Allgemeinen dasselbe Ergebnis?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+Solution
+========
+
+`prop(y ~ x)` berechnet den Anteil von `y` in Abhängigkeit von `x`, d.$\,$h. je `x`, `prop(x ~ y)` berechnet den Anteil von `x` in Abhängigkeit von `y`, d.$\,$h. je `y`.
+Somit wird sich im Allgemeinen nicht dasselbe Ergebnis ergeben.
+
+Answerlist
+----------
+* Falsch. 
+* Richtig.
+
+Meta-information
+================
+exname: prop
+extype: schoice
+exsolution: 01

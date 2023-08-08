@@ -1,0 +1,29 @@
+Question
+========
+
+Eine Nullhypothese $H_0: \pi=\pi_0=0.5$ wird aufgrund einer Testentscheidung verworfen.
+
+Welcher Fehler liegt vor, wenn in Wirklichkeit $\pi=0.6$ gilt? 
+
+Answerlist
+----------
+* Es liegt ein Fehler 1. Art vor ($\alpha$-Fehler).
+* Es liegt ein Fehler 2. Art vor ($\beta$-Fehler).
+* Es liegt kein Fehler vor.
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, ein Fehler 1. Art bedeutet, dass die Nullhypothese verworfen wird, obwohl sie zutrifft.
+* Falsch, ein Fehler 2. Art bedeutet, dass die Nullhypothese nicht verworfen wird, obwohl sie nicht zutrifft.
+* Richtig, da in Wirklichkeit nicht $H_0: \pi=\pi_0=0.5$ gilt (sondern $\pi=0.6$), wird die Nullhypothese zutreffenderweise verworfen, also wird kein Fehler gemacht.
+
+
+
+Meta-information
+================
+exname: Fehlerart
+extype: schoice
+exsolution: 001

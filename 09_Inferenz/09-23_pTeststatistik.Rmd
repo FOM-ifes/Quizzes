@@ -1,0 +1,29 @@
+Question
+========
+
+Zwei Stichproben $A$ und $B$ aus derselben Population, $H_0: \mu = \mu_0$, in Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ größer als in Stichprobe $B$.
+Welche Aussage trifft zui?
+
+Answerlist
+----------
+* Der p-Wert in Stichprobe $A$ ist kleiner als in Stichprobe $B$.
+* Der p-Wert in Stichprobe $A$ ist größer als in Stichprobe $B$.
+* Der p-Wert ist in beiden Stichproben gleich groß.
+
+Solution
+========
+
+Desto weiter weg der in der Stichprobe beobachtete Wert $\bar{x}$ von dem unter der $H_0$ erwarteten Wert $\mu_0$ liegt, desto unwahrscheinlicher ist es (c.$\,$p.), solche oder noch extremere Stichprobenstatistiken zu beobachten, wenn die $H_0$ zutreffen würde.
+Damit ist der p-Wert kleiner.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+
+Meta-information
+================
+exname: p-Wert Teststatistik
+extype: schoice
+exsolution: 100
