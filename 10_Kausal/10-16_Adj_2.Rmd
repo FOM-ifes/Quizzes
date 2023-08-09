@@ -40,7 +40,7 @@ Solution
 
 Es soll der Effekt von $X$ auf $Y$ bestimmt werden. Damit gilt folgendes:
 
-- Chain (Kette) $X\rightarrow Z\rightarrow Y$: Für den *Mediator* $Z$ darf nicht adjustiert werden, da dann der totale Effekt in einen *direkten* Effekt und einen *indirekten* Effekt via $Z$ zerlegt wird.
+- Chain (Kette) $X\rightarrow Z\rightarrow Y$: Für den *Mediator* $Z$ darf nicht adjustiert werden, da dann der totale Effekt in einen *direkten* Effekt und einen *indirekten* Effekt via $Z$ zerlegt wird und letzterer geblockt wird.
 - Fork (Gabel) $X\leftarrow Z\rightarrow Y$: Für den *Confounder* $Z$ muss adjustiert werden, da dieser eine Scheinkorrelation erzeugt (hat). Diese muss kontrolliert werden.
 - Inverted Fork (Umgedrehte Gabel) $X\rightarrow Z\leftarrow Y$: Für den *Collider* $Z$ darf nicht adjustiert werden, da eine Aufnahme in das Modell erst eine Scheinkorrelation erzeugen würde.
 
