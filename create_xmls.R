@@ -7,7 +7,7 @@ Quizzes <- list(
 Wdh_Orga       = c("01_Orga/01-11_Klausur.Rmd",
                    "01_Orga/01-12_Hausarbeit.Rmd",
                    "01_Orga/01-13_CodeChunks.Rmd",
-                   "01_Orga/01-14_Knit.Rmd"),
+                   "01_Orga/01-14_Render.Rmd"),
   
 Wdh_GLWiss_1   = c("02_Grundlagen-Wissenschaft/02-11_Schlusstechnik.Rmd",
                    "02_Grundlagen-Wissenschaft/02-12_Hypothese.Rmd", 

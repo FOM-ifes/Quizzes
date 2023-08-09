@@ -5,7 +5,7 @@ x <- 42
 Question
 ========
 
-In R Markdown: An welcher Stelle stehen die R-Befehle, die ausgewertet werden sollen?
+In Quarto: An welcher Stelle stehen die R-Befehle, die ausgewertet werden sollen?
 
 Answerlist
 ----------

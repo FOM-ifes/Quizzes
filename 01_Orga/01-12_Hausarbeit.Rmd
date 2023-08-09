@@ -6,13 +6,13 @@ Wie soll die Hausarbeit geschrieben werden?
 Answerlist
 ----------
 * In Word o.$\,$ä., die R-Befehle und Ausgaben werden dort hineinkopiert.
-* In R-Markdown.
+* In Quarto.
 
 
 Solution
 ========
 
-Aus Gründen der Transparenz und Reproduzierbarkeit in R-Markdown.
+Aus Gründen der Transparenz und Reproduzierbarkeit in Quarto.
 
 Answerlist
 ----------

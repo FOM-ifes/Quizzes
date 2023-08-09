@@ -1,11 +1,11 @@
 Question
 ========
 
-Was passiert bei `Knit`?
+Was passiert bei `Render`?
 
 Answerlist
 ----------
-* Text, R-Befehle und Ergebnisse, insbesondere die Ausgaben der R-Befehle einer R-Markdown-Datei werden in ein gemeinsames Dokument (z.B. html oder pdf) zusammengeführt.
+* Text, R-Befehle und Ergebnisse, insbesondere die Ausgaben der R-Befehle einer Quarto-Datei werden in ein gemeinsames Dokument (z.B. html oder pdf) zusammengeführt.
 * Der Text wird auf Rechtschreibfehler überprüft.
 * Es wird überprüft, ob die R-Befehle funktionieren.
 
@@ -23,6 +23,6 @@ Answerlist
 
 Meta-information
 ================
-exname: Knit
+exname: Render
 extype: schoice
 exsolution: 100
