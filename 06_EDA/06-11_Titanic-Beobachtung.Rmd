@@ -9,7 +9,7 @@ library(mosaic)
 Question
 ========
 
-Die Datentabelle der einer Stichprobe der Passagierliste der Titanic hat folgende Struktur:
+Die Datentabelle einer Stichprobe der Passagierliste der Titanic hat folgende Struktur:
 
 ```{r str}
 str(titanic)
