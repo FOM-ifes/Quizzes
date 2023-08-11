@@ -1,7 +1,7 @@
 Question
 ========
 
-In einer neuen R Sitzung soll der $ln(42)$ berechnet werden.
+In einer neuen R-Sitzung soll der $ln(42)$ (in R `log()`) berechnet werden.
 
 Versuch A:
 ```{r, eval=FALSE}
