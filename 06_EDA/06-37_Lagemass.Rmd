@@ -1,0 +1,31 @@
+Question
+========
+
+Welches Lagemaß muss mit dem Wert einer Beobachtung übereinstimmen?
+
+Answerlist
+----------
+* Nur der Modus.
+* Nur der Median.
+* Nur der arithmetische Mittelwert.
+* Keine der anderen Antworten stimmt.
+
+
+Solution
+========
+
+Siehe z.B. folgenden Beobachtungen: $x=\{1,1,2,8\}$. Dann ist $x_{mod}=1$, $x_{0,5}=1,5$ und $\bar{x}=3$.
+
+Answerlist
+----------
+* Richtig.
+* Falsch.
+* Falsch.
+* Falsch.
+
+
+Meta-information
+================
+exname: Lagemaß
+extype: schoice
+exsolution: 1000

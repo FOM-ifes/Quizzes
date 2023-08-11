@@ -27,7 +27,8 @@ Wdh_R_1        = c("04_R/04-11_gfpoint.Rmd",
                    "04_R/04-12_prop.Rmd", 
                    "04_R/04-13_Zuweisung.Rmd", 
                    "04_R/04-14_Funktion.Rmd", 
-                   "04_R/04-15_Funktionsargument.Rmd"),
+                   "04_R/04-15_Funktionsargument.Rmd",
+                   "04_R/04-16_Ablauf.Rmd"),
 
 Wdh_Wkeit      = c("05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
                    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
@@ -52,12 +53,14 @@ Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-33_Verteilungsform.Rmd",
                    "06_EDA/06-34_Rueckschluss.Rmd",
                    "06_EDA/06-35_Ausreisser.Rmd", 
-                   "06_EDA/06-36_Korrelation.Rmd"),
+                   "06_EDA/06-36_Korrelation.Rmd",
+                   "06_EDA/06-37_Lagemass.Rmd"),
 
 Wdh_Norm_1     = c("07_Normalverteilung/07-11_Parameter.Rmd", 
                    "07_Normalverteilung/07-12_Wkeit.Rmd", 
                    "07_Normalverteilung/07-13_Quantile.Rmd", 
-                   "07_Normalverteilung/07-14_z-Wert.Rmd"),
+                   "07_Normalverteilung/07-14_z-Wert.Rmd",
+                   "07_Normalverteilung/07-15_Percentil.Rmd"),
 
 Wdh_LinReg_1   = c("08_Regression/08-11_Modellgleichung.Rmd",
                    "08_Regression/08-12_Korrelation.Rmd", 
@@ -117,7 +120,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_EDA_1"
+quiz <- "Wdh_Norm_1"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

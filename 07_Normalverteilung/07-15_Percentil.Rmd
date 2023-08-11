@@ -1,0 +1,30 @@
+Question
+========
+
+Was gilt bei stetigen Verteilungen und damit auch bei der Normalverteilung?
+
+Answerlist
+----------
+* 1. Quartil < 10% Quantil
+* 1. Quartil = 10% Quantil
+* 1. Quartil > 10% Quantil
+* Keine allgemeine Aussage möglich.
+
+
+Solution
+========
+
+Das 1. Quartil ist das 25% Quantil der Verteilung und die Quantilsfunktion ist monoton steigend.
+
+Answerlist
+----------
+* Falsch 
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Percentil
+extype: schoice
+exsolution: 0010

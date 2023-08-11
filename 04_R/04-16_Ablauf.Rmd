@@ -1,0 +1,43 @@
+Question
+========
+
+In einer neuen R Sitzung soll der $ln(42)$ berechnet werden.
+
+Versuch A:
+```{r, eval=FALSE}
+x <- 42
+log(x)
+```
+
+Versuch B:
+```{r, eval=FALSE}
+log(x)
+x <- 42
+```
+
+Was funktioniert ohne Fehlermeldung?
+
+Answerlist
+----------
+* Nur A.
+* Nur B.
+* Beide Versuche funktionieren.
+* Kein Versuch funktioniert.
+
+Solution
+========
+
+Beim Funktionsaufruf von `log()` muss das Funktionsargument `x` bekannt sein.
+
+Answerlist
+----------
+* Richtig. 
+* Falsch. 
+* Falsch.
+* Falsch.
+
+Meta-information
+================
+exname: Ablauf
+extype: schoice
+exsolution: 1000
