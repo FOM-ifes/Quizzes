@@ -1,0 +1,44 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Die Datentabelle einer Stichprobe der Passagierliste der Titanic hat folgende Struktur:
+
+```{r str}
+str(titanic)
+```
+
+Die ersten Beobachtungen sehen wie folgt aus:
+
+```{r head}
+head(titanic)
+```
+
+Wie viele Variablen liegen vor?
+
+Answerlist
+----------
+* 6
+* 8
+* 891
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, `head()` zeigt standardmäßig die ersten 6 Beobachtungen an.
+* Richtig, ` 8 variables`.
+* Falsch, es liegen 891 Beobachtungen vor (891 obs.).
+
+Meta-information
+================
+exname: Titanic Anzahl Variablen
+extype: schoice
+exsolution: 010

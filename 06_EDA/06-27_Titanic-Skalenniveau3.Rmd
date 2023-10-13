@@ -1,0 +1,40 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Die Datentabelle der Titanic hat folgende Struktur:
+
+```{r str}
+str(titanic)
+```
+
+Welches Skalenniveau hat die Variable `age` (Alter in Jahren)?
+
+Answerlist
+----------
+* Kategorial -- nominal
+* Kategorial -- ordinal
+* Metrisch -- intervallskaliert
+* Metrisch -- verhältnisskaliert
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, das Alter in Jahren kann nicht nur unterschieden werden ($=, \neq$).
+* Falsch, das Alter in Jahren kann nicht nur unterschieden und in eine Reihenfolge gebracht werden ($=, \neq, <,>$).
+* Falsch, das Alter in Jahren sind Zahlen mit denen gerechnet werden kann und es gibt einen inhaltlichen Nullpunkt.
+* Richtig, das Alter in Jahren sind Zahlen mit denen gerechnet werden kann und es gibt einen inhaltlichen Nullpunkt.
+
+Meta-information
+================
+exname: Titanic Skalenniveau 3
+extype: schoice
+exsolution: 0001
