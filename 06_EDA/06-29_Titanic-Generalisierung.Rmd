@@ -1,0 +1,30 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+```
+
+Question
+========
+
+Kann von der Altersverteilung auf der Titanic unverzerrt auf die Altersverteilung der Bevölkerung der damaligen Zeit geschlossen werden?
+
+Answerlist
+----------
+* Ja
+* Nein
+
+Solution
+========
+
+Answerlist
+----------
+* Falsch, es liegt keine zufällige Stichprobe vor.
+* Richtig, es liegt nur eine Gelegenheitsstichprobe vor.
+
+Meta-information
+================
+exname: Titanic Generalisierung
+extype: schoice
+exsolution: 01
