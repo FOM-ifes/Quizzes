@@ -1,7 +1,7 @@
 Question
 ========
 
-Was gilt für die Variable Variable *Anzahl Nutzer:innen RStudio-/posit-Cloud*?
+Was gilt für die Variable *Anzahl Nutzer:innen RStudio-/posit-Cloud*?
 
 Answerlist
 ----------
