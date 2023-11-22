@@ -28,7 +28,7 @@ Answerlist
 Solution
 ========
 
-Die empirische Verteilungsfunktion gibt den Anteil der Werte aus, die kleiner dem gegebenen Wert `q` sind.
+Die empirische Verteilungsfunktion $F_n(x)$ gibt an, wie hoch der Anteil unter den $n$ Beobachtungen ist, die kleiner oder gleich dem gegebenen Wert `x` sind (= Quantil `q = 25`).
 Der Anteil der bis 25-Jährigen ist in der ersten Klasse am kleinsten und damit der über 25-Jährigen mit `r 1 - pdata(age ~ class, q = 25, data = titanic)[1, 2]` am größten.
 
 Answerlist
