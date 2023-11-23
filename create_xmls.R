@@ -7,8 +7,8 @@ Quizzes <- list(
 Wdh_Orga       = c("01_Orga/01-11_Klausur.Rmd",
                    #"01_Orga/01-12_Hausarbeit.Rmd",
                    "01_Orga/01-13_CodeChunks.Rmd",
-                   "01_Orga/01-14_Render.Rmd",
-                   "01_Orga/01-15_HausarbeitTermin.Rmd"),
+                   "01_Orga/01-14_Render.Rmd"),
+#                   "01_Orga/01-15_HausarbeitTermin.Rmd"),
   
 Wdh_GLWiss_1   = c("02_Grundlagen-Wissenschaft/02-11_Schlusstechnik.Rmd",
                    "02_Grundlagen-Wissenschaft/02-12_Hypothese.Rmd", 
@@ -49,24 +49,27 @@ Wdh_EDA_2      = c("06_EDA/06-21_Titanic-Mittelwert.Rmd",
                    "06_EDA/06-25_Titanic-Boxplot.Rmd", 
                    "06_EDA/06-26_Titanic-Korrelation.Rmd"),
 
-Wdh_EDA_2a      = c("06_EDA/06-28_Titanic-Variable2.Rmd",
-                    "06_EDA/06-27_Titanic-Skalenniveau3.Rmd", 
-                    "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
-                    "06_EDA/06-29_Titanic-Generalisierung.Rmd"),
+Wdh_EDA_2a     = c("06_EDA/06-28_Titanic-Variable2.Rmd",
+                   "06_EDA/06-27_Titanic-Skalenniveau3.Rmd", 
+                   "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
+                   "06_EDA/06-29_Titanic-Generalisierung.Rmd"),
 
-Wdh_EDA_2b      = c("06_EDA/06-21_Titanic-Mittelwert.Rmd", 
-                    "06_EDA/06-22_Titanic-Varianz.Rmd",
-                    "06_EDA/06-24_Titanic-Verteilungsfunktion.Rmd",
-                    "06_EDA/06-25_Titanic-Boxplot.Rmd", 
-                    "06_EDA/06-26_Titanic-Korrelation.Rmd"),
+Wdh_EDA_2b     = c("06_EDA/06-21_Titanic-Mittelwert.Rmd", 
+                   "06_EDA/06-22_Titanic-Varianz.Rmd",
+                   "06_EDA/06-24_Titanic-Verteilungsfunktion.Rmd",
+                   "06_EDA/06-25_Titanic-Boxplot.Rmd"),
 
 Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-32_Histogramm.Rmd",
                    "06_EDA/06-33_Verteilungsform.Rmd",
                    "06_EDA/06-34_Rueckschluss.Rmd",
                    "06_EDA/06-35_Ausreisser.Rmd", 
-                   "06_EDA/06-36_Korrelation.Rmd",
                    "06_EDA/06-37_Lagemass.Rmd"),
+
+Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
+                   "06_EDA/06-42_Titanic-Korrelation.Rmd",
+                   "06_EDA/06-43_Anscombe.Rmd",
+                   "06_EDA/06-44_Korrelation.Rmd"),
 
 Wdh_Norm_1     = c("07_Normalverteilung/07-11_Parameter.Rmd", 
                    "07_Normalverteilung/07-12_Wkeit.Rmd", 
@@ -122,9 +125,9 @@ Wdh_Kausal_1   = c("10_Kausal/10-11_Counterfactual.Rmd",
                    "10_Kausal/10-16_Adj_2.Rmd",
                    "10_Kausal/10-17_Annahme.Rmd"),
 
-Wdh_Offen_1     = c("11_Offene-Fragen/11-11_Histogramm.Rmd", 
-                    "11_Offene-Fragen/11-12_Inferenz.Rmd",
-                    "11_Offene-Fragen/11-13_Regression.Rmd"),
+Wdh_Offen_1    = c("11_Offene-Fragen/11-11_Histogramm.Rmd", 
+                   "11_Offene-Fragen/11-12_Inferenz.Rmd",
+                   "11_Offene-Fragen/11-13_Regression.Rmd"),
 
 Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
                    "12_LogRegression/12-12_Signifikanz.Rmd",
@@ -132,7 +135,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 )
 
 # Eins exportieren
-quiz <- "Wdh_Orga"
+quiz <- "Wdh_EDA_4"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

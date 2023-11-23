@@ -1,0 +1,50 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Datentabelle `titanic`: Sie wollten den Zusammenhang zwischen Alter und Ticketpreis grafisch darstellen. 
+Welche Grafik ist geeignet?
+
+
+Answerlist
+----------
+* Säulendiagramm.
+* Histogramm.
+* Mosaikplot.
+* Streudiagramm.
+
+
+Solution
+========
+
+Säulendiagramm und Histogramm sind Grafiken i.$\,$d.$\,$R. für eine kategoriale (Säulendiagramm) oder eine metrische Variable (Histogramm). Sie können ggf. gruppiert werden nach einer weiteren kategorialen Variable.
+
+Der Mosaikplot stellt den Zusammenhang zwischen kategorialen Variablen dar.
+
+Der Zusammenhang zwischen metrischen Variablen wird mit einem Streudiagramm dargestellt.
+
+```{r, results="hide", fig.height = 4, fig.width = 4, fig.cap = "", warning=FALSE}
+gf_point(fare ~ age, data = titanic)
+```
+
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Titanic Visualisierung
+extype: schoice
+exsolution: 0001

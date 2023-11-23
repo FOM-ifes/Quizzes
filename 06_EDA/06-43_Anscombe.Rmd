@@ -1,0 +1,50 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+In welcher/n der folgenden vier Grafiken ist der Korrelationskoeffizient eine geeignete Kennzahl?
+
+```{r, results="hide", fig.height = 4, fig.width = 4, fig.cap = "", warning = FALSE, echo = FALSE}
+data(anscombe)
+x <- c(anscombe$x1, anscombe$x2, anscombe$x3, anscombe$x4)
+y <- c(anscombe$y1, anscombe$y2, anscombe$y3, anscombe$y4)
+z <- factor(rep(c("A", "B", "C", "D"), each = 11))
+ans <- data.frame(x = x, y = y, z = z)
+gf_point(y ~ x | z, data = ans)
+# Korrelationskoeffizient abspeichern
+ansCor <- cor(y1 ~ x1, data = anscombe) |> round(2)
+```
+
+
+Answerlist
+----------
+* Grafik A.
+* Grafik B.
+* Grafik C.
+* Grafik D.
+
+
+Solution
+========
+
+Der Korrelationskoeffizient ist ein Maß für den linearen Zusammenhang. Er beträgt für alle vier Grafiken des sogenannten *Anscombe-Quartetts* `r ansCor`.
+
+Nur in Grafik A ist er auch ein geeignetes Maß, da hier ein linearer Zusammenhang ohne Ausreißer vorliegt. In B ist der Zusammenhang nicht linear, in C wäre er ohne den Ausreißer deutlich stärker und in D liegt eigentlich kein Zusammenhang vor, nur der Ausreißer täuscht einen vor.
+
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: Anscombe Korrelation
+extype: mchoice
+exsolution: 1000
