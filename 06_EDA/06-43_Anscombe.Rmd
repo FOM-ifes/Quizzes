@@ -5,7 +5,7 @@ library(mosaic)
 Question
 ========
 
-In welcher/n der folgenden vier Grafiken ist der Korrelationskoeffizient eine geeignete Kennzahl?
+In welcher/n der folgenden vier Grafiken ist der Korrelationskoeffizient eine geeignete Kennzahl zur Beschreibung des wahren Zusammenhangs?
 
 ```{r, results="hide", fig.height = 4, fig.width = 4, fig.cap = "", warning = FALSE, echo = FALSE}
 data(anscombe)

@@ -24,7 +24,7 @@ Answerlist
 Solution
 ========
 
-Säulendiagramm und Histogramm sind Grafiken i.$\,$d.$\,$R. für eine kategoriale (Säulendiagramm) oder eine metrische Variable (Histogramm). Sie können ggf. gruppiert werden nach einer weiteren kategorialen Variable.
+Säulendiagramm und Histogramm sind Grafiken i.$\,$d.$\,$R. für eine kategoriale bzw. metrische diskrete (Säulendiagramm) oder eine metrische stetige Variable (Histogramm). Sie können ggf. gruppiert werden nach einer weiteren kategorialen Variable.
 
 Der Mosaikplot stellt den Zusammenhang zwischen kategorialen Variablen dar.
 
