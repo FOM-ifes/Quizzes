@@ -127,11 +127,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 )
 
 # Anzahl Fragen ausgeben
-nQuiz <- 0
-for(i in 1:length(Quizzes)){
-  nQuiz <- nQuiz + length(Quizzes[[i]])
-}
-nQuiz
+lengths(Quizzes) |> sum()
 
 # Eins exportieren
 quiz <- "Wdh_EDA_2"
