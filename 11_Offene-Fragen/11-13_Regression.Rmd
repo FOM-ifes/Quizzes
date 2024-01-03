@@ -51,6 +51,16 @@ expoints: 8
 exsolution: nil
 exname: Regression Essay
 exextra[essay,logical]: TRUE
-exextra[essay_format,character]: editor
-exextra[essay_required,logical]: FALSE
-exextra[essay_fieldlines,numeric]: 3
+
+```{r include=FALSE, eval=FALSE}
+# sobald weitere Optionen über exextra ergänzt, wird auf attachments true umgeschaltet
+# so bleibt nur required 1 stehen
+
+# Muss in xml ergänzt/korrigiert werden
+<responseformat>plain</responseformat>
+<responserequired>0</responserequired>
+<responsefieldlines>3</responsefieldlines>
+<attachments>0</attachments>
+<attachmentsrequired>0</attachmentsrequired>
+
+```
