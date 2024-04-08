@@ -1,0 +1,48 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Folgende Ausgabe zeigt die favorisierten Statistiken (`favstats()`) des Ticketpreises:
+
+
+```{r, fig.cap="", warning=FALSE}
+favstats(~ fare, data = titanic)
+```
+
+Welche Verteilungsform wird wohl vorliegen?
+
+Answerlist
+----------
+* Linksschief.
+* Symmetrisch.
+* Rechtsschief.
+
+
+Solution
+========
+
+Da hier der Mittelwert (`mean`) größer als der Median (`median`) ist, wird die Verteilung rechtsschief sein.
+
+```{r, fig.cap="", warning=FALSE}
+gf_histogram( ~ fare, data = titanic)
+```
+
+Answerlist
+----------
+* Falsch.
+* Falsch.
+* Richtig.
+
+
+Meta-information
+================
+exname: Titanic favstats1
+extype: schoice
+exsolution: 001

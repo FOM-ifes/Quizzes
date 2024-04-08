@@ -1,0 +1,63 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Download data:
+# download.file(url = "http://web.stanford.edu/class/cs102/datasets/Titanic.csv", destfile = "titanic.csv" )
+include_supplement("titanic.csv")
+titanic <- read.csv("titanic.csv")
+library(mosaic)
+```
+
+Question
+========
+
+Folgende Ausgabe zeigt die favorisierten Statistiken (`favstats()`) des Ticketpreises:
+
+```{r include=FALSE}
+fav1 <- favstats(~ fare, data = titanic) |> round(2)
+fav2 <- favstats(~ fare, data = titanic |> filter(fare < 500)) |> round(2)
+```
+
+
+```{r, fig.cap="", warning=FALSE}
+favstats(~ fare, data = titanic)
+```
+
+Es gibt einen Ausreißer mit einem Ticketpreis über 500 \$.
+Welches Streumaß wird sich am stärksten ändern, wenn dieser nicht berücksichtigt wird?
+
+Answerlist
+----------
+* Standardabweichung.
+* Interquartilsabstand.
+* Spannweite.
+
+
+Solution
+========
+
+Die Statistiken ergeben sich mit Filterung zu:
+
+```{r, fig.cap="", warning=FALSE}
+favstats(~ fare, data = titanic |> filter(fare < 500))
+```
+
+Die Streumaße betragen gerundet auf zwei Nachkommastellen nach der Filterung (vor der Filterung): 
+
+- Standardabweichung, `sd`: `r fav2$sd` (`r fav1$sd`)
+- Interquartilsabstand, `Q3` -- `Q1`: `r fav2$Q3 - fav2$Q1` (`r fav1$Q3 - fav1$Q1`)
+- Spannweite, `max` -- `min`: `r fav2$max - fav2$min` (`r fav1$max - fav1$min`)
+
+Damit ist die Änderung bei der Spannweite am stärksten, gefolgt von der Standardabweichung. Der Interquartilsabstand ist ein robustes Streumaß.
+
+Answerlist
+----------
+* Falsch.
+* Falsch.
+* Richtig.
+
+
+
+Meta-information
+================
+exname: Titanic favstats2
+extype: schoice
+exsolution: 001
