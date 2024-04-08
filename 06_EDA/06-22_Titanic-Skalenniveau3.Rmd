@@ -30,8 +30,8 @@ Answerlist
 ----------
 * Falsch, das Alter in Jahren kann nicht nur unterschieden werden ($=, \neq$).
 * Falsch, das Alter in Jahren kann nicht nur unterschieden und in eine Reihenfolge gebracht werden ($=, \neq, <,>$).
-* Falsch, das Alter in Jahren sind Zahlen mit denen gerechnet werden kann und es gibt einen inhaltlichen Nullpunkt.
-* Richtig, das Alter in Jahren sind Zahlen mit denen gerechnet werden kann und es gibt einen inhaltlichen Nullpunkt.
+* Falsch, das Alter in Jahren sind Zahlen, mit denen gerechnet werden kann, und es gibt einen inhaltlichen Nullpunkt.
+* Richtig, das Alter in Jahren sind Zahlen, mit denen gerechnet werden kann, und es gibt einen inhaltlichen Nullpunkt.
 
 Meta-information
 ================

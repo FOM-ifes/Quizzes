@@ -8,8 +8,8 @@ Answerlist
 ----------
 * Median des Umsatzes der Filialen.
 * Arithmetischer Mittelwert des Umsatzes der Filialen.
-* Sowohl mit dem Median als auch dem Arithmetischen Mittelwert.
-* Weder mit dem Median noch dem Arithmetischen Mittelwert.
+* Sowohl mit dem Median als auch mit dem arithmetischen Mittelwert.
+* Weder mit dem Median noch mit dem arithmetischen Mittelwert.
 
 
 Solution
