@@ -1,0 +1,29 @@
+Question
+========
+
+Wofür wird in R der Variablentyp `int` verwendet.
+
+Answerlist
+----------
+* Zeichenketten
+* Datum
+* diskrete metrische Variablen
+* stetige metrische Variablen
+
+Solution
+========
+
+`int` steht für *Integer*, das sind ganzzahlige Werte. Daher wird dieser Variablentyp i.$\,$d.$\,$R. für diskrete metrische Variablen eingesetzt.
+
+Answerlist
+----------
+* Falsch. 
+* Falsch.
+* Richtig. 
+* Falsch.
+
+Meta-information
+================
+exname: Variablentype
+extype: schoice
+exsolution: 0010
