@@ -14,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Siehe z.B. folgenden Beobachtungen: $x=\{1,1,2,8\}$. Dann ist $x_{mod}=1$, $x_{0,5}=1,5$ und $\bar{x}=3$.
+Siehe z.B. die folgenden Beobachtungen: $x=\{1,1,2,8\}$. Dann ist $x_{mod}=1$, $x_{0.5}=1.5$ und $\bar{x}=3$.
 
 Answerlist
 ----------
