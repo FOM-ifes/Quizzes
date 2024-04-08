@@ -34,6 +34,8 @@ Answerlist
 Solution
 ========
 
+`favstats()` zeigt Minimum (`min`), Maximum (`max`), die Quartile (`Q1, median, Q3`), Median (`median`), arithmetischen Mittelwert (`mean`) und die Standardabweichung (`sd`), sowie die Anzahl der berücksichtigten Beobachtungen (`n`) und mögliche fehlende Werte (`missing`).
+
 Die Statistiken ergeben sich mit Filterung zu:
 
 ```{r, fig.cap="", warning=FALSE}
