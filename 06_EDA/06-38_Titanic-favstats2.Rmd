@@ -22,7 +22,7 @@ favstats(~ fare, data = titanic)
 ```
 
 Es gibt einen Ausreißer mit einem Ticketpreis über 500 \$.
-Welches Streumaß wird sich am stärksten ändern, wenn dieser nicht berücksichtigt wird?
+Welches Streumaß wird sich am *wenigsten* ändern, wenn dieser nicht berücksichtigt wird?
 
 Answerlist
 ----------
@@ -48,13 +48,13 @@ Die Streumaße betragen gerundet auf zwei Nachkommastellen nach der Filterung (v
 - Interquartilsabstand, `Q3` -- `Q1`: `r fav2$Q3 - fav2$Q1` (`r fav1$Q3 - fav1$Q1`)
 - Spannweite, `max` -- `min`: `r fav2$max - fav2$min` (`r fav1$max - fav1$min`)
 
-Damit ist die Änderung bei der Spannweite am stärksten, gefolgt von der Standardabweichung. Der Interquartilsabstand ist ein robustes Streumaß.
+Damit ist die Änderung bei der Spannweite am stärksten, gefolgt von der Standardabweichung. Der Interquartilsabstand ist ein robustes Streumaß und ändert sich am wenigsten.
 
 Answerlist
 ----------
 * Falsch.
-* Falsch.
 * Richtig.
+* Falsch.
 
 
 
@@ -62,4 +62,4 @@ Meta-information
 ================
 exname: Titanic favstats2
 extype: schoice
-exsolution: 001
+exsolution: 010
