@@ -31,7 +31,12 @@ Answerlist
 Solution
 ========
 
-Der Zusammenhang zwischen Reichweite und Gewicht wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein).
+Der Zusammenhang zwischen Reichweite und Gewicht wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein). Das zeigt auch das Streudiagramm der beiden Variablen.
+
+```{r, fig.cap=""}
+gf_point(mpg ~ wt, data = mtcars)
+```
+
 
 Answerlist
 ----------
