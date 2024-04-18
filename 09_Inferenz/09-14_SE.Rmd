@@ -15,7 +15,7 @@ Solution
 ========
 
 Je größer der Stichprobenumfang ist, desto weniger Streuung (= Standardfehler) gibt es für die Stichprobenstatistik beim Ziehen von Stichproben.
-Wenn jeweils eine Stichprobe im Umfang der Population gezogen würde, würde die Stichprobenstatistik kann nicht mehr variieren, dann wäre der Standardfehler $0$.
+Wenn jeweils eine Stichprobe im Umfang der Population gezogen würde, würde die Stichprobenstatistik gar nicht mehr variieren und damit wäre der Standardfehler $0$.
 
 Answerlist
 ----------
