@@ -1,5 +1,9 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Bootstrapping
+Bootvtlg <- do(1000)* lm(mpg ~ wt, data = resample(mtcars))
 ```
 
 Question
