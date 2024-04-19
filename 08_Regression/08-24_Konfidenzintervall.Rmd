@@ -1,0 +1,45 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Aus der Bootstrap-Verteilung lässt sich das Konfidenintervall ableiten:
+
+```{r}
+ki95 <- qdata( ~ wt, p = c(0.025, 0.975), data = Bootvtlg) |> round(2)
+ki95
+```
+
+Welche Aussage stimmt im Zusammenhang mit dem Konfidenzintervall?
+
+Answerlist
+----------
+* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
+* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
+* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung.
+* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung.
+
+Solution
+========
+
+Das Konfidenzintervall bezieht sich auf die Stichprobenstatistiken, hier die geschätzte Steigung.
+Das Bootstrapping simuliert das Ziehen von (unendlich) vielen Stichproben, aus denen jeweils die Stichprobenstatistik berechnet wird.
+
+Da in `qdata()` mit `p = c(0.025, 0.975)` das 2.5%- und das 97.5%-Quantil zurückgegeben wird, liegen 95$\,$% der Stichprobenstatistiken in diesem zentralen Intervall.
+Daher überdeckt das Konfidenzintervall mit einer 95%igen Wahrscheinlichkeit eine geschätzte Steigung.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Konfidenzintervall
+extype: schoice
+exsolution: 0001

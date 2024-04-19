@@ -1,0 +1,52 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Aus der Bootstrap-Verteilung mit 1000 Simulation ergibt sich folgender Standardfehler:
+```{r}
+# Standardfehler (se)
+sd( ~ wt, data = Bootvtlg)
+```
+
+Der Standardfehler beträgt gerundet `r sd( ~ wt, data = Bootvtlg) |> round(2)`.
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Bei einer Verdopplung der Bootstrap-Simulationen wird der Standardfehler kleiner werden.
+* Bei einer Verdopplung der Bootstrap-Simulationen wird der Standardfehler etwa gleich bleiben.
+* Bei einer Verdopplung der Bootstrap-Simulationen wird der Standardfehler größer werden.
+
+Solution
+========
+
+Die Verdoppelung der Bootstrap-Simulationen hat keinen nennenswerten Einfluss auf den Standardfehler.
+Der Standardfehler ändert sich bei einem anderen Stichprobenumfang, dabei wird er c.$\,$p. kleiner je größer der Stichprobenumfang ist.
+
+```{r}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Bootstrapping mit 2000 Simulationen
+Boot2000 <- do(2000)* lm(mpg ~ wt, data = resample(mtcars))
+# Standardfehler
+sd( ~ wt, data = Boot2000)
+```
+
+In etwa bleibt der der Standardfehler nach 2000 Simulation (hier gerundet bei `r sd( ~ wt, data = Boot2000) |> round(2)`) gleich.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Standardfehler
+extype: schoice
+exsolution: 010

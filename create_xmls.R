@@ -29,7 +29,8 @@ Wdh_R_1        = c("04_R/04-11_gfpoint.Rmd",
                    "04_R/04-13_Zuweisung.Rmd", 
                    "04_R/04-14_Funktion.Rmd", 
                    "04_R/04-15_Funktionsargument.Rmd",
-                   "04_R/04-16_Ablauf.Rmd"),
+                   "04_R/04-16_Ablauf.Rmd",
+                   "04_R/04-17_Variablentyp.Rmd"),
 
 Wdh_Wkeit      = c("05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
                    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
@@ -56,7 +57,9 @@ Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-33_Verteilungsform.Rmd",
                    "06_EDA/06-34_Rueckschluss.Rmd",
                    "06_EDA/06-35_Ausreisser.Rmd", 
-                   "06_EDA/06-37_Lagemass.Rmd"),
+                   "06_EDA/06-36_Lagemass.Rmd",
+                   "06_EDA/06-37_Titanic-favstats1.Rmd",
+                   "06_EDA/06-38_Titanic-favstats2.Rmd"),
 
 Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
                    "06_EDA/06-42_Titanic-Korrelation.Rmd",
@@ -69,6 +72,7 @@ Wdh_Norm_1     = c("07_Normalverteilung/07-11_Parameter.Rmd",
                    "07_Normalverteilung/07-14_z-Wert.Rmd",
                    "07_Normalverteilung/07-15_Percentil.Rmd"),
 
+# Lineare Regression: univariat
 Wdh_LinReg_1   = c("08_Regression/08-11_Modellgleichung.Rmd",
                    "08_Regression/08-12_Korrelation.Rmd", 
                    "08_Regression/08-13_KorrelationRegression.Rmd", 
@@ -77,18 +81,27 @@ Wdh_LinReg_1   = c("08_Regression/08-11_Modellgleichung.Rmd",
                    "08_Regression/08-16_InterpretationR2.Rmd", 
                    "08_Regression/08-17_EinordungR2.Rmd"),
 
-Wdh_LinReg_2   = c("08_Regression/08-21_Nullhypothese.Rmd", 
-                   "08_Regression/08-22_Stichprobe.Rmd", 
-                   "08_Regression/08-23_Bootstrapping.Rmd",
-                   "08_Regression/08-24_SimulationH0.Rmd", 
-                   "08_Regression/08-25_Signifikanz.Rmd"),
+# Lineare Regression: Inferenz - Schätzen
+Wdh_LinReg_2a   = c("08_Regression/08-21_Punktschaetzer.Rmd", 
+                   "08_Regression/08-22_Bootstrapping.Rmd",
+                   "08_Regression/08-23_Standardfehler.Rmd",
+                   "08_Regression/08-24_Konfidenzintervall.Rmd",
+                   "08_Regression/08-25_KIallgemein.Rmd"),
 
+# Lineare Regression: Inferenz - Testen
+Wdh_LinReg_2b   = c("08_Regression/08-26_Nullhypothese.Rmd", 
+                   "08_Regression/08-27_Stichprobe.Rmd", 
+                   "08_Regression/08-28_SimulationH0.Rmd", 
+                   "08_Regression/08-29_Signifikanz.Rmd"),
+
+# Lineare Regression: kategoriales X
 Wdh_LinReg_3   = c("08_Regression/08-31_KategorialesX.Rmd", 
                    "08_Regression/08-32_GleichungKategorialesX.Rmd", 
                    "08_Regression/08-33_NullhypotheseKategorialesX.Rmd", 
                    "08_Regression/08-34_pWert.Rmd",
                    "08_Regression/08-35_Targeting.Rmd"),
 
+# Lineare Regression: multivariat
 Wdh_LinReg_4   = c("08_Regression/08-41_Residuals.Rmd",
                    "08_Regression/08-42_Estimate.Rmd",
                    "08_Regression/08-43_KategorialInt.Rmd",
@@ -96,12 +109,14 @@ Wdh_LinReg_4   = c("08_Regression/08-41_Residuals.Rmd",
                    "08_Regression/08-45_pWertVergleich.Rmd",
                    "08_Regression/08-46_Regressionsvorraussetzung.Rmd"),
 
+# Inferenz: Schätzen
 Wdh_Inferenz_1 = c("09_Inferenz/09-11_Parameter.Rmd", 
                    "09_Inferenz/09-12_ParameterStipro.Rmd", 
                    "09_Inferenz/09-13_Schaetzer.Rmd", 
                    "09_Inferenz/09-14_SE.Rmd", 
                    "09_Inferenz/09-15_Konfidenzintervall.Rmd"),
 
+# Inferenz: Testen
 Wdh_Inferenz_2 = c("09_Inferenz/09-21_Nullhypothese.Rmd", 
                    "09_Inferenz/09-22_pZweifel.Rmd", 
                    "09_Inferenz/09-23_pTeststatistik.Rmd", 
@@ -130,7 +145,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_EDA_2"
+quiz <- "Wdh_LinReg_2a"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

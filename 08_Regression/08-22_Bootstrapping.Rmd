@@ -19,7 +19,7 @@ $\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$.
 
 Wird das zufällige Ziehen simuliert (mit Zurücklegen, *Bootstrapping*), ergibt sich folgendes Ergebnis für die Verteilung der geschätzten Steigung:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", cache=TRUE}
 # Zufallszahlengenerator setzen
 set.seed(1896)
 # Bootstrapping
@@ -34,13 +34,13 @@ Welche Aussage stimmt?
 
 Answerlist
 ----------
-* Der Standardfehler $se$ (hier: `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Schätzwerten.
-* Der Standardfehler $se$ (hier: `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Beobachtungen.
+* Der Standardfehler $se$ (hier gerundet. `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Schätzwerten.
+* Der Standardfehler $se$ (hier gerundet: `r round(sd( ~ wt, data = Bootvtlg),2)`) beschreibt die Streuung von Beobachtungen.
 
 Solution
 ========
 
-Der Standardfehler ist die Standabweichung der Stichprobenstatistik (hier die *geschätzte* Steigung) beim Ziehen von (unendlich) vielen Stichproben.
+Der Standardfehler ist die Standardabweichung der Stichprobenstatistik (hier die *geschätzte* Steigung) beim Ziehen von (unendlich) vielen Stichproben.
 
 Answerlist
 ----------

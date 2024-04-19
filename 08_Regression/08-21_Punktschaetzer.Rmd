@@ -1,0 +1,46 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+coefs <- lm(mpg ~ wt, data = mtcars) |>
+  coef() |>
+  round(3)
+```
+
+Question
+========
+
+Eine lineare Regression der Reichweite `mpg` auf das Gewicht `wt` der Datentabelle `mtcars` ergibt:
+
+```{r}
+erglm <- lm(mpg ~ wt, data = mtcars)
+erglm
+```
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* $\beta_0 = `r coefs[2]`$
+* $\hat\beta_0 = `r coefs[2]`$
+* $\beta_1 = `r coefs[2]`$
+* $\hat\beta_1 = `r coefs[2]`$
+
+
+Solution
+========
+
+$\beta_0$ und $\beta_1$ sind der y-Achsenabschnitt und die Steigung im wahren, aber unbekannten Modell der Population. Der Punktschätzer $\hat\beta_0$ für den y-Achsenabschnitt aus dem Modell der Stichprobe beträgt `r coefs[1]` (`Intercept`). `r coefs[2]` ist der Punktschätzer für die Steigung von `wt`, also $\hat\beta_1$.
+
+Answerlist
+----------
+
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: Punktschätzer
+extype: schoice
+exsolution: 0001

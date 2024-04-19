@@ -1,0 +1,31 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+```
+
+Question
+========
+
+Welche (allgemeine) Aussage stimmt im Zusammenhang mit dem Konfidenzintervall?
+
+Answerlist
+----------
+* Das Konfidenzintervall zeigt einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters in der Population.
+* Das Konfidenzintervall zeigt einen plausiblen oder mit den Daten kompatiblen Wertebereich für den geschätzten Steigungskoeffizienten aus der Stichprobe.
+
+Solution
+========
+
+Das Konfidenzintervall zeigt einen *plausiblen* bzw. mit den Daten *kompatiblen* Wertebereich für den unbekannten Wert des Parameters in der Population.
+Der Punktschätzer gilt nur für die Stichprobe.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Konfidenzintervall allgemein
+extype: schoice
+exsolution: 10
