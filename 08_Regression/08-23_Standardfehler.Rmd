@@ -1,5 +1,9 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Bootstrapping
+Bootvtlg <- do(1000)* lm(mpg ~ wt, data = resample(mtcars))
 ```
 
 Question
@@ -9,10 +13,6 @@ Aus der Bootstrap-Verteilung mit 1000 Simulation ergibt sich folgender Standardf
 ```{r}
 # Standardfehler (se)
 sd( ~ wt, data = Bootvtlg)
-# Zufallszahlengenerator setzen
-set.seed(1896)
-# Bootstrapping
-Bootvtlg <- do(1000)* lm(mpg ~ wt, data = resample(mtcars))
 ```
 
 Der Standardfehler beträgt gerundet `r sd( ~ wt, data = Bootvtlg) |> round(2)`.
