@@ -28,7 +28,7 @@ Answerlist
 Solution
 ========
 
-Da hier der Mittelwert (`mean`) größer als der Median (`median`) ist, wird die Verteilung rechtsschief sein.
+Eine rechtsschiefe Verteilung liegt häufig vor, wenn der Mittelwert (`mean`) größer als der Median (`median`) ist.
 
 ```{r, fig.cap="", warning=FALSE}
 gf_histogram( ~ fare, data = titanic)

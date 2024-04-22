@@ -22,17 +22,17 @@ Answerlist
 ----------
 * Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
 * Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
-* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung.
-* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung.
+* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung beim erneuten Re-Sampling.
+* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung beim erneuten Re-Sampling.
 
 Solution
 ========
 
 Das Konfidenzintervall bezieht sich auf die Stichprobenstatistiken, hier die geschätzte Steigung.
-Das Bootstrapping simuliert das Ziehen von (unendlich) vielen Stichproben, aus denen jeweils die Stichprobenstatistik berechnet wird.
+Das Bootstrapping simuliert das Ziehen von vielen Stichproben, aus denen jeweils die Stichprobenstatistik berechnet wird.
 
 Da in `qdata()` mit `p = c(0.025, 0.975)` das 2.5%- und das 97.5%-Quantil zurückgegeben wird, liegen 95$\,$% der Stichprobenstatistiken in diesem zentralen Intervall.
-Daher überdeckt das Konfidenzintervall mit einer 95%igen Wahrscheinlichkeit eine geschätzte Steigung.
+Daher überdeckt das Konfidenzintervall mit einer 95%igen Wahrscheinlichkeit eine geschätzte Steigung beim erneuten Re-Sampling der vorliegenden Stichprobe.
 
 Answerlist
 ----------

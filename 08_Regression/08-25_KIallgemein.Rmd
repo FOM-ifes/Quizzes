@@ -5,18 +5,19 @@ library(mosaic)
 Question
 ========
 
-Welche (allgemeine) Aussage stimmt im Zusammenhang mit dem Konfidenzintervall?
+Stimmt die folgende (allgemeine) Aussage im Zusammenhang mit dem Konfidenzintervall?
+
+Das Konfidenzintervall zeigt einen plausiblen bzw. mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters in der Population.
 
 Answerlist
 ----------
-* Das Konfidenzintervall zeigt einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters in der Population.
-* Das Konfidenzintervall zeigt einen plausiblen oder mit den Daten kompatiblen Wertebereich für den geschätzten Steigungskoeffizienten aus der Stichprobe.
+* Ja.
+* Nein.
 
 Solution
 ========
 
 Das Konfidenzintervall zeigt einen *plausiblen* bzw. mit den Daten *kompatiblen* Wertebereich für den unbekannten Wert des Parameters in der Population.
-Der Punktschätzer gilt nur für die Stichprobe.
 
 Answerlist
 ----------
