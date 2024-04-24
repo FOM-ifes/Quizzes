@@ -36,6 +36,7 @@ Wdh_Wkeit      = c("05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
                    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
                    "05_Wahrscheinlichkeit/05-13_Bayes.Rmd"),
 
+# EDA kategorial
 Wdh_EDA_1      = c("06_EDA/06-11_Titanic-Beobachtung.Rmd", 
                    "06_EDA/06-12_Titanic-Variable.Rmd",
                    "06_EDA/06-13_Titanic-Skalenniveau1.Rmd", 
@@ -43,6 +44,7 @@ Wdh_EDA_1      = c("06_EDA/06-11_Titanic-Beobachtung.Rmd",
                    "06_EDA/06-15_Titanic-Anteil.Rmd",
                    "06_EDA/06-16_Titanic-Anteilsfrage.Rmd"),
 
+# EDA metrisch
 Wdh_EDA_2      = c("06_EDA/06-21_Titanic-Variable2.Rmd",
                    "06_EDA/06-22_Titanic-Skalenniveau3.Rmd", 
                    "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
@@ -52,6 +54,21 @@ Wdh_EDA_2      = c("06_EDA/06-21_Titanic-Variable2.Rmd",
                    "06_EDA/06-27_Titanic-Verteilungsfunktion.Rmd",
                    "06_EDA/06-28_Titanic-Boxplot.Rmd"),
 
+# EDA metrisch: Verteilungen
+Wdh_EDA_2a      = c("06_EDA/06-21_Titanic-Variable2.Rmd",
+                   "06_EDA/06-22_Titanic-Skalenniveau3.Rmd", 
+                   "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
+                   "06_EDA/06-24_Titanic-Generalisierung.Rmd",
+                   "06_EDA/06-27_Titanic-Verteilungsfunktion.Rmd",
+                   "06_EDA/06-32_Histogramm.Rmd",
+                   "06_EDA/06-33_Verteilungsform.Rmd"),
+
+# EDA metrisch: Lage- und Streumaße
+Wdh_EDA_2b      = c("06_EDA/06-25_Titanic-Mittelwert.Rmd", 
+                   "06_EDA/06-26_Titanic-Varianz.Rmd",
+                   "06_EDA/06-28_Titanic-Boxplot.Rmd"),
+
+# EDA: Zusammenfassung
 Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-32_Histogramm.Rmd",
                    "06_EDA/06-33_Verteilungsform.Rmd",
@@ -61,11 +78,21 @@ Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-37_Titanic-favstats1.Rmd",
                    "06_EDA/06-38_Titanic-favstats2.Rmd"),
 
+# EDA: Kennzahlen
+Wdh_EDA_3x      = c("06_EDA/06-31_Visualisierung.Rmd",
+                   "06_EDA/06-34_Rueckschluss.Rmd",
+                   "06_EDA/06-35_Ausreisser.Rmd", 
+                   "06_EDA/06-36_Lagemass.Rmd",
+                   "06_EDA/06-37_Titanic-favstats1.Rmd",
+                   "06_EDA/06-38_Titanic-favstats2.Rmd"),
+
+# EDA: Zusammenhang zwischen metrischen Daten
 Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
                    "06_EDA/06-42_Titanic-Korrelation.Rmd",
                    "06_EDA/06-43_Anscombe.Rmd",
                    "06_EDA/06-44_Korrelation.Rmd"),
 
+# Normalverteilung
 Wdh_Norm_1     = c("07_Normalverteilung/07-11_Parameter.Rmd", 
                    "07_Normalverteilung/07-12_Wkeit.Rmd", 
                    "07_Normalverteilung/07-13_Quantile.Rmd", 
@@ -92,7 +119,8 @@ Wdh_LinReg_2a   = c("08_Regression/08-21_Punktschaetzer.Rmd",
 Wdh_LinReg_2b   = c("08_Regression/08-26_Nullhypothese.Rmd", 
                    "08_Regression/08-27_Stichprobe.Rmd", 
                    "08_Regression/08-28_SimulationH0.Rmd", 
-                   "08_Regression/08-29_Signifikanz.Rmd"),
+                   "08_Regression/08-29_pWert.Rmd", 
+                   "08_Regression/08-30_Signifikanz.Rmd"),
 
 # Lineare Regression: kategoriales X
 Wdh_LinReg_3   = c("08_Regression/08-31_KategorialesX.Rmd", 
@@ -145,7 +173,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_LinReg_2a"
+quiz <- "Wdh_LinReg_2b"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

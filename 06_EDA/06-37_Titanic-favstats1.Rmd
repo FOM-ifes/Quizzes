@@ -28,7 +28,7 @@ Answerlist
 Solution
 ========
 
-Eine rechtsschiefe Verteilung liegt häufig vor, wenn der Mittelwert (`mean`) größer als der Median (`median`) ist.
+Die Abstände vom Minimum (`min`) zu Q1 und von Q1 zum Median sind viel geringer als die vom Median zu Q3 bzw. Q3 zum Maximum (`max`). Die gleiche Menge an Beobachtungen erstreckt sich rechts auf einen viel größeren Wertebereich, was eine rechtsschiefe Verteilung zeigt. Auch liegt eine rechtsschiefe Verteilung häufig vor, wenn der Mittelwert (`mean`) größer als der Median (`median`) ist.
 
 ```{r, fig.cap="", warning=FALSE}
 gf_histogram( ~ fare, data = titanic)

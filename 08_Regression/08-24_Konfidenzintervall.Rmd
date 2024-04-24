@@ -20,10 +20,10 @@ Welche Aussage stimmt im Zusammenhang mit dem Konfidenzintervall?
 
 Answerlist
 ----------
-* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
-* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine Beobachtung.
-* Mit einer Wahrscheinlichkeit von 5$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung beim erneuten Re-Sampling.
-* Mit einer Wahrscheinlichkeit von 95$\,$% überdeckt das Intervall von `r ki95[1]` bis `r ki95[2]` eine geschätzte Steigung beim erneuten Re-Sampling.
+* Das Intervall von `r ki95[1]` bis `r ki95[2]` zeigt einen plausiblen Wertebereich für eine Beobachtung.
+* Das Intervall von `r ki95[1]` bis `r ki95[2]` zeigt einen unplausiblen Wertebereich für eine Beobachtung.
+* Das Intervall von `r ki95[1]` bis `r ki95[2]` zeigt einen plausiblen Wertebereich für eine Steigung.
+* Das Intervall von `r ki95[1]` bis `r ki95[2]` zeigt einen unplausiblen Wertebereich für eine Steigung.
 
 Solution
 ========
@@ -34,16 +34,18 @@ Das Bootstrapping simuliert das Ziehen von vielen Stichproben, aus denen jeweils
 Da in `qdata()` mit `p = c(0.025, 0.975)` das 2.5%- und das 97.5%-Quantil zurückgegeben wird, liegen 95$\,$% der Stichprobenstatistiken in diesem zentralen Intervall.
 Daher überdeckt das Konfidenzintervall mit einer 95%igen Wahrscheinlichkeit eine geschätzte Steigung beim erneuten Re-Sampling der vorliegenden Stichprobe.
 
+Es zeigt damit auch einen plausiblen bzw. mit den Daten kompatiblen Wertebereich für den unbekannten Wert der Steigung in dem Modell der Population.
+
 Answerlist
 ----------
 * Falsch
 * Falsch
-* Falsch
 * Richtig
+* Falsch
 
 
 Meta-information
 ================
 exname: Konfidenzintervall
 extype: schoice
-exsolution: 0001
+exsolution: 0010

@@ -1,0 +1,65 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+data(mtcars)
+```
+
+Question
+========
+
+Für die vorliegende Stichprobe gilt:
+
+```{r}
+erglm <- lm(mpg ~ wt, data = mtcars)
+coef(erglm)
+# Punktschätzer
+beta1dach <- round(coef(erglm),2)[2]
+```
+
+Also 
+
+$\hat{\beta}_1 = `r beta1dach`$.
+
+Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `mpg` und `wt` gibt, ergibt folgendes Ergebnis:
+
+```{r, fig.cap=""}
+# Zufallszahlengenerator setzen
+set.seed(1896)
+# Permutationsverteilung
+Nullvtlg <- do(1000)* lm(mpg ~ shuffle(wt), data = mtcars)
+# Verteilung geschätzte Steigung
+gf_histogram( ~ wt, data = Nullvtlg, center = 0, bins = 21) |> 
+  gf_vline(xintercept = ~ coef(erglm)[2]) 
+# p-Wert
+pWert <- prop(~ (abs(wt) >= abs(beta1dach)), data = Nullvtlg)
+pWert
+```
+
+In keiner der 1000 Simulationen ist ein so extremer Wert aufgetreten wie der in der Stichprobe beobachtete Punktschätzer, daher ist der p-Wert < 1/1000.
+
+Stimmt folgende Aussage?
+
+Die Wahrscheinlichkeit, dass die $H_0$ zutrifft, es also keinen Zusammenhang zwischen `mpg` und `wt` gibt, ist kleiner als 0.001 bzw. 0.1$\,$%.
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+Solution
+========
+
+Der p-Wert gibt die Wahrscheinlichkeit für die Daten gegeben die Nullhypothese, also $Pr(\delta^*|H_0)$, an (siehe auch oben bei der Berechnung, Anteil gegeben die Nullverteilung, `prop( ..., data = Nullvtlg)`. In der Frage wurde aber nach der Wahrscheinlichkeit für die $H_0$ gegeben die Daten, also $Pr(H_0|\delta^*)$, gefragt.
+
+*Hinweis:* $\delta^*$ bezeichnet einen beliebigen Punktschätzer.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: p-Wert
+extype: schoice
+exsolution: 01

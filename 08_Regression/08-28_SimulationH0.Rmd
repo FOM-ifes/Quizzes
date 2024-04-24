@@ -29,7 +29,7 @@ gf_histogram( ~ wt, data = Nullvtlg, center = 0, bins = 21) |>
   gf_vline(xintercept = ~ coef(erglm)[2]) 
 ```
 
-Ist das Ergebnis der Stichprobe, $\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$, kompatibel zu einer Modellannahme, dass es in der Population keinen Zusammenhang gibt ($H_0: \beta_1=0$)?
+Ist das Ergebnis der Stichprobe, $\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$, kompatibel zu einer Modellannahme, dass es in der Population keinen Zusammenhang gibt $(H_0: \beta_1=0)$?
 
 Answerlist
 ----------
