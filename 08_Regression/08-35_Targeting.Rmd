@@ -41,6 +41,8 @@ Solution
 Der Koeffizient für `alter` ist positiv, d.$\,$h., mit zunehmenden Alter steigen im Modell der Stichprobe im Mittel die Ausgaben.
 Der Koeffizient für die Indikatorvariable `geschlechtw` (weiblich) ist positiv, daher sind die Ausgaben im Vergleich zur Referenzkategorie `m` (männlich) im Modell der Stichprobe für `w` im Mittel höher.
 
+Wenn das Ergebnis für keinen Zusammenhang zwischen Geschlecht und Alter mit den Ausgaben sprechen würde, wären die p-Wert (Spalte `Pr(>|t|)`) groß. Hier sind sie sehr klein, was gegen die Nullhypothese (keine Zusammenhang) spricht und damit indirekt für einen Zusammenhang (Alternativhypothese).
+
 Answerlist
 ----------
 * Falsch
