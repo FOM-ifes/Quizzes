@@ -10,9 +10,9 @@ Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Was gilt für die Quanti
 
 Answerlist
 ----------
-* `xqnorm(0.1, mean = 10, sd = 2)` < `xqnorm(0.9, mean = 10, sd = 2)`
-* `xqnorm(0.1, mean = 10, sd = 2)` = `xqnorm(0.9, mean = 10, sd = 2)`
-* `xqnorm(0.1, mean = 10, sd = 2)` > `xqnorm(0.9, mean = 10, sd = 2)`
+* `qnorm(0.1, mean = 10, sd = 2)` < `qnorm(0.9, mean = 10, sd = 2)`
+* `qnorm(0.1, mean = 10, sd = 2)` = `qnorm(0.9, mean = 10, sd = 2)`
+* `qnorm(0.1, mean = 10, sd = 2)` > `qnorm(0.9, mean = 10, sd = 2)`
 
 
 
