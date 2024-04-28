@@ -1,6 +1,7 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
 
+set.seed(123)
 alter <- rnorm(100, mean = 23, sd = 2)
 Stichprobe <- data.frame(alter)
 ```

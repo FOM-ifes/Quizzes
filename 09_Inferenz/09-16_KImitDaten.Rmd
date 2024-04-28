@@ -1,0 +1,49 @@
+```{r data generation, echo = FALSE, results = "hide"}
+library(mosaic)
+
+set.seed(123)
+alter <- rnorm(100, mean = 23, sd = 2)
+Stichprobe <- data.frame(alter)
+```
+
+Question
+========
+
+Für eine Stichprobe gilt:
+
+```{r, eval=FALSE}
+mean( ~ alter, data = Stichprobe)
+confint(Stichprobe)
+```
+```{r, echo=FALSE}
+mosaic::mean( ~ alter, data = Stichprobe)
+ki95 <- confint(Stichprobe)
+ki95
+```
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+
+* Das Intervall von `r round(ki95$lower, 2)` bis `r round(ki95$upper, 2)` zeigt einen mit den Daten kompatiblen Wertebereich für den Mittelwert der Stichprobe.
+* Das Intervall von `r round(ki95$lower, 2)` bis `r round(ki95$upper, 2)` zeigt einen mit den Daten kompatiblen Wertebereich für den Erwartungswert der Stichprobe.
+* Das Intervall von `r round(ki95$lower, 2)` bis `r round(ki95$upper, 2)` zeigt einen mit den Daten kompatiblen Wertebereich für den Erwartungswert der Population.
+
+
+Solution
+========
+
+Konfidenzintervalle zeigen einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters (hier Erwartungswert = Mittelwert) in der Population. 
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: KI mit Daten
+extype: schoice
+exsolution: 001

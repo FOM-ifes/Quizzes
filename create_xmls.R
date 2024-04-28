@@ -142,7 +142,8 @@ Wdh_Inferenz_1 = c("09_Inferenz/09-11_Parameter.Rmd",
                    "09_Inferenz/09-12_ParameterStipro.Rmd", 
                    "09_Inferenz/09-13_Schaetzer.Rmd", 
                    "09_Inferenz/09-14_SE.Rmd", 
-                   "09_Inferenz/09-15_Konfidenzintervall.Rmd"),
+                   "09_Inferenz/09-15_Konfidenzintervall.Rmd",
+                   "09_Inferenz/09-16_KImitDaten.Rmd"),
 
 # Inferenz: Testen
 Wdh_Inferenz_2 = c("09_Inferenz/09-21_Nullhypothese.Rmd", 
@@ -173,7 +174,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_LinReg_2b"
+quiz <- "Wdh_Inferenz_1"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle
