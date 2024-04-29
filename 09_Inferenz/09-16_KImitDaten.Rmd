@@ -1,7 +1,7 @@
 ```{r data generation, echo = FALSE, results = "hide"}
 library(mosaic)
 
-set.seed(1896)
+set.seed(123)
 alter <- rnorm(100, mean = 23, sd = 2)
 Stichprobe <- data.frame(alter)
 mu <- round(confint(Stichprobe)$upper)+2
@@ -22,7 +22,7 @@ ki95 <- confint(Stichprobe)
 ki95
 ```
 
-Stimmt die Aussage: $\mu=`r mu`$ ist ein zu den Daten kompatibler Wert für den Mittelwert in der Population?
+Stimmt die Aussage: $\mu=`r mu`$ ist ein zu den Daten kompatibler Wert für den Erwartungswert (= Mittelwert) in der Population?
 
 Answerlist
 ----------
@@ -37,7 +37,7 @@ Solution
 
 Konfidenzintervalle zeigen einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters (hier Erwartungswert = Mittelwert) in der Population. 
 
-$\mu=`r mu`$ liegt nicht innerhalb des geschätzten 95% Konfidenzintervalls.
+$\mu=`r mu`$ liegt nicht innerhalb des geschätzten 95%-Konfidenzintervalls, das von `r round(ki95$lower, 2)` bis `r round(ki95$upper, 2)` geht.
 
 Answerlist
 ----------

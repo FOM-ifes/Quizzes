@@ -41,7 +41,7 @@ Solution
 Der Koeffizient (`Estimate`) für `alter` ist positiv, d.$\,$h., mit zunehmenden Alter steigen im Modell der Stichprobe im Mittel die Ausgaben.
 Der Koeffizient für die Indikatorvariable `geschlechtw` (weiblich) ist positiv, daher sind die Ausgaben im Vergleich zur Referenzkategorie `m` (männlich) im Modell der Stichprobe für `w` im Mittel höher.
 
-Darüber hinaus sind die p-Werte (Spalte `Pr(>|t|)`) für beide Variablen klein. Die Daten sind damit nicht kompatibel zu den Nullhypothesen $\beta_{alter}=0$ und $\beta_{geschlechtw}=0$.
+Darüber hinaus sind die p-Werte (Spalte `Pr(>|t|)`) für beide Variablen klein. Die Daten sind damit nicht kompatibel zu den Nullhypothesen $\beta_{alter}=0$ und $\beta_{geschlechtw}=0$ (kein Zusammenhang).
 
 Answerlist
 ----------
