@@ -1,7 +1,7 @@
 Question
 ========
 
-Wie entwickelt sich der Standardfehler $se$ mit zunehmenden Stichprobenumfang $n$ ($n \rightarrow \infty$)?
+Wie entwickelt sich der Standardfehler $se$ mit zunehmenden Stichprobenumfang $n$ $(n \rightarrow \infty)$?
 
 Answerlist
 ----------
