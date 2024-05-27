@@ -32,7 +32,7 @@ Answerlist
 * Männliche, ältere Kunden
 * Weibliche, jüngere Kundinnen
 * Weibliche, ältere Kundinnen
-* Geschlecht und Alter stehen in keinem Zusammenhang mit den Ausgaben
+* Geschlecht und Alter stehen in der Population in keinem Zusammenhang mit den Ausgaben.
 
 
 Solution
@@ -41,7 +41,7 @@ Solution
 Der Koeffizient (`Estimate`) für `alter` ist positiv, d.$\,$h., mit zunehmenden Alter steigen im Modell der Stichprobe im Mittel die Ausgaben.
 Der Koeffizient für die Indikatorvariable `geschlechtw` (weiblich) ist positiv, daher sind die Ausgaben im Vergleich zur Referenzkategorie `m` (männlich) im Modell der Stichprobe für `w` im Mittel höher.
 
-Darüber hinaus sind die p-Werte (Spalte `Pr(>|t|)`) für beide Variablen klein. Die Daten sind damit nicht kompatibel zu den Nullhypothesen $\beta_{alter}=0$ und $\beta_{geschlechtw}=0$ (kein Zusammenhang).
+Darüber hinaus sind die p-Werte (Spalte `Pr(>|t|)`) für beide Variablen klein. Die Daten sind damit nicht kompatibel zu den Nullhypothesen $\beta_{alter}=0$ und $\beta_{geschlechtw}=0$ (kein Zusammenhang). Damit spricht das Ergebnis für einen Zusammenhang in der Population.
 
 Answerlist
 ----------

@@ -28,7 +28,7 @@ erglm <- lm(zins ~ laufzeit + h.ausfall, data = Kredit)
 summary(erglm)
 ```
 
-Bei welcher Ausprägung der Variable `h.ausfall` ist der modellierte Zinssatz im Modell der Stichprobe höher?
+Bei welcher Ausprägung der Variable `h.ausfall` ist der modellierte Zinssatz im Modell der Stichprobe im Mittel höher?
 
 Answerlist
 ----------

@@ -9,7 +9,7 @@ library(mosaic)
 Question
 ========
 
-Für den Korrelationskoeffizienten $r_{xy}$ zwischen dem Alter ($x$) und dem Ticketpreis ($y$) gilt:
+Für den Korrelationskoeffizienten $r_{xy}$ zwischen dem Alter $(x)$ und dem Ticketpreis $(y)$ gilt:
 
 
 ```{r, warning=FALSE}
