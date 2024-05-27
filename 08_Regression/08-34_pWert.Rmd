@@ -39,6 +39,9 @@ Solution
 
 Der p-Wert ist die Wahrscheinlichkeit dafür, dass ein Wert auftritt, der mindestens so weit vom Wert der Nullhypothese (hier $\beta_\text{dayTypeweekend} = 0$) entfernt ist, wie der in der Stichprobe beobachtete Punktschätzer (hier $\hat\beta_\text{dayTypeweekend} \approx `r coef(erglm)[2] |> round(2)`$).
 
+Der p-Wert ist somit die bedingte Wahrscheinlichkeit $Pr(\delta^*|H_0)$ (*zur Erinnerung:* $\delta^*$ bezeichnet einen beliebigen Punktschätzer).
+In der zu bewerteten Aussage wird sich aber auf $Pr(H_0|\delta^*)$ bezogen.
+
 Answerlist
 ----------
 * Falsch
