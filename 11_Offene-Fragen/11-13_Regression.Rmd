@@ -16,7 +16,7 @@ Eval <- evals |>
 Question
 ========
 
-Im Rahmen einer Studie wurden für 94 Lehrende die Evaluierungsergebnisse untersucht. Die Variable `score` (Evaluierung, je höher desto besser), `beauty` (Bewertung des Aussehens, je höher desto besser) sowie `gender`mit den Ausprägungen `male` und `female`. Für Details siehe [hier](https://www.openintro.org/data/index.php?data=evals), zugehöriges Paper siehe [hier](https://doi.org/10.1016/j.econedurev.2004.07.013).
+Im Rahmen einer Studie wurden für 94 Lehrende die Evaluierungsergebnisse untersucht. Die Variable `score` (Evaluierung, je höher desto besser), `beauty` (Bewertung des Aussehens, je höher desto besser) sowie `gender` mit den Ausprägungen `male` und `female`. Für Details siehe [hier](https://www.openintro.org/data/index.php?data=evals), zugehöriges Paper siehe [hier](https://doi.org/10.1016/j.econedurev.2004.07.013).
 
 Eine lineare Regression des Evaluierungsergebnisses auf die Schönheit und das Geschlecht ergibt folgendes Ergebnis:
 
