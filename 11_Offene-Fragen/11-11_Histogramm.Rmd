@@ -7,7 +7,7 @@ library(Pareto)
 ```{r data generation, echo = FALSE, results = "hide"}
 # Random Data
 set.seed(1896)
-n <- 1000
+n <- 200
 rt <- 50
 ra <- 4
 x <- rPareto(n, rt, ra)
