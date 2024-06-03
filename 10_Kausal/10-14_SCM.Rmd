@@ -47,8 +47,6 @@ DAG_C <- dagify(B ~ C + A,
   theme_dag_blank() +
   geom_dag_edges(arrow_directed = grid::arrow(length = grid::unit(12, "pt"), type = "closed")) +
   ggtitle("Abbildung C")
-
-DAGS <- gridExtra::grid.arrange(DAG_A, DAG_B, DAG_C, nrow = 1)
 ```
 
 Question
@@ -63,7 +61,7 @@ Angenommen es gelten folgende kausalen Abhängigkeiten:
 Welche Abbildung zeigt das entsprechenden kausale Diagramm?
 
 ```{r, echo=FALSE, fig.cap="", fig.height=4, fig.width=12, out.width="80%"}
-plot(DAGS)
+gridExtra::grid.arrange(DAG_A, DAG_B, DAG_C, nrow = 1)
 ```
 
 
