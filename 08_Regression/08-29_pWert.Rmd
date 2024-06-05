@@ -34,7 +34,7 @@ pWert <- prop(~ (abs(wt) >= abs(beta1dach)), data = Nullvtlg)
 pWert
 ```
 
-In keiner der 1000 Simulationen ist ein so extremer Wert aufgetreten wie der in der Stichprobe beobachtete Punktschätzer, daher ist der p-Wert < 1/1000.
+In keiner der 1000 Simulationen ist ein so extremer Wert aufgetreten wie der in der Stichprobe beobachtete Punktschätzer, daher ist der p-Wert kleiner als 1/1000.
 
 Stimmt folgende Aussage?
 
