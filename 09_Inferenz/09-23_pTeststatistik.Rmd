@@ -1,7 +1,10 @@
 Question
 ========
 
-Zwei Stichproben $A$ und $B$ aus derselben Population, $H_0: \mu = \mu_0$, in Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ größer als in Stichprobe $B$.
+Zwei Stichproben $A$ und $B$ werden aus derselben Population gezogen um $H_0: \mu = \mu_0$ zu prüfen. 
+
+In Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ ein Standardfehler, in Stichprobe $B$ beträgt der Abstand zwei Standardfehler.
+
 Welche Aussage trifft zui?
 
 Answerlist
