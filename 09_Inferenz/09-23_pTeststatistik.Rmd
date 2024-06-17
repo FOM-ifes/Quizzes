@@ -1,9 +1,7 @@
 Question
 ========
 
-Zwei Stichproben $A$ und $B$ werden aus derselben Population gezogen um $H_0: \mu = \mu_0$ zu prüfen. 
-
-In Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ ein Standardfehler, in Stichprobe $B$ beträgt der Abstand zwei Standardfehler.
+Zwei Stichproben $A$ und $B$ werden aus derselben Population, $H_0: \mu = \mu_0$ gezogen, mit $n_A=n_B$. In Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ (deutlich) größer als in Stichprobe $B$.
 
 Welche Aussage trifft zui?
 
@@ -16,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Desto weiter weg der in der Stichprobe beobachtete Wert $\bar{x}$ von dem unter der $H_0$ erwarteten Wert $\mu_0$ liegt, desto unwahrscheinlicher ist es (c.$\,$p.), solche oder noch extremere Stichprobenstatistiken zu beobachten, wenn die $H_0$ zutreffen würde.
+Bei gleichem Standarfehler gilt, desto weiter weg der in der Stichprobe beobachtete Wert $\bar{x}$ von dem unter der $H_0$ erwarteten Wert $\mu_0$ liegt, desto unwahrscheinlicher ist es (c.$\,$p.), solche oder noch extremere Stichprobenstatistiken zu beobachten, wenn die $H_0$ zutreffen würde.
 Damit ist der p-Wert kleiner.
 
 Answerlist
