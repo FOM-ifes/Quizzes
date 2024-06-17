@@ -1,26 +1,15 @@
 ```{r libs, include = FALSE}
 library(mosaic)
-library(Pareto)
+data("Titanic")
 ```
-
-
-```{r data generation, echo = FALSE, results = "hide"}
-# Random Data
-set.seed(1896)
-n <- 200
-rt <- 50
-ra <- 4
-x <- rPareto(n, rt, ra)
-```
-
 
 Question
 ========
 
-Für die Schadenssumme von Versicherungsfällen ergibt sich folgendes Histogramm:
+Für die Überlebenden und die Klasse auf der Titatic ergibt sich folgender Mosaikplot:
 
 ```{r, fig.cap=""}
-gf_histogram( ~ x)
+mosaicplot(~ Class + Survived, data = Titanic, color = TRUE)
 ```
 
 Was können Sie der Abbildung entnehmen?
@@ -28,12 +17,13 @@ Was können Sie der Abbildung entnehmen?
 Solution
 ========
 
-Die Verteilung der Schadenssumme ist
+- X-Achse
+  - Die Crew-Mitglieder stellen die größte Gruppe, gefolgt von der dritten Klasse. 
+  - Deutlich weniger Reisende sind in der ersten und zweiten Klasse.
+- Y-Achse
+  - Der Anteil der Überlebenden ist in der ersten Klasse am größten (über 50 %), gefolgt von der zweiten Klasse (unter 50 %). 
+  - Anteilig die wenigsten Überlebenden gab es in der dritten Klasse und bei der Crew.
 
-- unimodal
-- rechtsschief
-- Schwerpunkt der Verteilung zwischen ca. 50 und 75.
-- Spannweite ca. zwischen 50 und 275.
 
 Meta-information
 ================

@@ -78,14 +78,6 @@ Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-37_Titanic-favstats1.Rmd",
                    "06_EDA/06-38_Titanic-favstats2.Rmd"),
 
-# EDA: Kennzahlen
-Wdh_EDA_3x      = c("06_EDA/06-31_Visualisierung.Rmd",
-                   "06_EDA/06-34_Rueckschluss.Rmd",
-                   "06_EDA/06-35_Ausreisser.Rmd", 
-                   "06_EDA/06-36_Lagemass.Rmd",
-                   "06_EDA/06-37_Titanic-favstats1.Rmd",
-                   "06_EDA/06-38_Titanic-favstats2.Rmd"),
-
 # EDA: Zusammenhang zwischen metrischen Daten
 Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
                    "06_EDA/06-42_Titanic-Korrelation.Rmd",
@@ -162,8 +154,10 @@ Wdh_Kausal_1   = c("10_Kausal/10-11_Counterfactual.Rmd",
                    "10_Kausal/10-17_Annahme.Rmd"),
 
 Wdh_Offen_1    = c("11_Offene-Fragen/11-11_Histogramm.Rmd", 
-                   "11_Offene-Fragen/11-12_Inferenz.Rmd",
-                   "11_Offene-Fragen/11-13_Regression.Rmd"),
+                   "11_Offene-Fragen/11-12_Boxplot.Rmd",
+                   "11_Offene-Fragen/11-13_Mosaikplot.Rmd",
+                   "11_Offene-Fragen/11-14_Inferenz.Rmd",
+                   "11_Offene-Fragen/11-15_Regression.Rmd"),
 
 Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
                    "12_LogRegression/12-12_Signifikanz.Rmd",
@@ -174,9 +168,9 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Inferenz_1"
+quiz <- "Wdh_Offen_1"
 # html
-exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
+exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 

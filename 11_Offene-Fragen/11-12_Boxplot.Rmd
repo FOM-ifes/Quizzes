@@ -6,21 +6,22 @@ library(Pareto)
 
 ```{r data generation, echo = FALSE, results = "hide"}
 # Random Data
-set.seed(1896)
+set.seed(123)
 n <- 200
-rt <- 50
-ra <- 4
+rt <- 10
+ra <- 8
 x <- rPareto(n, rt, ra)
+x <- max(x)*2 - x
 ```
 
 
 Question
 ========
 
-Für die Schadenssumme von Versicherungsfällen ergibt sich folgendes Histogramm:
+Für die Ankunftszeiten der Läufer beim 5-km-Lauf ergibt sich folgender Boxplot:
 
 ```{r, fig.cap=""}
-gf_histogram( ~ x)
+gf_boxplot( ~ x)
 ```
 
 Was können Sie der Abbildung entnehmen?
@@ -28,12 +29,13 @@ Was können Sie der Abbildung entnehmen?
 Solution
 ========
 
-Die Verteilung der Schadenssumme ist
-
-- unimodal
-- rechtsschief
-- Schwerpunkt der Verteilung zwischen ca. 50 und 75.
-- Spannweite ca. zwischen 50 und 275.
+- Median bei ca. 27.3
+- Q1 bei ca. 26.3
+- Q3 bei ca. 27.7
+- Minimum bei ca. 19
+- Maximum bei ca. 28.2
+- Nach unten hin gibt es potentielle Ausreißer (Punkte unterhalb der Antennen).
+- Die Verteilung ist linksschief.
 
 Meta-information
 ================
