@@ -5,7 +5,7 @@ Zwei Stichproben $A$ und $B$ werden aus derselben Population gezogen um $H_0: \m
 
 In Stichprobe $A$ ist der Abstand zwischen $\bar{x}$ und $\mu_0$ ein Standardfehler, in Stichprobe $B$ beträgt der Abstand zwei Standardfehler.
 
-Welche Aussage trifft zui?
+Welche Aussage trifft zu?
 
 Answerlist
 ----------
