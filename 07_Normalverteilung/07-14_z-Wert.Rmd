@@ -5,18 +5,18 @@ library(mosaic)
 Question
 ========
 
-Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Welchen z-Wert hat eine Beobachtung mit $x=6$?
+Bei einer Normalverteilung mit $\mu=10$ und $\sigma=2$. Welchen z-Wert hat eine Beobachtung mit $x=4$?
 
 
 
 Solution
 ========
 
-$z=\frac{x-\mu}{\sigma}=\frac{6-10}{2}=-2$
+$z=\frac{x-\mu}{\sigma}=\frac{4-10}{2}=-3$
 
 
 Meta-information
 ================
 exname: z-Wert
 extype: num
-exsolution: -2
+exsolution: -3
