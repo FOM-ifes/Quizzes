@@ -20,7 +20,7 @@ Für uns hier relevant:
 
 Es soll ein lineares Modell mit der Reichweite `mpg` als abhängige Variable ($y$) und dem Gewicht `wt` als unabhängige Variable ($x$) gebildet werden.
 
-Was würde gelten, wenn es in der Population keinen linearen Zusammenhang zwischen dem Verbrauch und dem Gewicht geben würde?
+Was würde gelten, wenn es in der Population keinen linearen Zusammenhang zwischen der Reichweite und dem Gewicht geben würde?
 
 Answerlist
 ----------
