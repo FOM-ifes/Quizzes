@@ -161,14 +161,20 @@ Wdh_Offen_1    = c("11_Offene-Fragen/11-11_Histogramm.Rmd",
 
 Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
                    "12_LogRegression/12-12_Signifikanz.Rmd",
-                   "12_LogRegression/12-13_ModellVergleich.Rmd")
+                   "12_LogRegression/12-13_ModellVergleich.Rmd"),
+
+Wdh_Bayes      = c("13_Bayes/Prior-1.Rmd", "13_Bayes/Prior-2.Rmd", "13_Bayes/Prior-3.Rmd",
+                     "13_Bayes/Like-1.Rmd", "13_Bayes/Like-2.Rmd", "13_Bayes/Like-3.Rmd",
+                     "13_Bayes/Post-1.Rmd", "13_Bayes/Post-2.Rmd", "13_Bayes/Post-3.Rmd")
 )
+
+
 
 # Anzahl Fragen ausgeben
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Offen_1"
+quiz <- "Wdh_Bayes"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
 # moodle

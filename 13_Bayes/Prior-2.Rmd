@@ -1,0 +1,78 @@
+```{r setup, include=FALSE}
+library(mosaic)
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+```
+
+Question
+========
+
+Bei welchen Parametern der Beta-Prior-Verteilung ist die Sicherheit am größten, dass $\pi=0.5$ ist?
+
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
+Answerlist
+----------
+* $\alpha_{prior}=\beta_{prior}=2$. 
+* $\alpha_{prior}=\beta_{prior}=20$. 
+* $\alpha_{prior}=\beta_{prior}=200$.
+* Der Modus der Prior-Verteilung liegt nicht bei $\pi=0.5$.
+
+
+Solution
+========
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 2
+beta_prior <- 2
+
+# Dichte
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+# Visualisierung
+gf_line(d_prior ~ ppi,
+         color= "#D55E00", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(f(pi)),
+          title = paste0("Beta(", alpha_prior, ", " , beta_prior, ")"))
+```
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 20
+beta_prior <- 20
+
+# Dichte
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+# Visualisierung
+gf_line(d_prior ~ ppi,
+         color= "#D55E00", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(f(pi)),
+          title = paste0("Beta(", alpha_prior, ", " , beta_prior, ")"))
+```
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 200
+beta_prior <- 200
+
+# Dichte
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+# Visualisierung
+gf_line(d_prior ~ ppi,
+         color= "#D55E00", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(f(pi)),
+          title = paste0("Beta(", alpha_prior, ", " , beta_prior, ")"))
+```
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Prior 2
+extype: schoice
+exsolution: 0010

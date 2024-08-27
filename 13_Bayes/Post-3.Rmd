@@ -1,0 +1,157 @@
+```{r setup, include=FALSE}
+library(mosaic)
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+
+# Quelle: bayesrules::plot_beta_binomial
+like_scaled <- function(x) {
+  like_fun <- function(x) {
+    dbinom(x = y, size = n, prob = x)}
+  scale_c <- integrate(like_fun, lower = 0, upper = 1)[[1]]
+  like_fun(x)/scale_c}
+```
+
+Question
+========
+
+Als Parameter der Prior-Verteilung wurden $\alpha_{prior}=2$ und $\beta_{prior}=4$ verwendet.
+
+Was passiert in Bezug auf die Posterior-Verteilung bei konstantem $p=\frac{y}{n}=0.75$, wenn die Anzahl der Versuche $n$ steigt?
+
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
+Answerlist
+----------
+* Die Posterior-Verteilung nähert sich der Prior-Verteilung an.
+* Die Posterior-Verteilung nähert sich der skalierten Likelihood an.
+* Die Posterior-Verteilung ändert sich nicht.
+
+
+Solution
+========
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 2
+beta_prior <- 4
+
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+n <- 8
+y <- 6
+
+alpha_post <- alpha_prior + y
+beta_post <- beta_prior + n - y
+
+d_post <- dbeta(ppi, shape1 = alpha_post, shape2 = beta_post)
+
+mydata <- data.frame(
+  pi = ppi,
+  prior = d_prior,
+  like = like_scaled(ppi),
+  post = d_post)
+
+plot_d <- ggplot(
+      data = mydata) +
+  geom_line(aes(x = pi, y = post, color= "Posterior"), linewidth = 1.2, alpha = 0.8) + 
+  geom_line(aes(x = pi, y = like, color= "Likelihood"), linewidth = 1.2, alpha = 0.8) +
+  geom_line(aes(x = pi, y = prior, color= "Prior"), linewidth = 1.2, alpha = 0.8) +
+  labs(y=NULL, x = expression(pi),
+       title = paste0("n = ", n, " und y = " , y)) +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  scale_color_manual(name='',
+                     breaks = c('Prior', 'Likelihood', 'Posterior'),
+                     values = c('Posterior'='#009E73', 'Likelihood'='#CC79A7', 'Prior'='#D55E00'))
+
+
+plot_d
+```
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 2
+beta_prior <- 4
+
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+n <- 80
+y <- 60
+
+alpha_post <- alpha_prior + y
+beta_post <- beta_prior + n - y
+
+d_post <- dbeta(ppi, shape1 = alpha_post, shape2 = beta_post)
+
+mydata <- data.frame(
+  pi = ppi,
+  prior = d_prior,
+  like = like_scaled(ppi),
+  post = d_post)
+
+plot_d <- ggplot(
+      data = mydata) +
+  geom_line(aes(x = pi, y = post, color= "Posterior"), linewidth = 1.2, alpha = 0.8) + 
+  geom_line(aes(x = pi, y = like, color= "Likelihood"), linewidth = 1.2, alpha = 0.8) +
+  geom_line(aes(x = pi, y = prior, color= "Prior"), linewidth = 1.2, alpha = 0.8) +
+  labs(y=NULL, x = expression(pi),
+       title = paste0("n = ", n, " und y = " , y)) +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  scale_color_manual(name='',
+                     breaks = c('Prior', 'Likelihood', 'Posterior'),
+                     values = c('Posterior'='#009E73', 'Likelihood'='#CC79A7', 'Prior'='#D55E00'))
+
+
+plot_d
+```
+
+
+```{r, echo=FALSE, fig.cap=""}
+alpha_prior <- 2
+beta_prior <- 4
+
+d_prior <- dbeta(ppi, shape1 = alpha_prior, shape2 = beta_prior)
+
+n <- 800
+y <- 600
+
+alpha_post <- alpha_prior + y
+beta_post <- beta_prior + n - y
+
+d_post <- dbeta(ppi, shape1 = alpha_post, shape2 = beta_post)
+
+mydata <- data.frame(
+  pi = ppi,
+  prior = d_prior,
+  like = like_scaled(ppi),
+  post = d_post)
+
+plot_d <- ggplot(
+      data = mydata) +
+  geom_line(aes(x = pi, y = post, color= "Posterior"), linewidth = 1.2, alpha = 0.8) + 
+  geom_line(aes(x = pi, y = like, color= "Likelihood"), linewidth = 1.2, alpha = 0.8) +
+  geom_line(aes(x = pi, y = prior, color= "Prior"), linewidth = 1.2, alpha = 0.8) +
+  labs(y=NULL, x = expression(pi),
+       title = paste0("n = ", n, " und y = " , y)) +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  scale_color_manual(name='',
+                     breaks = c('Prior', 'Likelihood', 'Posterior'),
+                     values = c('Posterior'='#009E73', 'Likelihood'='#CC79A7', 'Prior'='#D55E00'))
+
+
+plot_d
+```
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+Meta-information
+================
+exname: Post 3
+extype: schoice
+exsolution: 010

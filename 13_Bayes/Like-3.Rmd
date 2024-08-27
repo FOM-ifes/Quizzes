@@ -1,0 +1,75 @@
+```{r setup, include=FALSE}
+library(mosaic)
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+```
+
+Question
+========
+
+Was passiert in Bezug auf die Likelihood bei konstantem $p=\frac{y}{n}$, wenn die Anzahl der Versuche $n$ steigt?
+
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
+Answerlist
+----------
+* Die Likelihood wandert nach rechts.
+* Die Likelihood wandert nach links.
+* Die Likelihood wird breiter.
+* Die Likelihood wird schmaler.
+
+
+Solution
+========
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 5
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y)) |>
+  gf_vline(xintercept = 0.25)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 200
+y <- 50
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.25)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 2000
+y <- 500
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.25)
+```
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Like 2
+extype: schoice
+exsolution: 0001

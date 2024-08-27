@@ -1,0 +1,73 @@
+```{r setup, include=FALSE}
+library(mosaic)
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+```
+
+Question
+========
+
+Was passiert in Bezug auf den Wert des Maximum-Likelihood-Schätzers bei konstantem $n$, wenn die Anzahl der Erfolge $y$ steigt?
+
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
+Answerlist
+----------
+* Der Wert des Maximum-Likelihood-Schätzers wird kleiner.
+* Der Wert des Maximum-Likelihood-Schätzers bleibt gleich.
+* Der Wert des Maximum-Likelihood-Schätzers wird größer.
+
+
+Solution
+========
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 5
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y)) |>
+  gf_vline(xintercept = 0.25)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 10
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.5)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 15
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.75)
+```
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+
+
+Meta-information
+================
+exname: Like 2
+extype: schoice
+exsolution: 001

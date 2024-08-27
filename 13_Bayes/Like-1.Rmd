@@ -1,0 +1,75 @@
+```{r setup, include=FALSE}
+library(mosaic)
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+```
+
+Question
+========
+
+Bei welchen Daten ist die Binomial-Likelihood an der Stelle $\pi=0.25$ am höchsten?
+
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
+Answerlist
+----------
+* $n=20, y=5$. 
+* $n=20, y=10$.
+* $n=20, y=15$.
+* Bei allen Daten gleich.
+
+
+Solution
+========
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 5
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y)) |>
+  gf_vline(xintercept = 0.25)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 10
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.25)
+```
+
+```{r, echo=FALSE, fig.cap=""}
+n <- 20
+y <- 15
+like <- dbinom(y, n, ppi)
+
+# Visualisierung
+gf_line(like ~ ppi,
+        color= "#CC79A7", linewidth = 1.2) |>
+  gf_labs(x = expression(pi), y = expression(L(pi)), 
+          title = paste0("n = ", n, " und y = " , y))|>
+  gf_vline(xintercept = 0.25)
+```
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: Like 1
+extype: schoice
+exsolution: 1000
