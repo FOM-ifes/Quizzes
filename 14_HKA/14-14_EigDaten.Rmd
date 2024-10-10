@@ -1,0 +1,31 @@
+Question
+========
+
+Welches Ergebnis weist darauf hin, dass die Daten nicht für eine Hauptkomponentenanalyse geeignet sind?
+
+Answerlist
+----------
+* Der KMO-Wert liegt unter 0,5.
+* Der Bartlett-Test ist signifikant (p < 0,05).
+* Die Eigenwerte der ersten beiden Komponenten sind größer als 1.
+* Die Korrelationsmatrix enthält viele stark miteinander korrelierte Variablen.
+
+
+Solution
+========
+
+Damit Daten für eine HKA geeignet sind, sollte das Ergebnis des KMO-Kriteriums einen Wert von 0.5 nicht unterschreiten.
+
+Answerlist
+----------
+* Richtig
+* Falsch
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: Eignung der Daten für HKA
+extype: schoice
+exsolution: 0001

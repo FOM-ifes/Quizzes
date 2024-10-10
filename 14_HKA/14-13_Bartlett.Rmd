@@ -1,0 +1,31 @@
+Question
+========
+
+Was misst der Bartlett-Test in Bezug auf die Hauptkomponentenanalyse?
+
+Answerlist
+----------
+* Ob die Varianz der Hauptkomponenten identisch ist.
+* Wie viele Hauptkomponenten vor dem Knick des Graphen liegen. 
+* Ob die Korrelationsmatrix eine Einheitsmatrix ist.
+* Wie viele Eigenwerte größer als 1 sind.
+
+
+Solution
+========
+
+Der Bartlett-Test überprüft, ob sich die Korrelationsmatrix von einer Einheitsmatrix unterscheiden und die Daten somit korreliert sind.
+
+Answerlist
+----------
+* Falsch
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Bartlett-Test
+extype: schoice
+exsolution: 0001
