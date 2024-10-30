@@ -7,7 +7,8 @@ Answerlist
 ----------
 * Dass die Punkte innerhalb jedes Clusters näher beieinander liegen und somit eine höhere Dichte aufweisen. 
 * Dass die Punkte innerhalb jedes Clusters weiter auseinander liegen und somit eine niedrigere Dichte aufweisen.
-* Dass die Punkte innerhalb jedes Clusters weiter auseinander liegen und somit eine höhere Dichte aufweisen. 
+* Dass die Punkte innerhalb jedes Clusters weiter auseinander liegen und somit eine höhere Dichte aufweisen.
+* Dass die Punkte innerhalb jedes Clusters näher beieinander liegen und somit eine niedrigere Dichte aufweisen.
 
 
 Solution
@@ -16,6 +17,7 @@ Solution
 Answerlist
 ----------
 * Richtig.
+* Falsch.
 * Falsch.
 * Falsch.
 
