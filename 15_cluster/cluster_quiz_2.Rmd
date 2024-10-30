@@ -1,0 +1,23 @@
+Question
+========
+  
+Wofür steht WCSS bei der Clusteranalyse?
+  
+Answerlist
+----------
+* Without Cluster Sum of Squares.
+* Within Cluster Sum of Squares.
+
+Solution
+========
+  
+Answerlist
+----------
+* Falsch
+* Richtig.
+
+Meta-information
+================
+exname: cluster_quiz_2
+extype: schoice
+exsolution: 0100

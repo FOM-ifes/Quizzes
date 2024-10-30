@@ -1,0 +1,28 @@
+Question
+========
+  
+Was bedeutet ein niedriger WCSS-Wert?
+
+Answerlist
+----------
+* Dass die Punkte innerhalb jedes Clusters näher beieinander liegen und somit eine höhere Dichte aufweisen. 
+* Dass die Punkte innerhalb jedes Clusters weiter auseinander liegen und somit eine niedrigere Dichte aufweisen.
+* Dass die Punkte innerhalb jedes Clusters weiter auseinander liegen und somit eine höhere Dichte aufweisen.
+* Dass die Punkte innerhalb jedes Clusters näher beieinander liegen und somit eine niedrigere Dichte aufweisen.
+
+
+Solution
+========
+  
+Answerlist
+----------
+* Richtig.
+* Falsch.
+* Falsch.
+* Falsch.
+
+Meta-information
+================
+exname: cluster_quiz_3
+extype: schoice
+exsolution: 0100
