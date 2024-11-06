@@ -1,0 +1,31 @@
+Question
+========
+
+Was ist die grundlegende Idee des Random-Forest-Algorithmus?
+
+Answerlist
+----------
+* Einen einzigen sehr tiefen Entscheidungsbaum zu trainieren.
+* Mehrere Entscheidungsbäume zu trainieren und deren Ergebnisse zu kombinieren.
+* Den verwendeten Datensatz in immer gleiche Subdatensätze zu teilen.
+* Nur die aussagekräftigsten Merkmale des Datensatzes zu verwenden.
+
+
+Solution
+========
+
+Die grundlegende Idee des Random-Forest-Algorithmus ist es verschiedene Entscheidungsbäume zu trainieren und diese zu einer Vorhersage zu aggregieren.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+* Falsch
+
+
+Meta-information
+================
+exname: RF Idee
+extype: schoice
+exsolution: 0001
