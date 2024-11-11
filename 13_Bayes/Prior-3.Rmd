@@ -8,6 +8,8 @@ Question
 
 Welche Parameter liegen folgender Beta-Verteilung zugrunde?
 
+*Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
+
 ```{r, echo=FALSE, fig.cap=""}
 alpha_prior <- 10
 beta_prior <- 5
