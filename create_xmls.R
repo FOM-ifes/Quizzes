@@ -163,9 +163,15 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
                    "12_LogRegression/12-12_Signifikanz.Rmd",
                    "12_LogRegression/12-13_ModellVergleich.Rmd"),
 
-Wdh_Bayes      = c("13_Bayes/Prior-1.Rmd", "13_Bayes/Prior-2.Rmd", "13_Bayes/Prior-3.Rmd",
-                     "13_Bayes/Like-1.Rmd", "13_Bayes/Like-2.Rmd", "13_Bayes/Like-3.Rmd",
-                     "13_Bayes/Post-1.Rmd", "13_Bayes/Post-2.Rmd", "13_Bayes/Post-3.Rmd")
+Wdh_Bayes      = c("13_Bayes/Prior-1.Rmd", 
+                   "13_Bayes/Prior-2.Rmd", 
+                   "13_Bayes/Prior-3.Rmd",
+                   "13_Bayes/Like-1.Rmd", 
+                   "13_Bayes/Like-2.Rmd", 
+                   "13_Bayes/Like-3.Rmd",
+                   "13_Bayes/Post-1.Rmd", 
+                   "13_Bayes/Post-2.Rmd", 
+                   "13_Bayes/Post-3.Rmd")
 )
 
 
