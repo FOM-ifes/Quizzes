@@ -1,14 +1,14 @@
 Question
 ========
 
-Wie unterscheiden sich die Subdatensätze auf denen die Entscheidungsbäume im Random-Forest-Algorithmus trainiert werden?
+Wie unterscheiden sich die Subdatensätze, auf denen die Entscheidungsbäume im Random-Forest-Algorithmus trainiert werden?
 
 Answerlist
 ----------
-* Unterschiedliche Zusammensetzung der Beobachtungen und Variablen
-* Nur unterschiedliche Zusammensetzung der Beobachtungen
-* Nur unterschiedliche Zusammensetzung der Variablen
-* Jeder Entscheidungsbaum bekommt den gleichen Subdatensatz
+* unterschiedliche Zusammensetzung der Beobachtungen und Variablen
+* nur unterschiedliche Zusammensetzung der Beobachtungen
+* nur unterschiedliche Zusammensetzung der Variablen
+* Jeder Entscheidungsbaum bekommt den gleichen Subdatensatz.
 
 
 Solution
@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: Subdatensätze
 extype: schoice
-exsolution: 0001
+exsolution: 0100

@@ -5,10 +5,10 @@ Für welche Art von Problemen können Entscheidungsbäume eingesetzt werden?
 
 Answerlist
 ----------
-* Nur für Klassifikationsprobleme
-* Nur für Regressionsprobleme
-* Für Klassifikations- und Regressionsprobleme
-* Für keins dieser Probleme
+* nur für Klassifikationsprobleme
+* nur für Regressionsprobleme
+* für Klassifikations- und Regressionsprobleme
+* für keins dieser Probleme
 
 
 Solution
@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: Entscheidungsbaum
 extype: schoice
-exsolution: 0001
+exsolution: 0010

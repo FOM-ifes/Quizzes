@@ -13,7 +13,7 @@ Answerlist
 Solution
 ========
 
-Die Lernrate (Learning Rate) ist kein Hyperparameter des Random-Forest-Algorithmus. Die Anzahl der Entscheidungsbäume im Algorithmus (ntree)und die Anzahl der Prädiktorvariablen an jedem Split (mtry) schon.
+Die Lernrate (Learning Rate) ist kein Hyperparameter des Random-Forest-Algorithmus. Die Anzahl der Entscheidungsbäume im Algorithmus (ntree) und die Anzahl der Prädiktorvariablen an jedem Split (mtry) können hingegen eingestellt werden.
 
 Answerlist
 ----------
@@ -26,4 +26,4 @@ Meta-information
 ================
 exname: Hyperparameter
 extype: schoice
-exsolution: 0001
+exsolution: 001
