@@ -12,9 +12,9 @@ Bei welchen Daten ist die Binomial-Likelihood an der Stelle $\pi=0.25$ am höchs
 
 Answerlist
 ----------
-* $n=20, y=5$. 
-* $n=20, y=10$.
-* $n=20, y=15$.
+* $n=20,\,y=5$. 
+* $n=20,\,y=10$.
+* $n=20,\,y=15$.
 * Bei allen Daten gleich.
 
 
