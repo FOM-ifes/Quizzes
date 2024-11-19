@@ -1,7 +1,7 @@
 Question
 ========
 
-Welchen Wert muss das Ergebnis des KMO-Kriteriums mindestens annehmen, damit Daten für eine Hauptkomponentenanalyse geeignet sind?
+Welchen Wert muss das Ergebnis des Kaiser-Meyer-Olkin-Kriteriums (KMO) mindestens annehmen, damit Daten für eine Hauptkomponentenanalyse geeignet sind?
 
 Answerlist
 ----------
