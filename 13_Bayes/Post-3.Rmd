@@ -21,7 +21,7 @@ Was passiert in Bezug auf die Posteriori-Verteilung bei konstantem $p=\frac{y}{n
 
 Answerlist
 ----------
-* Die Posteriori-Verteilung nähert sich der Prior-Verteilung an.
+* Die Posteriori-Verteilung nähert sich der Priori-Verteilung an.
 * Die Posteriori-Verteilung nähert sich der skalierten Likelihood an.
 * Die Posteriori-Verteilung ändert sich nicht.
 
