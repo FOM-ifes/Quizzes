@@ -6,15 +6,15 @@ ppi <- seq(from = 0, to = 1, by = 1/1000)
 Question
 ========
 
-Bei einer Beta-Prior-Verteilung mit $\alpha_{prior}=\beta_{prior}=1$.
+Bei einer Beta-Priori-Verteilung mit $\alpha_{prior}=\beta_{prior}=1$.
 Bei welchen Daten ist das 95%-Kredibilitätsintervall am schmalsten?
 
 *Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
 
 Answerlist
 ----------
-* $n=10, y=5$. 
-* $n=100, y=50$. 
+* $n=10,\, y=5$. 
+* $n=100,\, y=50$. 
 * Bei beiden gleich.
 
 

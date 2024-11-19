@@ -13,17 +13,17 @@ like_scaled <- function(x) {
 Question
 ========
 
-Als Parameter der Prior-Verteilung wurden $\alpha_{prior}=2$ und $\beta_{prior}=4$ verwendet.
+Als Parameter der Priori-Verteilung wurden $\alpha_{prior}=2$ und $\beta_{prior}=4$ verwendet.
 
-Was passiert in Bezug auf die Posterior-Verteilung bei konstantem $p=\frac{y}{n}=0.75$, wenn die Anzahl der Versuche $n$ steigt?
+Was passiert in Bezug auf die Posteriori-Verteilung bei konstantem $p=\frac{y}{n}=0.75$, wenn die Anzahl der Versuche $n$ steigt?
 
 *Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
 
 Answerlist
 ----------
-* Die Posterior-Verteilung nähert sich der Prior-Verteilung an.
-* Die Posterior-Verteilung nähert sich der skalierten Likelihood an.
-* Die Posterior-Verteilung ändert sich nicht.
+* Die Posteriori-Verteilung nähert sich der Prior-Verteilung an.
+* Die Posteriori-Verteilung nähert sich der skalierten Likelihood an.
+* Die Posteriori-Verteilung ändert sich nicht.
 
 
 Solution
