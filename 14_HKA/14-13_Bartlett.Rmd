@@ -14,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Der Bartlett-Test überprüft, ob sich die Korrelationsmatrix von einer Einheitsmatrix unterscheiden und die Daten somit korreliert sind.
+Der Bartlett-Test überprüft, ob sich die Korrelationsmatrix von einer Einheitsmatrix unterscheidet und die Daten somit korreliert sind.
 
 Answerlist
 ----------
