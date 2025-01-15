@@ -5,9 +5,9 @@ Was ist das Ziel des k-Means Clusterings?
 
 Answerlist
 ----------
-* Die Einteilung einer Datentabelle in eine Anzahl k an Clustern.
-* Das Zusammenfassen ausgewählter Variablen zu einem neuen Faktor k.
-* Die Ermittlung des Mittelwertes k für die gesamte Datentabelle.
+* Die Einteilung einer Datentabelle in eine Anzahl $k$ an Clustern.
+* Das Zusammenfassen ausgewählter Variablen zu einem neuen Faktor $k$.
+* Die Ermittlung des Mittelwertes $k$ für die gesamte Datentabelle.
 * Keines der zuvor genannten Ziele.
 
 Solution
@@ -24,4 +24,4 @@ Meta-information
 ================
 exname: cluster_quiz_1
 extype: schoice
-exsolution: 0100
+exsolution: 1000

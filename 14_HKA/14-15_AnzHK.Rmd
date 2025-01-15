@@ -1,7 +1,7 @@
 Question
 ========
 
-Welche Methode wird verwendet, um die optimale Anzahl der Hauptkomponenten zu bestimmen?
+Welche Methode kann verwendet werden, um die optimale Anzahl der Hauptkomponenten zu bestimmen?
 
 Answerlist
 ----------
@@ -14,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Das Kaiser-Dickman-Kriterium ist eine Methode zur Bestimmung der optimalen Anzahl der Hauptkomponenten. Hinweis: Laut diesem Kriterium sollten nur Komponenten mit Eigenwerten größer als 1 berücksichtigt werden.
+Das Kaiser-Dickman-Kriterium ist eine Methode zur Bestimmung der optimalen Anzahl der Hauptkomponenten. Hinweis: Laut diesem Kriterium sollten nur Komponenten mit Eigenwerten größer als eins berücksichtigt werden.
 
 Answerlist
 ----------
@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: Anzahl der Hauptkomponenten
 extype: schoice
-exsolution: 0001
+exsolution: 0100

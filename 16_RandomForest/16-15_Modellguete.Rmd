@@ -1,7 +1,7 @@
 Question
 ========
 
-Welche der folgenden Metriken ist nicht geeignet, um die Vorhersagen eines Random-Forest-Modells im Klassifikationskontext zu bewerten?
+Welche der folgenden Metriken ist *nicht* geeignet, um die Vorhersagen eines Random-Forest-Modells im Klassifikationskontext zu bewerten?
 
 Answerlist
 ----------

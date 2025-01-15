@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: Rotation
 extype: schoice
-exsolution: 0001
+exsolution: 0100
