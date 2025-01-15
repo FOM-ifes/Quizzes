@@ -5,10 +5,10 @@ Welchen Wert muss das Ergebnis des Kaiser-Meyer-Olkin-Kriteriums (KMO) mindesten
 
 Answerlist
 ----------
-* 1
+* 0.3
 * 0.5
-* 0.8
 * 0.7
+* 0.9
 
 
 Solution
@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: KMO-Kriterium
 extype: schoice
-exsolution: 0001
+exsolution: 0100

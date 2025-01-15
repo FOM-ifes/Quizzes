@@ -5,7 +5,7 @@ Welche der folgenden Annahmen sollte für eine Hauptkomponentenanalyse erfüllt 
 
 Answerlist
 ----------
-* Die Variablen sollten mit Likert-Skala gemessen sein.
+* Die Variablen sollten mit der Likert-Skala gemessen sein.
 * Die Variablen sollten unabhängig sein.
 * Die Variablen sollten stark miteinander korreliert sein.
 * Die Variablen sollten ordinal skaliert sein.
@@ -28,4 +28,4 @@ Meta-information
 ================
 exname: Annahme HKA
 extype: schoice
-exsolution: 0001
+exsolution: 0010
