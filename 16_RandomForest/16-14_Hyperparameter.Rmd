@@ -1,7 +1,7 @@
 Question
 ========
 
-Welcher Hyperparameter ist im Random-Forest-Algorithmus typischerweise nicht einstellbar?
+Welcher Hyperparameter ist im Random-Forest-Algorithmus typischerweise *nicht* einstellbar?
 
 Answerlist
 ----------
