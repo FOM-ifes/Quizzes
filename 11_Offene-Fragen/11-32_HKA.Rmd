@@ -1,0 +1,87 @@
+```{r libs, include = FALSE}
+library(mosaic)
+library(psych)
+library(REdaS)
+# Scree-Plot
+ggScree <- function(data){
+  x <- 1:ncol(data)
+y <- eigen(cor(data))$values
+gf_line(y ~ x, ylab = "Eigenwerte der Komponenten", xlab = "Anzahl der Komponenten") |> 
+  gf_point(size = 3) |> 
+  gf_hline(yintercept = 1, color = "blue") |> 
+  gf_refine(scale_x_continuous(breaks = seq(0, ncol(data), by = 2)))
+}
+# erklärte Varianz
+varhka <- function(data){
+  y <- eigen(cor(data))$values
+  cumsum(y/sum(y)) |> round(2)
+}
+```
+
+
+```{r wine, include = FALSE}
+data(wine, package = "HDclassif")
+
+# Klassifikation entfernen
+wine <- wine[, -1]
+# Variablen benennen
+names(wine) <- c("Alcohol", "Malic acid", "Ash", "Alcalinity of ash", "Magnesium", "Total phenols", "Flavanoids", "Nonflavanoid phenols", "Proanthocyanins", "Color intensity", "Hue", "OD280/OD315", "Proline")
+```
+
+
+Question
+========
+
+Dieser Datensatz basiert auf einer chemischen Analyse von Weinen, die in der gleichen Region in Italien angebaut werden, aber von drei verschiedenen Weinsorten (Barolo, Grignolino, Barbera) stammen. 
+Bei der Analyse wurden 13 Inhaltsstoffe bestimmt, die in jeder der drei Weinsorten enthalten sind.
+
+Im Rahmen einer Hauptkomponenten-Analyse wurden folgende Schritte vorgenommen:
+
+```{r fig.cap=""}
+# KMO-Kriterium und Bartlett-Test
+KMOS(wine)$KMO
+bart_spher(wine)
+
+# Screeplot
+ggScree(wine)
+
+# HKA
+hka <- principal(wine, 3, rotate = "varimax")
+hka$criteria <- NULL
+print(hka, cut = 0.5, sort = TRUE, digits = 2)
+```
+
+Fassen Sie die vorangegangene Analyse zusammen. Was sind Forschungsfrage und vorläufiges Ergebnis?
+
+Solution
+========
+
+Durch wie viele Hauptkomponten können die Daten erklärt werden?
+
+Das KMO-Kriterium (Kaiser-Meyer-Olkin-Kriterium) liegt mit `r round(KMOS(wine)$KMO, 2)` über 0.5, der Bartlett-Test verwirft mit einem sehr kleinen p-Wert die H~0~, dass die Korrelationsmatrix sich nicht von der Einheitsmatrix unterscheidet. Somit sind die Daten für eine Hauptkomponentenanalyse geeignet.
+
+Der Scree-Plot zeigt einen deutlichen Knick bei vier, was für drei Hauptkomponenten spricht. Drei Eigenwerte liegen über eins, was nach dem Kaiser-Dickmann- bzw. Eigenwert-Kriterium ebenfalls für drei Hauptkomponenten spricht.
+
+Die Hauptkomponentenanalyse erfolgt unter Varimax-Rotation. Die Hauptkomponenten erklären `r varhka(wine)[3] * 100` % der Varianz. Sechs Variablen laden deutlich auf die erste Hauptkomponenten, vier auf die zweite und zwei auf die dritte.
+
+
+Meta-information
+================
+extype: string
+expoints: 6
+exsolution: nil
+exname: Regression Essay
+exextra[essay,logical]: TRUE
+
+```{r include=FALSE, eval=FALSE}
+# sobald weitere Optionen über exextra ergänzt, wird auf attachments true umgeschaltet
+# so bleibt nur required 1 stehen
+
+# Muss in xml ergänzt/korrigiert werden
+<responseformat>plain</responseformat>
+<responserequired>0</responserequired>
+<responsefieldlines>3</responsefieldlines>
+<attachments>0</attachments>
+<attachmentsrequired>0</attachmentsrequired>
+
+```

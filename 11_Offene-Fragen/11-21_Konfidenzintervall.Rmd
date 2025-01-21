@@ -46,30 +46,31 @@ dmn
 # Reproduzierbarkeit
 set.seed(1896)
 
-# Permutationsverteilung
-Nullvtlg <- do(10000) * diffmean(nachsichtigkeit ~ shuffle(gesicht), data = Laecheln)
+# Bootstrap-Verteilung
+Bootvtlg <- do(10000) * diffmean(nachsichtigkeit ~ gesicht, data = resample(Laecheln))
 
-gf_histogram( ~ diffmean, data = Nullvtlg, center = 0) |>
-  gf_vline(xintercept = ~dmn)
+# Konfidenzintervall
+ki95 <- qdata( ~ diffmean, p = c(0.025, 0.975), data = Bootvtlg)
+ki95
 
-# P-Wert
-pwert <- prop( ~ abs(diffmean) >= abs(dmn), data = Nullvtlg)
-pwert
+# Histogramm  
+gf_histogram( ~ diffmean, data = Bootvtlg, center = dmn) |>
+  gf_vline(xintercept = ki95, linewidth = 1)
+
 ```
 
-
-Fassen Sie die vorangegangene Analyse zusammen. Wie lauten die Forschungsfrage, die Hypothesen und die Antwort auf die Forschungsfrage?
+Fassen Sie die vorangegangene Analyse zusammen. Wie lauten die Forschungsfrage und das vorläufige Ergebnis?
 
 Solution
 ========
 
 - Forschungsfrage: Gibt es einen Unterschied in der Verteilung von `nachsichtigkeit` in Abhängigkeit vom  `gesicht` (`neutral, lächeln`)?
 
-- Die Nullhypothese lautet: Es gibt keinen Unterschied in der Verteilung, d. h., $F_{\text{neutral}}(y)=F_{\text{lächeln}}(y)$ und damit $H_0: \mu_{\text{neutral}}=\mu_{\text{lächeln}}$. Die Alternativhypothese lautet $H_A: \mu_{\text{neutral}}\neq \mu_{\text{lächeln}}$.
+- In der Stichprobe ergenen sich $\hat{\mu}_{\text{neutral}} = `r round(mn[1],2)`$ und $\hat{\mu}_{\text{lächeln}} = `r round(mn[2],2)`$ und damit eine Differenz von $\bar{y}_{\text{lächeln}} - \bar{y}_{\text{neutral}}=`r round(dmn,3)`$.
 
-- In der Stichprobe ergibt sich $\hat{\mu}_{\text{neutral}} = `r round(mn[1],2)`$ und $\hat{\mu}_{\text{lächeln}} = `r round(mn[2],2)`$ und damit eine Differenz von $\bar{y}_{\text{lächeln}} - \bar{y}_{\text{neutral}}=`r round(dmn,3)`$.
+- Das mit einer Bootstrap-Simulation erzeugte 95$\,$%-Konfidenzintervall für die Differenz der Mittelwerte liegt zwischen `r round(ki95[1], 3)` und `r round(ki95[2], 3)` und zeigt damit einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters in der Population.
 
-- Mit einem p-Wert von `r pwert` wird $H_0$ zum Niveau $\alpha = 5\%$ `r ifelse(pwert>0.05, "nicht", "")` verworfen. Die beobachtete Differenz der Stichprobe ist `r ifelse(pwert>0.05, "nicht (besonders)", "")` unwahrscheinlich, wenn es keinen Unterschied in der Nachsichtigkeit in Bezug auf den Gesichtsausdruck (`neutral`, `lächeln`) in der Verteilung in der Population gibt.
+- Ein Wert von null, der als Differenz auftreten müsste, wenn es keinen Zusammenhang gäbe, liegt nicht im Intervall. Daher sprechen die Daten für einen Zusammenhang.
 
 
 Meta-information

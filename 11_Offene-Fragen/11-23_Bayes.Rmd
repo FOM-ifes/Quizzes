@@ -1,0 +1,90 @@
+```{r libs, include = FALSE}
+library(mosaic)
+```
+
+
+```{r scaledLikelihood, include = FALSE}
+# Funktion definieren
+like_scaled <- function(x, y, n) {
+  like_fun <- function(x) {
+    dbinom(x = y, size = n, prob = x)
+  }
+  # Skalierungsfaktor Integral der Funktion
+  scale_c <- integrate(like_fun, lower = 0, upper = 1)[[1]]
+  like_fun(x)/scale_c
+}
+```
+
+
+Question
+========
+
+Angelehnt an das Beispiel aus *Bayes Rules!*, S. 54 ff, zeigen sich für Wahlumfragen einer Kandidatin folgende Ergebnisse.
+
+```{r, fig.cap = ""}
+# Vektor für pi bereitstellen
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+# Prior
+aprior <- 45
+bprior <- 55
+prior <- dbeta(ppi, shape1 = aprior, shape2 = bprior)
+# Ergebnis der aktuellen Umfage
+y <- 30
+n <- 50
+# skalierte Likelihood
+like <- like_scaled(ppi, y, n)
+# Posterior
+apost <- aprior + y
+bpost <- bprior + n - y
+posterior <- dbeta(ppi, shape1 = apost, shape2 = bpost)
+# Grafik ausgeben 
+gf_line(prior ~ ppi, color = "darkorange") |>
+  gf_line(like ~ ppi, color = "darkviolet") |> 
+  gf_line(posterior ~ ppi, color = "darkcyan") |> 
+  gf_labs(x = expression(pi), 
+          y = expression(f(pi)), 
+  title = "Wahlumfragen",
+  subtitle = "Prior - orange, Likelihood - violett, Posterior - grün") |> 
+  # Skalierung anpassen
+  gf_refine(scale_x_continuous(breaks = seq(0, 1, by = 0.2)))
+```
+
+
+
+Fassen Sie die vorangegangene Analyse zusammen. Gehen Sie dabei auf die Priori-Verteilung, die Likelihood und die Posteriori-Verteilung ein.
+
+Solution
+========
+
+- In der Priori-Verteilung ergibt sich ein Erwartungwert von $\frac{\alpha_{prior}}{\alpha_{prior} + \beta_{prior}} = \frac{`r aprior`}{`r aprior` + `r bprior`} = `r round(aprior/(aprior+bprior), 4)`$ (oder: Modus von $\frac{\alpha_{prior} - 1}{\alpha_{prior} + \beta_{prior} - 2} =\frac{`r aprior` - 1}{`r aprior` + `r bprior` - 2} = `r round((aprior-1)/(aprior+bprior-2), 4)`).$
+
+- Aus der aktuellen Umfrage ergibt sich (nach Maximum-Likehood-Schätzung) ein Anteil von $\frac{y}{n} = \frac{`r y`}{`r n`} = `r round(y/n, 2)`.$
+
+- Somit ergeben sich die Parameter der Posteriori-Verteilung zu $\alpha_{post} = \alpha_{prior} + y = `r aprior` + `r y` = `r aprior + y`$ und $\beta_{post} = \beta_{prior} + n - y = `r bprior` + `r n` - `r y` = `r bprior + n - y`$.
+
+- Damit ergibt sich in der Posteriori-Verteilung ein Erwartungwert von $\frac{\alpha_{post}}{\alpha_{post} + \beta_{post}} = \frac{`r apost`}{`r apost` + `r bpost`} = `r round(apost/(apost+bpost), 4)`$ (oder: Modus von $\frac{\alpha_{post} - 1}{\alpha_{post} + \beta_{post} - 2} =\frac{`r apost` - 1}{`r apost` + `r bpost` - 2} = `r round((apost-1)/(apost+bpost-2), 4)`).$
+
+- Insgesamt hat in der Posteriori-Verteilung die Streung im Vergleich zur Priori-Verteilung abgenommen und der Erwartungswert (oder Modus) hat sich in Richtung der Likelihood verschoben.
+
+
+
+Meta-information
+================
+extype: string
+expoints: 6
+exsolution: nil
+exname: Inferenz Essay
+exextra[essay,logical]: TRUE
+
+```{r include=FALSE, eval=FALSE}
+# sobald weitere Optionen über exextra ergänzt, wird auf attachments true umgeschaltet
+# so bleibt nur required 1 stehen
+
+# Muss in xml ergänzt/korrigiert werden
+<responseformat>plain</responseformat>
+<responserequired>0</responserequired>
+<responsefieldlines>3</responsefieldlines>
+<attachments>0</attachments>
+<attachmentsrequired>0</attachmentsrequired>
+
+```
