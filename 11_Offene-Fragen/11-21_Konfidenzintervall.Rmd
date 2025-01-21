@@ -66,7 +66,7 @@ Solution
 
 - Forschungsfrage: Gibt es einen Unterschied in der Verteilung von `nachsichtigkeit` in Abhängigkeit vom  `gesicht` (`neutral, lächeln`)?
 
-- In der Stichprobe ergenen sich $\hat{\mu}_{\text{neutral}} = `r round(mn[1],2)`$ und $\hat{\mu}_{\text{lächeln}} = `r round(mn[2],2)`$ und damit eine Differenz von $\bar{y}_{\text{lächeln}} - \bar{y}_{\text{neutral}}=`r round(dmn,3)`$.
+- In der Stichprobe ergeben sich $\hat{\mu}_{\text{neutral}} = `r round(mn[1],2)`$ und $\hat{\mu}_{\text{lächeln}} = `r round(mn[2],2)`$ und damit eine Differenz von $\bar{y}_{\text{lächeln}} - \bar{y}_{\text{neutral}}=`r round(dmn,3)`$.
 
 - Das mit einer Bootstrap-Simulation erzeugte 95$\,$%-Konfidenzintervall für die Differenz der Mittelwerte liegt zwischen `r round(ki95[1], 3)` und `r round(ki95[2], 3)` und zeigt damit einen plausiblen oder mit den Daten kompatiblen Wertebereich für den unbekannten Wert des Parameters in der Population.
 
