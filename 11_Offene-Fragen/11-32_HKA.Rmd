@@ -62,7 +62,7 @@ Das KMO-Kriterium (Kaiser-Meyer-Olkin-Kriterium) liegt mit `r round(KMOS(wine)$K
 
 Der Scree-Plot zeigt einen deutlichen Knick bei vier, was für drei Hauptkomponenten spricht. Drei Eigenwerte liegen über eins, was nach dem Kaiser-Dickmann- bzw. Eigenwert-Kriterium ebenfalls für drei Hauptkomponenten spricht.
 
-Die Hauptkomponentenanalyse erfolgt unter Varimax-Rotation. Die Hauptkomponenten erklären `r varhka(wine)[3] * 100` % der Varianz. Sechs Variablen laden deutlich auf die erste Hauptkomponenten, vier auf die zweite und zwei auf die dritte.
+Die Hauptkomponentenanalyse erfolgt unter Varimax-Rotation. Die Hauptkomponenten erklären `r varhka(wine)[3] * 100` % der Varianz. Sechs Variablen laden deutlich auf die erste Hauptkomponente, vier auf die zweite und zwei auf die dritte.
 
 
 Meta-information
