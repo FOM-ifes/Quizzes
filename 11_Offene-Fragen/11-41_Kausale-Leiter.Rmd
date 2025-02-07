@@ -1,0 +1,58 @@
+Question
+========
+
+Geben Sie bitte ein Beispiel für die Ebene Assoziation, Intervention und  Counterfactual auf der kausalen Leiter nach Pearl in Ihrer beruflichen Praxis (bitte angeben). Definieren Sie dabei $X$ und $Y$.
+
+Solution
+========
+
+**Hinweis**: Das folgende Lösungsbeispiel ist in *Kurzform* verfasst und bezieht sich auf die Berufspraxis einer Dozentin, nicht auf Ihre. Achten Sie bei Ihrer Antwort auf Plausibilität in Bezug auf Ihre Berufspraxis. Auswendiglernen und Wiedergabe der Musterlösung in der Klausur wird mit null Punkten bewertet. Führen Sie in Ihrem Beispiel aus, warum diese Fragestellung interessant ist, wie die Daten erhoben werden könnten und welche Ergebnisse ggf. zu erwarten wären. 
+
+Beruf: Dozentin an einer Hochschule  
+Kontext: $X$: Quizteilnahme durch Studierende Ja/Nein und $Y$ : Klausur bestanden Ja/Nein.
+
+**Assoziation**: $Pr(y|x)$: Beobachtung: *Was ist*?  
+Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ beobachte?  
+
+Wie wahrscheinlich ist es, die Klausur zu bestehen, wenn an den Quizzen
+teilgenommen wurde?
+
+
+**Intervention**: $Pr(y|do(x))$: Tun: *Was wäre*?  
+Wie wahrscheinlich ist $Y=y$, wenn ich $X=x$ setze, d. h. manipuliere?
+
+Wie wahrscheinlich ist es, die Klausur zu bestehen, wenn die Quizteilnahme
+verpflichtend ist?
+
+**Counterfactual**: $Pr(y_x|x',y')$: Vorstellung: *Was wäre gewesen*?  
+Wir haben $X=x'$ und als Folge $Y=y'$ beobachtet.  
+Wie wahrscheinlich ist dann $Y=y$, wenn ich $X=x$ gesetzt hätte?
+
+
+
+Es wurde nicht an den Quizzen teilgenommen und die Klausur wurde nicht
+bestanden. Wie wahrscheinlich ist es, dass die Klausur bestanden worden
+wäre, wenn an den Quizzen teilgenommen worden wäre?
+
+
+Meta-information
+================
+extype: string
+expoints: 9
+exsolution: nil
+exname: KausaleLeiter Essay
+exextra[essay,logical]: TRUE
+
+```{r include=FALSE, eval=FALSE}
+# sobald weitere Optionen über exextra ergänzt, wird auf attachments true umgeschaltet
+# so bleibt nur required 1 stehen
+
+# Muss in xml ergänzt/korrigiert werden
+<responseformat>plain</responseformat>
+<responserequired>0</responserequired>
+<responsefieldlines>3</responsefieldlines>
+<attachments>0</attachments>
+<attachmentsrequired>0</attachmentsrequired>
+
+```
+
