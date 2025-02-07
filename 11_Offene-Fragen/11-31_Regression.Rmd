@@ -37,11 +37,13 @@ Das geschätzte Modell der Stichprobe lautet:
 $$\widehat{\text{score}}_i=`r round(coef(erglm)[1],2)` + `r round(coef(erglm)[2],2)` \cdot \begin{cases}1, \,\text{gender}_i=\text{male}   \\ 0, \,\text{sonst} \end{cases} +  `r round(coef(erglm)[3],2)` \cdot \text{beauty}_i$$
 
 Die Bewertung ist c.$\,$p. im Mittelwert um `r round(coef(erglm)[2],2)` bei Männern höher als bei Frauen.
-Im Modell der Stichprobe wird c.$\,$p. im Mittelwert ein um $`r round(coef(erglm)[3],2)`$ bessere Bewertung beobachtet, wenn ein um eine Einheit besseres Aussehen beobachtet wird. 
+Im Modell der Stichprobe wird c.$\,$p. im Mittelwert eine um $`r round(coef(erglm)[3],2)`$ bessere Bewertung beobachtet, wenn ein um eine Einheit besseres Aussehen beobachtet wird. 
 
 In der Stichprobe wird $R^2=`r round(rsquared(erglm),2)`$, also $`r round(rsquared(erglm)*100)`\%$ der Variation der Evaluierung durch Aussehen und Geschlecht modelliert.
 
-Die Nullhypothesen, es gibt keinen Zusammenhang, d. h., $H_0: \beta_{\text{male}}=0$ und  $H_0: \beta_{\text{beauty}}=0$ werden beide mit p-Werten $<0.05$ zum Niveau $\alpha=5\%$ verworfen, d. h., es wird auf einen statistisch erkennbaren Zusammenhang geschlossen.
+Die Nullhypothesen, es gibt keinen Zusammenhang, d. h., $H_0: \beta_{\text{geschlecht}}=0$ und  $H_0: \beta_{\text{beauty}}=0$ werden beide mit p-Werten $<0.05$ zum Niveau $\alpha=5\%$ verworfen, d. h., es wird auf einen statistisch erkennbaren Zusammenhang geschlossen.
+
+Der p-Wert der F-Statistik ist mit einem Wert von $`r round(pf(summary(erglm)$fstatistic[1], summary(erglm)$fstatistic[2], summary(erglm)$fstatistic[3], lower.tail = FALSE), 5)`$ kleiner als $\alpha=5\%$. Damit wird die Nullhypothese $H_0: R^2 = 0$ verworfen.
 
 
 Meta-information
