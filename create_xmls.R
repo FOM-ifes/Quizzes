@@ -197,6 +197,9 @@ Wdh_Offen_2    = c("11_Offene-Fragen/11-21_Konfidenzintervall.Rmd",
 Wdh_Offen_3    = c("11_Offene-Fragen/11-31_Regression.Rmd",
                    "11_Offene-Fragen/11-32_HKA.Rmd"),
 
+# offene Frage Kausale Leiter
+Wdh_Offen_4    = c("11_Offene-Fragen/11-41_Kausale-Leiter.Rmd"),
+
 # Logistische Regression
 Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
                    "12_LogRegression/12-12_Signifikanz.Rmd",
@@ -209,7 +212,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Offen_2"
+quiz <- "Wdh_Offen_4"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
 # moodle
