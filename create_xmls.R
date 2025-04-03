@@ -5,16 +5,18 @@ library(exams)
 Quizzes <- list(
 
 Wdh_Orga       = c("01_Orga/01-11_Klausur.Rmd",
-                   #"01_Orga/01-12_Hausarbeit.Rmd",
+#                   "01_Orga/01-12_Hausarbeit.Rmd",
                    "01_Orga/01-13_CodeChunks.Rmd",
                    "01_Orga/01-14_Render.Rmd"),
 #                   "01_Orga/01-15_HausarbeitTermin.Rmd"),
-  
-Wdh_GLWiss_1   = c("02_Grundlagen-Wissenschaft/02-11_Schlusstechnik.Rmd",
-                   "02_Grundlagen-Wissenschaft/02-12_Hypothese.Rmd", 
-                   "02_Grundlagen-Wissenschaft/02-13_Validitaet.Rmd"),
 
-Wdh_GLQD_1     = c("03_Grundlagen-QuantDat/03-11_Guetekriterium-Messung.Rmd",
+# Streichen in QD neu/SM  
+# Wdh_GLWiss_1   = c("02_Grundlagen-Wissenschaft/02-11_Schlusstechnik.Rmd",
+#                    "02_Grundlagen-Wissenschaft/02-12_Hypothese.Rmd", 
+#                    "02_Grundlagen-Wissenschaft/02-13_Validitaet.Rmd"),
+
+Wdh_GLQD_1     = c("02_Grundlagen-Wissenschaft/02-13_Validitaet.Rmd",
+                   "03_Grundlagen-QuantDat/03-11_Guetekriterium-Messung.Rmd",
                    "03_Grundlagen-QuantDat/03-12_Skala-PLZ.Rmd",
                    "03_Grundlagen-QuantDat/03-13_Stichprobe.Rmd"),
 
@@ -217,7 +219,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Offen_5"
+quiz <- "Wdh_GLQD_1"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
 # moodle
