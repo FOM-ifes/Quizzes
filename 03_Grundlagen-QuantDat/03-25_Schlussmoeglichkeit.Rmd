@@ -1,7 +1,7 @@
 Question
 ========
 
-Fiktives Beispiel: Anhand von Logdateien wird festgestellt, das Apple Nutzer:innen länger mit R arbeiten als Windows Nutzer:innen. 
+Fiktives Beispiel: Anhand von Logdateien wird festgestellt, das Apple-Nutzer:innen länger mit R arbeiten als Windows-Nutzer:innen. 
 
 Ist hier eine Kausalaussage: *Nutzung von Apple erhöht Nutzungsdauer von R* möglich?
 
