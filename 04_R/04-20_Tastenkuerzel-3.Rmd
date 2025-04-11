@@ -1,0 +1,33 @@
+Question
+========
+
+Was ist das Tastenkürzel für das Einfügen eines senkrechten Strichs (`|`)?
+
+Answerlist
+----------
+* Strg-Umsch-M (Windows) bzw. Ctrl-Shift-M (Mac)
+* Strg-Eingabe (Windows) bzw. Ctrl-Enter (Mac)
+* Strg-Alt-I (Windows) bzw. Ctrl-Alt-I (Mac)
+* AltGr-+ (Windows) bzw. Alt(Opt)-N (Mac)
+* AltGr-< (Windows) bzw. Alt(Opt)-7 (Mac)
+
+Solution
+========
+
+Der senkrechte Strich fügt im Funktionsaufruf eine Gruppierung (*gruppiert nach*) oder Bedingung (*bedingt durch*) ein und steht hinter der unabhängigen Variablen. 
+Hinter dem Strich steht die Variable, nach der gruppiert bzw. bedingt wird.
+
+Answerlist
+----------
+* Falsch. Diese Tastenkombination fügt eine Pipe ein.
+* Falsch. Diese Tastenkombination führt eine Zeile im Code-Chunk aus.
+* Falsch. Diese Tastenkombination fügt einen neuen Code-Chunk ein.
+* Falsch. Diese Tastenkombination fügt eine Tilde `~` ein.
+* Richtig. Diese Tastenkombination fügt einen Strich `|` ein.
+
+Meta-information
+================
+exname: Tastenkuerzel-2
+extype: schoice
+exsolution: 00001
+exshuffle: 5

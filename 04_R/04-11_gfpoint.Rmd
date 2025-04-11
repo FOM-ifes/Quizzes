@@ -34,3 +34,4 @@ Meta-information
 exname: gfpoint
 extype: schoice
 exsolution: 1000
+exshuffle: 4

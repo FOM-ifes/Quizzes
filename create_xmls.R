@@ -32,7 +32,10 @@ Wdh_R_1        = c("04_R/04-11_gfpoint.Rmd",
                    "04_R/04-14_Funktion.Rmd", 
                    "04_R/04-15_Funktionsargument.Rmd",
                    "04_R/04-16_Ablauf.Rmd",
-                   "04_R/04-17_Variablentyp.Rmd"),
+                   "04_R/04-17_Variablentyp.Rmd",
+                   "04_R/04-18_Tastenkuerzel-1.Rmd",
+                   "04_R/04-19_Tastenkuerzel-2.Rmd",
+                   "04_R/04-20_Tastenkuerzel-3.Rmd"),
 
 Wdh_Wkeit      = c("05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
                    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
@@ -219,7 +222,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_GLQD_1"
+quiz <- "Wdh_R_1"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
 # moodle

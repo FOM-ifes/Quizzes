@@ -1,0 +1,33 @@
+Question
+========
+
+Was ist das Tastenkürzel für das Einfügen einer Pipe (`|>` bzw. `%>%`)?
+
+Answerlist
+----------
+* Strg-Umsch-M (Windows) bzw. Ctrl-Shift-M (Mac)
+* Strg-Eingabe (Windows) bzw. Ctrl-Enter (Mac)
+* Strg-Alt-I (Windows) bzw. Ctrl-Alt-I (Mac)
+* AltGr-+ (Windows) bzw. Alt(Opt)-N (Mac)
+* AltGr-< (Windows) bzw. Alt(Opt)-7 (Mac)
+
+Solution
+========
+
+Die Pipe über gibt das Ergebnis der Funktion links von der Pipe als Funktionsargument an die Funktion rechts von der Pipe.
+
+
+Answerlist
+----------
+* Richtig. Diese Tastenkombination fügt eine Pipe ein.
+* Falsch. Diese Tastenkombination führt eine Zeile im Code-Chunk aus.
+* Falsch. Diese Tastenkombination fügt einen neuen Code-Chunk ein.
+* Falsch. Diese Tastenkombination fügt eine Tilde `~` ein.
+* Falsch. Diese Tastenkombination fügt einen Strich `|` ein.
+
+Meta-information
+================
+exname: Tastenkuerzel-1
+extype: schoice
+exsolution: 10000
+exshuffle: 5

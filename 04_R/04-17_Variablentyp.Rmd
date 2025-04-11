@@ -24,6 +24,7 @@ Answerlist
 
 Meta-information
 ================
-exname: Variablentype
+exname: Variablentyp
 extype: schoice
 exsolution: 0010
+exshuffle: 4

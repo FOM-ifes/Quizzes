@@ -1,0 +1,32 @@
+Question
+========
+
+Was ist das Tastenkürzel für das Einfügen einer Tilde (`~`)?
+
+Answerlist
+----------
+* Strg-Umsch-M (Windows) bzw. Ctrl-Shift-M (Mac)
+* Strg-Eingabe (Windows) bzw. Ctrl-Enter (Mac)
+* Strg-Alt-I (Windows) bzw. Ctrl-Alt-I (Mac)
+* AltGr-+ (Windows) bzw. Alt(Opt)-N (Mac)
+* AltGr-< (Windows) bzw. Alt(Opt)-7 (Mac)
+
+Solution
+========
+
+Die Tilde trennt im Funktionsaufruf die abhängige Variable (vor der Tilde) von der unabhängigen Variablen (hinter der Tilde).
+
+Answerlist
+----------
+* Falsch. Diese Tastenkombination fügt eine Pipe ein.
+* Falsch. Diese Tastenkombination führt eine Zeile im Code-Chunk aus.
+* Falsch. Diese Tastenkombination fügt einen neuen Code-Chunk ein.
+* Richtig. Diese Tastenkombination fügt eine Tilde `~` ein.
+* Falsch. Diese Tastenkombination fügt einen Strich `|` ein.
+
+Meta-information
+================
+exname: Tastenkuerzel-2
+extype: schoice
+exsolution: 00010
+exshuffle: 5

@@ -25,3 +25,4 @@ Meta-information
 exname: mean
 extype: schoice
 exsolution: 0100
+exshuffle: 4
