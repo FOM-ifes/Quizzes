@@ -5,11 +5,11 @@ Was ist das Tastenkürzel für das Einfügen eines senkrechten Strichs (`|`)?
 
 Answerlist
 ----------
-* Strg-Umsch-M (Windows) bzw. Ctrl-Shift-M (Mac)
-* Strg-Eingabe (Windows) bzw. Ctrl-Enter (Mac)
-* Strg-Alt-I (Windows) bzw. Ctrl-Alt-I (Mac)
-* AltGr-+ (Windows) bzw. Alt(Opt)-N (Mac)
-* AltGr-< (Windows) bzw. Alt(Opt)-7 (Mac)
+* Strg-Umsch-M (Windows) bzw. Cmd-Shift-M (Mac)
+* Strg-Eingabe (Windows) bzw. Cmd-Enter (Mac)
+* Strg-Alt-I (Windows) bzw. Cmd-Opt-I (Mac)
+* AltGr-+ (Windows) bzw. Opt-N (Mac)
+* AltGr-< (Windows) bzw. Opt-7 (Mac)
 
 Solution
 ========
