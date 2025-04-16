@@ -83,18 +83,18 @@ Wdh_EDA_3      = c("06_EDA/06-31_Visualisierung.Rmd",
                    "06_EDA/06-37_Titanic-favstats1.Rmd",
                    "06_EDA/06-38_Titanic-favstats2.Rmd"),
 
-# EDA: Zusammenhang zwischen metrischen Daten
-Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
-                   "06_EDA/06-42_Titanic-Korrelation.Rmd",
-                   "06_EDA/06-43_Anscombe.Rmd",
-                   "06_EDA/06-44_Korrelation.Rmd"),
-
 # Normalverteilung
 Wdh_Norm_1     = c("07_Normalverteilung/07-11_Parameter.Rmd", 
                    "07_Normalverteilung/07-12_Wkeit.Rmd", 
                    "07_Normalverteilung/07-13_Quantile.Rmd", 
                    "07_Normalverteilung/07-14_z-Wert.Rmd",
                    "07_Normalverteilung/07-15_Percentil.Rmd"),
+
+# EDA: Zusammenhang zwischen metrischen Daten
+Wdh_EDA_4      = c("06_EDA/06-41_Titanic-Visualisierung.Rmd",
+                   "06_EDA/06-42_Titanic-Korrelation.Rmd",
+                   "06_EDA/06-43_Anscombe.Rmd",
+                   "06_EDA/06-44_Korrelation.Rmd"),
 
 # Lineare Regression: univariat
 Wdh_LinReg_1   = c("08_Regression/08-11_Modellgleichung.Rmd",
@@ -222,9 +222,9 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_R_1"
+quiz <- "Wdh_EDA_3"
 # html
-exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax", dir = "html")
+exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle
 exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
 
