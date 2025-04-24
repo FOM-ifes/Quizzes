@@ -25,7 +25,7 @@ Answerlist
 ----------
 * Falsch
 * Falsch
-* Richtig: Von 100 Studierenden arbeiten 80 mit. Von diesen bestehen 90%, also 72. Von den 20, die nicht mitarbeiten bestehen 20%, also 4. Insgesamt bestehen damit 72 + 4 = 76 von 100 Studierenden. 
+* Richtig: Von 100 Studierenden arbeiten 80 mit $[Pr(B)]$. Von diesen bestehen 90%, also 72 $[Pr(A|B)]$. Von den 20, die nicht mitarbeiten $[Pr(\bar B)]$, bestehen 20%, also 4 $[Pr(A|\bar B)]$. Insgesamt bestehen damit 72 + 4 = 76 von 100 Studierenden $[Pr(A)]$. 
 * Falsch
 
 
