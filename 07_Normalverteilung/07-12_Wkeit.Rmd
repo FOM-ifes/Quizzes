@@ -28,7 +28,7 @@ Damit wird $F(6)$ kleiner 0.05 sein, aber noch nicht kleiner als 0.01.
 Answerlist
 ----------
 * Falsch 
-* Richtig (`xpnorm(6, mean = 10, sd = 2)`)
+* Richtig (`pnorm(6, mean = 10, sd = 2)`)
 * Falsch
 * Falsch
 

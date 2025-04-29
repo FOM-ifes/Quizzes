@@ -5,9 +5,9 @@ Was gilt bei stetigen Verteilungen und damit auch bei der Normalverteilung?
 
 Answerlist
 ----------
-* 1. Quartil < 10%-Quantil
-* 1. Quartil = 10%-Quantil
-* 1. Quartil > 10%-Quantil
+* 1$.$ Quartil < 10%-Quantil
+* 1$.$ Quartil = 10%-Quantil
+* 1$.$ Quartil > 10%-Quantil
 * Keine allgemeine Aussage möglich.
 
 

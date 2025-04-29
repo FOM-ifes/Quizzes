@@ -14,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Bei gleichem Standarfehler gilt, desto weiter weg der in der Stichprobe beobachtete Wert $\bar{x}$ von dem unter der $H_0$ erwarteten Wert $\mu_0$ liegt, desto unwahrscheinlicher ist es (c.$\,$p.), solche oder noch extremere Stichprobenstatistiken zu beobachten, wenn die $H_0$ zutreffen würde.
+Bei gleichem Standardfehler gilt, dass, je weiter weg der in der Stichprobe beobachtete Wert $\bar{x}$ von dem unter der $H_0$ erwarteten Wert $\mu_0$ liegt, es umso unwahrscheinlicher ist (c.$\,$p.), solche oder noch extremere Stichprobenstatistiken zu beobachten, wenn die $H_0$ zutreffen würde.
 Damit ist der p-Wert kleiner.
 
 Answerlist
