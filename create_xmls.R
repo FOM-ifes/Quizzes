@@ -222,7 +222,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_LinReg_4"
+quiz <- "Wdh_Offen_3"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

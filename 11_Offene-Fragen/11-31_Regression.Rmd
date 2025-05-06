@@ -25,7 +25,7 @@ erglm <- lm(score ~  gender + beauty, data = Eval)
 summary(erglm)
 ```
 
-Fassen Sie die vorangegangene Analyse zusammen. Wie lautete die Forschungsfrage, Hypothesen und die Antwort auf die Forschungsfrage?
+Fassen Sie die vorangegangene Analyse zusammen. Wie lauten Forschungsfrage, Hypothesen und die vorläufige Antwort auf die Forschungsfrage?
 
 Solution
 ========
@@ -39,7 +39,7 @@ $$\widehat{\text{score}}_i=`r round(coef(erglm)[1],2)` + `r round(coef(erglm)[2]
 Die Bewertung ist c.$\,$p. im Mittelwert um `r round(coef(erglm)[2],2)` bei Männern höher als bei Frauen.
 Im Modell der Stichprobe wird c.$\,$p. im Mittelwert eine um $`r round(coef(erglm)[3],2)`$ bessere Bewertung beobachtet, wenn ein um eine Einheit besseres Aussehen beobachtet wird. 
 
-In der Stichprobe wird $R^2=`r round(rsquared(erglm),2)`$, also $`r round(rsquared(erglm)*100)`\%$ der Variation der Evaluierung durch Aussehen und Geschlecht modelliert.
+In der Stichprobe wird $R^2=`r round(rsquared(erglm),4)`$, also $`r round(rsquared(erglm)*100, 2)`\%$ der Variation der Evaluierung durch Aussehen und Geschlecht modelliert.
 
 Die Nullhypothesen, es gibt keinen Zusammenhang, d. h., $H_0: \beta_{\text{geschlecht}}=0$ und  $H_0: \beta_{\text{beauty}}=0$ werden beide mit p-Werten $<0.05$ zum Niveau $\alpha=5\%$ verworfen, d. h., es wird auf einen statistisch erkennbaren Zusammenhang geschlossen.
 
