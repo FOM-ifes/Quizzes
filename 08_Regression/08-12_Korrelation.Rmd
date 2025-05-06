@@ -18,7 +18,7 @@ Für die Lösung dieser Aufgabe sind diese beiden Variablen relevant:
 - `mpg`: *Miles/(US) gallon*, d. h. die Entfernung in Meilen ($\approx$ 1.6 km), die das Auto mit einer Gallone Benzin ($\approx$ 3,8 l) fährt;
 - `wt`: *Weight (1000 lbs)*, d. h. das Gewicht des Autos in Pfund (1000 lbs $\approx$ 453 kg).
 
-Welche Korrelation erwarten Sie zwischen Reichweite in `mpg` und Gewicht in `wt`?
+Welche Korrelation erwarten Sie zwischen Reichweite (`mpg`) und Gewicht (`wt`)?
 
 Answerlist
 ----------
@@ -31,7 +31,7 @@ Answerlist
 Solution
 ========
 
-Der Zusammenhang zwischen Reichweite und Gewicht wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein). Das zeigt auch das Streudiagramm der beiden Variablen.
+Der Zusammenhang zwischen Reichweite (`mpg`) und Gewicht (`wt`) wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein). Das zeigt auch das Streudiagramm der beiden Variablen.
 
 ```{r, fig.cap=""}
 gf_point(mpg ~ wt, data = mtcars)

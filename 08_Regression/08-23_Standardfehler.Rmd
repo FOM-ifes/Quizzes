@@ -29,7 +29,7 @@ Solution
 ========
 
 Die Verdoppelung der Bootstrap-Simulationen hat keinen nennenswerten Einfluss auf den Standardfehler.
-Der Standardfehler ändert sich bei einem anderen Stichprobenumfang, dabei wird er c.$\,$p. kleiner je größer der Stichprobenumfang ist.
+Der Standardfehler ändert sich bei einem anderen Stichprobenumfang, dabei wird er c.$\,$p. kleiner desto größer der Stichprobenumfang ist.
 
 ```{r}
 # Zufallszahlengenerator setzen

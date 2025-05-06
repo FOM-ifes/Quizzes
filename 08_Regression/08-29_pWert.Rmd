@@ -28,7 +28,7 @@ set.seed(1896)
 Nullvtlg <- do(1000)* lm(mpg ~ shuffle(wt), data = mtcars)
 # Verteilung geschätzte Steigung
 gf_histogram( ~ wt, data = Nullvtlg, center = 0, bins = 21) |> 
-  gf_vline(xintercept = ~ coef(erglm)[2]) 
+  gf_vline(xintercept = coef(erglm)[2]) 
 # p-Wert
 pWert <- prop(~ (abs(wt) >= abs(beta1dach)), data = Nullvtlg)
 pWert

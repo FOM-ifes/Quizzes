@@ -9,20 +9,17 @@ Daten <- data.frame(x = x, y = y)
 Question
 ========
 
-In der Datentabelle `Daten` liegen die Variablen `x` und `y` vor, deren Zusammenhang analysiert werden soll.
+In der Datentabelle `Daten` liegen die Variablen `x` und `y` vor, deren Zusammenhang analysiert werden soll. Zusätzlich wird der Residualplot (Streudiagramm der Residuen (`resid()`, $\hat{y}_i-y_i$) gegen die angepassten Werte (`fitted()`, $\hat{y}_i$)) dieser Modellierung gezeigt.
 
-```{r, warning=FALSE, fig.cap=""}
+```{r, warning=FALSE, fig.cap="", fig.asp=0.5}
 # Lineare Modellierung
 erglm <- lm(y ~ x, data = Daten)
 # Streudiagramm mit Regressionsgerade
-gf_point(y ~ x, data = Daten) |> 
-  gf_lm()
-```
-
-Die Abbildung der Residuen (`resid()`, $\hat{y}_i-y_i$) gegen die angepassten Werte (`fitted()`, $\hat{y}_i$) dieser Modellierung ergibt:
-
-```{r, fig.cap=""}
-gf_point(resid(erglm) ~ fitted(erglm), data = Daten)
+p1 <- gf_point(y ~ x, data = Daten) |> gf_lm()
+# Residualplot
+p2 <- gf_point(resid(erglm) ~ fitted(erglm), data = Daten)
+# Beide ausgeben
+gridExtra::grid.arrange(p1, p2, nrow = 1)
 ```
 
 Ist bei diesen Daten eine lineare Modellierung angemessen? 

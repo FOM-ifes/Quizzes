@@ -23,7 +23,7 @@ set.seed(1896)
 Nullvtlg <- do(1000) * lm(volume ~ shuffle(dayType), data = RailTrail)
 # Verteilung geschätzte Steigung
 gf_histogram( ~ dayTypeweekend, data = Nullvtlg, center = 0, bins = 21) |>
-  gf_vline(xintercept = ~ coef(erglm)[2]) 
+  gf_vline(xintercept = coef(erglm)[2]) 
 ```
 
 Wie lautet die Nullhypothese?
