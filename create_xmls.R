@@ -149,15 +149,6 @@ Wdh_Inferenz_2 = c("09_Inferenz/09-21_Nullhypothese.Rmd",
                    "09_Inferenz/09-24_Testentscheidung.Rmd", 
                    "09_Inferenz/09-25_Fehler.Rmd"),
 
-# Kausale Modellierung
-Wdh_Kausal_1   = c("10_Kausal/10-11_Counterfactual.Rmd",
-                   "10_Kausal/10-12_Inferenz.Rmd",
-                   "10_Kausal/10-13_KausaleLeiter.Rmd",
-                   "10_Kausal/10-14_SCM.Rmd",
-                   "10_Kausal/10-15_Adj_1.Rmd",
-                   "10_Kausal/10-16_Adj_2.Rmd",
-                   "10_Kausal/10-17_Annahme.Rmd"),
-
 # Bayes
 Wdh_Bayes      = c("13_Bayes/Prior-1.Rmd", 
                    "13_Bayes/Prior-2.Rmd", 
@@ -168,6 +159,22 @@ Wdh_Bayes      = c("13_Bayes/Prior-1.Rmd",
                    "13_Bayes/Post-1.Rmd", 
                    "13_Bayes/Post-2.Rmd", 
                    "13_Bayes/Post-3.Rmd"),
+# Kausale Modellierung
+Wdh_Kausal_1   = c("10_Kausal/10-11_Counterfactual.Rmd",
+                   "10_Kausal/10-12_Inferenz.Rmd",
+                   "10_Kausal/10-13_KausaleLeiter.Rmd",
+                   "10_Kausal/10-14_SCM.Rmd",
+                   "10_Kausal/10-15_Adj_1.Rmd",
+                   "10_Kausal/10-16_Adj_2.Rmd",
+                   "10_Kausal/10-17_Annahme.Rmd"),
+
+# Random Forest
+Wdh_RF         = c("16_RandomForest/16-11_Entscheidungsbaum.Rmd", 
+                   "16_RandomForest/16-12_RF-Idee.Rmd", 
+                   "16_RandomForest/16-13_Subdatensaetze.Rmd",
+                   "16_RandomForest/16-14_Hyperparameter.Rmd",
+                   "16_RandomForest/16-15_Modellguete.Rmd"),
+
 # HKA
 Wdh_HKA        = c("14_HKA/14-11_AnnHKA.Rmd",
                    "14_HKA/14-12_KMO.Rmd",
@@ -177,16 +184,9 @@ Wdh_HKA        = c("14_HKA/14-11_AnnHKA.Rmd",
                    "14_HKA/14-16_Rotation.Rmd"),
 
 # Cluster
-Wdh_Cluster    = c("15_cluster/15-11_cluster_quiz-1.Rmd",
-                   "15_cluster/15-12_cluster_quiz-2.Rmd",
-                   "15_cluster/15-13_cluster_quiz-3.Rmd"),
-
-# Random Forest
-Wdh_RF         = c("16_RandomForest/16-11_Entscheidungsbaum.Rmd", 
-                   "16_RandomForest/16-12_RF-Idee.Rmd", 
-                   "16_RandomForest/16-13_Subdatensaetze.Rmd",
-                   "16_RandomForest/16-14_Hyperparameter.Rmd",
-                   "16_RandomForest/16-15_Modellguete.Rmd"),
+Wdh_Cluster    = c("15_cluster/15-11_Ziel-kmeans.Rmd",
+                   "15_cluster/15-12_WCSS-Definition.Rmd",
+                   "15_cluster/15-13_WCSS-Wert.Rmd"),
 
 # offene Fragen EDA
 Wdh_Offen_1    = c("11_Offene-Fragen/11-11_Histogramm.Rmd", 
@@ -198,17 +198,17 @@ Wdh_Offen_2    = c("11_Offene-Fragen/11-21_Konfidenzintervall.Rmd",
                    "11_Offene-Fragen/11-22_Inferenz.Rmd",
                    "11_Offene-Fragen/11-23_Bayes.Rmd"),
 
-# offene Fragen Regression und Inferenz
-Wdh_Offen_2alt = c("11_Offene-Fragen/11-21_Konfidenzintervall.Rmd",
-                   "11_Offene-Fragen/11-22_Inferenz.Rmd",
-                   "11_Offene-Fragen/11-31_Regression.Rmd"),
-
 # offene Fragen Verfahren
 Wdh_Offen_3    = c("11_Offene-Fragen/11-31_Regression.Rmd",
                    "11_Offene-Fragen/11-32_HKA.Rmd"),
 
 # offene Frage Kausale Leiter
 Wdh_Offen_4    = c("11_Offene-Fragen/11-41_Kausale-Leiter.Rmd"),
+
+# offene Fragen Regression und Inferenz
+Wdh_Offen_5    = c("11_Offene-Fragen/11-21_Konfidenzintervall.Rmd",
+                   "11_Offene-Fragen/11-22_Inferenz.Rmd",
+                   "11_Offene-Fragen/11-31_Regression.Rmd"),
 
 # Logistische Regression
 Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
@@ -222,7 +222,7 @@ Wdh_LogReg_1   = c("12_LogRegression/12-11_Wahrscheinlichkeit.Rmd",
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Offen_2alt"
+quiz <- "Wdh_Cluster"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

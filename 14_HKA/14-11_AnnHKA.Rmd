@@ -1,7 +1,7 @@
 Question
 ========
 
-Welche der folgenden Annahmen sollte für eine Hauptkomponentenanalyse erfüllt sein?
+Welche der folgenden Voraussetzungen sollte für eine Hauptkomponentenanalyse erfüllt sein?
 
 Answerlist
 ----------
