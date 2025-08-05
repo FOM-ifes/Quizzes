@@ -11,7 +11,8 @@ Eine lineare Regression der abhängigen Variable `volume` ($y$) auf die unabhän
 # Lineares Modell schätzen
 erglm <- lm(volume ~ dayType, data = RailTrail)
 # Geschätzte Koeffizienten
-coef(erglm)
+betadach <- coef(erglm)
+betadach
 ```
 
 Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
@@ -22,7 +23,7 @@ set.seed(1896)
 # Permutationsverteilung
 Nullvtlg <- do(1000)* lm(volume ~ shuffle(dayType), data = RailTrail)
 # Bestimmung p-Wert
-pwert <- prop( ~ abs(dayTypeweekend) >= abs(coef(erglm)[2]), 
+pwert <- prop( ~ abs(dayTypeweekend) >= abs(betadach[2]), 
                data = Nullvtlg)
 pwert
 ```
@@ -37,7 +38,7 @@ Answerlist
 Solution
 ========
 
-Der p-Wert ist die Wahrscheinlichkeit dafür, dass ein Wert auftritt, der mindestens so weit vom Wert der Nullhypothese (hier $\beta_\text{dayTypeweekend} = 0$) entfernt ist, wie der in der Stichprobe beobachtete Punktschätzer (hier $\hat\beta_\text{dayTypeweekend} \approx `r coef(erglm)[2] |> round(2)`$).
+Der p-Wert ist die Wahrscheinlichkeit dafür, dass ein Wert auftritt, der mindestens so weit vom Wert der Nullhypothese (hier $\beta_\text{dayTypeweekend} = 0$) entfernt ist, wie der in der Stichprobe beobachtete Punktschätzer (hier $\hat\beta_\text{dayTypeweekend} \approx `r betadach[2] |> round(2)`$).
 
 Der p-Wert ist somit die bedingte Wahrscheinlichkeit $Pr(\delta^*|H_0)$ (*zur Erinnerung:* $\delta^*$ bezeichnet einen beliebigen Punktschätzer).
 In der zu bewerteten Aussage wird sich aber auf $Pr(H_0|\delta^*)$ bezogen.

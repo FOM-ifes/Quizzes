@@ -6,7 +6,7 @@ ppi <- seq(from = 0, to = 1, by = 1/1000)
 Question
 ========
 
-Bei welchen Parametern der Beta-Priori-Verteilung sind alle Werte für $\pi$ gleich wahrscheinlich?
+Bei welchen Parametern der Beta-Prior-Verteilung sind alle Werte für $\pi$ gleich wahrscheinlich?
 
 *Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
 

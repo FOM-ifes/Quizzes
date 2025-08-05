@@ -5,8 +5,8 @@ Welche Annahme ist *stärker*, d.h., welche Entscheidung ist kritischer zu hinte
 
 Answerlist
 ----------
-* Einen Pfeil von $A$ nach $B$ zu zeichnen.
-* Keinen Pfeil von $A$ nach $B$ zu zeichnen.
+* Einen Pfeil zwischen $A$ und $B$, z.$\,$B. von $A$ nach $B$, zu zeichnen.
+* Keinen Pfeil zwischen $A$ und $B$ zu zeichnen.
 
 Solution
 ========

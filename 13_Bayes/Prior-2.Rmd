@@ -6,7 +6,7 @@ ppi <- seq(from = 0, to = 1, by = 1/1000)
 Question
 ========
 
-Bei welchen Parametern der Beta-Priori-Verteilung ist die Sicherheit am größten, dass $\pi=0.5$ ist?
+Bei welchen Parametern der Beta-Prior-Verteilung ist die Sicherheit am größten, dass $\pi=0.5$ ist?
 
 *Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
 
@@ -15,7 +15,7 @@ Answerlist
 * $\alpha_{prior}=\beta_{prior}=2$. 
 * $\alpha_{prior}=\beta_{prior}=20$. 
 * $\alpha_{prior}=\beta_{prior}=200$.
-* Der Modus der Priori-Verteilung liegt nicht bei $\pi=0.5$.
+* Der Modus der Prior-Verteilung liegt nicht bei $\pi=0.5$.
 
 
 Solution

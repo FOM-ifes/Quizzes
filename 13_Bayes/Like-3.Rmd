@@ -21,6 +21,10 @@ Answerlist
 Solution
 ========
 
+Je höher $n$ ist, desto geringer ist die Streuung der Likelihood-Funktion.
+Damit wird sie bei höherem $n$ schmaler.
+Der Modus, also das Maximum der Likelihood-Funktion, hingegen hängt von $p=\frac{y}{n}$ ab und bleibt damit gleich.
+
 ```{r, echo=FALSE, fig.cap=""}
 n <- 20
 y <- 5

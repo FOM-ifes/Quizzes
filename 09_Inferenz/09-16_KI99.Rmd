@@ -1,0 +1,26 @@
+Question
+========
+
+Stimmt die Aussage (für dieselbe Fragestellung und dieselbe Stichprobe): *Ein 99\%-Konfidenzintervall ist schmäler als ein 95\%-Konfidenzintervall*?
+
+Answerlist
+----------
+* Ja.
+* Nein.
+
+
+Solution
+========
+
+Je höher das Konfidenzniveau ist, desto breiter ist c.p. das Konfidenzintervall.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+
+Meta-information
+================
+exname: KI99 vs. KI95
+extype: schoice
+exsolution: 01

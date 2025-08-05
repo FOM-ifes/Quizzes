@@ -11,7 +11,8 @@ Eine lineare Regression der abhängigen Variablen `volume` ($y$) auf die unabhä
 # Lineares Modell schätzen
 erglm <- lm(volume ~ dayType, data = RailTrail)
 # Geschätzte Koeffizienten
-coef(erglm)
+betadach <- coef(erglm)
+betadach
 ```
 
 Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `volume` und `dayType` gibt, ergibt folgendes Ergebnis:
@@ -23,7 +24,7 @@ set.seed(1896)
 Nullvtlg <- do(1000) * lm(volume ~ shuffle(dayType), data = RailTrail)
 # Verteilung geschätzte Steigung
 gf_histogram( ~ dayTypeweekend, data = Nullvtlg, center = 0, bins = 21) |>
-  gf_vline(xintercept = coef(erglm)[2]) 
+  gf_vline(xintercept = betadach[2]) 
 ```
 
 Wie lautet die Nullhypothese?

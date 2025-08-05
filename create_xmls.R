@@ -284,7 +284,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_EDA_2"
+quiz <- "Wdh_Bayes"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

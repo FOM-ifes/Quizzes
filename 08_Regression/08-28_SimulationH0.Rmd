@@ -10,12 +10,13 @@ Für die vorliegende Stichprobe gilt:
 
 ```{r}
 erglm <- lm(mpg ~ wt, data = mtcars)
-coef(erglm)
+betadach <- coef(erglm)
+betadach
 ```
 
 Also 
 
-$\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$.
+$\hat{\beta}_1 = `r round(betadach,2)[2]`$.
 
 Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `mpg` und `wt` gibt, ergibt folgendes Ergebnis:
 
@@ -26,10 +27,10 @@ set.seed(1896)
 Nullvtlg <- do(1000)* lm(mpg ~ shuffle(wt), data = mtcars)
 # Verteilung geschätzte Steigung
 gf_histogram( ~ wt, data = Nullvtlg, center = 0, bins = 21) |> 
-  gf_vline(xintercept = coef(erglm)[2]) 
+  gf_vline(xintercept = betadach[2]) 
 ```
 
-Ist das Ergebnis der Stichprobe, $\hat{\beta}_1 = `r round(coef(erglm),2)[2]`$, kompatibel zu einer Modellannahme, dass es in der Population keinen Zusammenhang gibt $(H_0: \beta_1=0)$?
+Ist das Ergebnis der Stichprobe, $\hat{\beta}_1 = `r round(betadach,2)[2]`$, kompatibel zu einer Modellannahme, dass es in der Population keinen Zusammenhang gibt $(H_0: \beta_1=0)$?
 
 Answerlist
 ----------
@@ -39,7 +40,7 @@ Answerlist
 Solution
 ========
 
-Der in der Stichprobe beobachtete Punktschätzer $\hat\beta_\text{wt}\approx `r coef(erglm)[2] |> round(2)`$ liegt weit außerhalb der Verteilung unter der Annahme der Nullhypothese.
+Der in der Stichprobe beobachtete Punktschätzer $\hat\beta_\text{wt}\approx `r betadach[2] |> round(2)`$ liegt weit außerhalb der Verteilung unter der Annahme der Nullhypothese.
 Damit ist das Ergebnis nicht kompatibel zur der Annahme, dass es keinen Zusammenhang gibt.
 
 Answerlist

@@ -24,14 +24,14 @@ head(titanic)
 Es soll analysiert werden, wie hoch der Ticketpreis auf der Titanic war -- ohne modellierende Variable.
 
 ```{r, eval=FALSE}
-mean(fare ~ 1, data = titanic)
+mean( ~ fare, data = titanic)
 ```
 ```{r, echo=FALSE}
-mosaic:::mean(fare ~ 1, data = titanic)
+mosaic:::mean( ~ fare, data = titanic)
 mf <- round(mosaic:::mean( ~ fare, data = titanic),2)
 ```
 
-*Hinweis*: statt `mean(y ~ 1)` ist auch `mean( ~ y)` möglich.
+*Hinweis*: statt `mean( ~ y)` ist auch `mean(y ~ 1)` möglich.
 
 Welche Aussage stimmt?
 
