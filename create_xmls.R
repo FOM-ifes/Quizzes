@@ -67,6 +67,7 @@ Quizzes <- list(
     "06_EDA/06-21_Titanic-Variable2.Rmd",
     "06_EDA/06-22_Titanic-Skalenniveau3.Rmd", 
     "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
+    "06_EDA/06-32_Histogramm.Rmd",
     "06_EDA/06-24_Titanic-Generalisierung.Rmd",
     "06_EDA/06-25_Titanic-Mittelwert.Rmd", 
     "06_EDA/06-26_Titanic-Varianz.Rmd",
@@ -95,7 +96,6 @@ Quizzes <- list(
   # EDA: Zusammenfassung
   Wdh_EDA_3 = c(
     "06_EDA/06-31_Visualisierung.Rmd",
-    "06_EDA/06-32_Histogramm.Rmd",
     "06_EDA/06-33_Verteilungsform.Rmd",
     "06_EDA/06-34_Rueckschluss.Rmd",
     "06_EDA/06-35_Ausreisser.Rmd", 
@@ -284,7 +284,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Cluster"
+quiz <- "Wdh_EDA_2"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

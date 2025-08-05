@@ -58,6 +58,7 @@ Quizzes <- list(
     "06_EDA/06-21_Titanic-Variable2.Rmd",
     "06_EDA/06-22_Titanic-Skalenniveau3.Rmd",
     "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
+    "06_EDA/06-32_Histogramm.Rmd",
     "06_EDA/06-24_Titanic-Generalisierung.Rmd",
     "06_EDA/06-25_Titanic-Mittelwert.Rmd",
     "06_EDA/06-26_Titanic-Varianz.Rmd",
@@ -67,7 +68,6 @@ Quizzes <- list(
   # EDA: Zusammenfassung
   Wdh_EDA_3      = c(
     "06_EDA/06-31_Visualisierung.Rmd",
-    "06_EDA/06-32_Histogramm.Rmd",
     "06_EDA/06-33_Verteilungsform.Rmd",
     "06_EDA/06-34_Rueckschluss.Rmd",
     "06_EDA/06-35_Ausreisser.Rmd",
@@ -146,7 +146,8 @@ Quizzes <- list(
     "09_Inferenz/09-13_Schaetzer.Rmd",
     "09_Inferenz/09-14_SE.Rmd",
     "09_Inferenz/09-15_Konfidenzintervall.Rmd",
-    "09_Inferenz/09-16_KImitDaten.Rmd"),
+    "09_Inferenz/09-16_KI99.Rmd",
+    "09_Inferenz/09-17_KImitDaten.Rmd"),
   
   # QMI: Wiederholung Termin 10 - Inferenz Testen
   # Inferenz: Testen
@@ -172,7 +173,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_LinReg_2"
+quiz <- "Wdh_EDA_4"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle
