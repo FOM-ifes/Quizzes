@@ -176,7 +176,8 @@ Quizzes <- list(
     "09_Inferenz/09-13_Schaetzer.Rmd", 
     "09_Inferenz/09-14_SE.Rmd", 
     "09_Inferenz/09-15_Konfidenzintervall.Rmd",
-    "09_Inferenz/09-16_KImitDaten.Rmd"
+    "09_Inferenz/09-16_KI99.Rmd",
+    "09_Inferenz/09-17_KImitDaten.Rmd"
   ),
   
   # Inferenz: Testen
