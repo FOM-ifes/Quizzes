@@ -1,6 +1,9 @@
 # Quizze
 
+library(here)
 library(exams)
+
+category <- "Wdh-Quizze"
 
 Quizzes <- list(
   
@@ -285,23 +288,37 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Bayes"
+quiz <- "Wdh_Orga"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle
-exams2moodle(Quizzes[[quiz]], name = names(Quizzes[quiz]), dir = "xml", rule = "none")
+exams2moodle(Quizzes[[quiz]], 
+             # Kategorie
+             name = category, iname = TRUE, 
+             # Unterkategorie Quizname (statt Exercise_##)
+             # wichtig stitle muss wiederholt werden, sonst wird nur die erste Frage angepasst
+             stitle = c(rep(names(Quizzes[quiz]), length(Quizzes[[quiz]]))),
+             dir = "xml", rule = "none")
+# Datei umbenennen, da Name für alle innerhalb einer Kategorie identisch
+file.rename(from = here("xml", paste0(category, ".xml")),
+            to = here("xml", paste0(names(Quizzes[quiz]), ".xml")))
 
 
 # Alle exportieren
 # Export zu moodle
-for(i in 1:length(Quizzes)){
-  exams2moodle(Quizzes[[i]], name = names(Quizzes[i]), dir = "xml", rule = "none")
+for(quiz in 1:length(Quizzes)){
+  exams2moodle(Quizzes[[quiz]], 
+               # Kategorie
+               name = category, iname = TRUE, 
+               # Unterkategorie Quizname (statt Exercise_##)
+               # wichtig stitle muss wiederholt werden, sonst wird nur die erste Frage angepasst
+               stitle = c(rep(names(Quizzes[quiz]), length(Quizzes[[quiz]]))),
+               dir = "xml", rule = "none")
+  # Datei umbenennen, da Name für alle innerhalb einer Kategorie identisch
+  file.rename(from = here("xml", paste0(category, ".xml")),
+              to = here("xml", paste0(names(Quizzes[quiz]), ".xml")))
 }
 # Export als html
-for(i in 1:length(Quizzes)){
-  exams2html(Quizzes[[i]], converter = "pandoc-mathjax")
+for(quiz in 1:length(Quizzes)){
+  exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 }
-# Export als pdf
-# for(i in 1:length(Quizzes)){
-#   exams2pdf(Quizzes[[i]], name = names(Quizzes[i]), dir = "pdf")
-# }
