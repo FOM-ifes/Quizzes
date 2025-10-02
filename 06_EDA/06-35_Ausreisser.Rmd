@@ -1,7 +1,7 @@
 Question
 ========
 
-Eine Personalerin analysiert die Gehaltsstuktur eines Unternehmens mit 1000 Mitarbeiter:innen. 
+Eine Personalerin analysiert die Gehaltsstruktur eines Unternehmens mit 1000 Mitarbeiter:innen. 
 Die Top-Verdienerin erhält einen Zusatzbonus von 100000 Euro.
 
 Welche Aussage stimmt?

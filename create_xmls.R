@@ -36,6 +36,24 @@ Quizzes <- list(
     "03_Grundlagen-QuantDat/03-25_Schlussmoeglichkeit.Rmd"
   ),
   
+  # EDA kategorial
+  Wdh_EDA_1 = c(
+    "06_EDA/06-11_Titanic-Beobachtung.Rmd", 
+    "06_EDA/06-12_Titanic-Variable.Rmd",
+    "06_EDA/06-13_Titanic-Skalenniveau1.Rmd", 
+    "06_EDA/06-14_Titanic-Skalenniveau2.Rmd",
+    "06_EDA/06-15_Titanic-Anteil.Rmd",
+    "06_EDA/06-16_Titanic-Anteilsfrage.Rmd"
+  ),
+  
+  # Wiederholung Wahrscheinlichkeit erst nach kategorial
+  Wdh_Wkeit = c(
+    "05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
+    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
+    "05_Wahrscheinlichkeit/05-13_Bayes.Rmd"
+  ),
+  
+  # Wiederholung R erst nach zweiter Fallsudie
   Wdh_R_1 = c(
     "04_R/04-11_gfpoint.Rmd", 
     "04_R/04-12_prop.Rmd", 
@@ -47,22 +65,6 @@ Quizzes <- list(
     "04_R/04-18_Tastenkuerzel-1.Rmd",
     "04_R/04-19_Tastenkuerzel-2.Rmd",
     "04_R/04-20_Tastenkuerzel-3.Rmd"
-  ),
-  
-  Wdh_Wkeit = c(
-    "05_Wahrscheinlichkeit/05-11_BedWkeit.Rmd",
-    "05_Wahrscheinlichkeit/05-12_TotaleWkeit.Rmd",
-    "05_Wahrscheinlichkeit/05-13_Bayes.Rmd"
-  ),
-  
-  # EDA kategorial
-  Wdh_EDA_1 = c(
-    "06_EDA/06-11_Titanic-Beobachtung.Rmd", 
-    "06_EDA/06-12_Titanic-Variable.Rmd",
-    "06_EDA/06-13_Titanic-Skalenniveau1.Rmd", 
-    "06_EDA/06-14_Titanic-Skalenniveau2.Rmd",
-    "06_EDA/06-15_Titanic-Anteil.Rmd",
-    "06_EDA/06-16_Titanic-Anteilsfrage.Rmd"
   ),
   
   # EDA metrisch
