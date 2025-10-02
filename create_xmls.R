@@ -53,7 +53,7 @@ Quizzes <- list(
     "05_Wahrscheinlichkeit/05-13_Bayes.Rmd"
   ),
   
-  # Wiederholung R erst nach zweiter Fallsudie
+  # Wiederholung R erst nach zweiter Fallstudie
   Wdh_R_1 = c(
     "04_R/04-11_gfpoint.Rmd", 
     "04_R/04-12_prop.Rmd", 
