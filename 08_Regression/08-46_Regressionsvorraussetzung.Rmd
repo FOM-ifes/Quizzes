@@ -11,7 +11,7 @@ Question
 
 In der Datentabelle `Daten` liegen die Variablen `x` und `y` vor, deren Zusammenhang analysiert werden soll. Zusätzlich wird der Residualplot (Streudiagramm der Residuen (`resid()`, $\hat{y}_i-y_i$) gegen die angepassten Werte (`fitted()`, $\hat{y}_i$)) dieser Modellierung gezeigt.
 
-```{r, warning=FALSE, fig.cap="", fig.asp=0.5}
+```{r, warning=FALSE, fig.cap="", fig.width = 7.2, fig.asp=0.5, out.width="80%"}
 # Lineare Modellierung
 erglm <- lm(y ~ x, data = Daten)
 # Streudiagramm mit Regressionsgerade
