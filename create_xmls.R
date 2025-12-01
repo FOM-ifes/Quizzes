@@ -282,7 +282,7 @@ Quizzes <- list(
     "12_LogRegression/12-12_Signifikanz.Rmd",
     "12_LogRegression/12-13_ModellVergleich.Rmd"
   ),
-
+  
   # Test
   Wdh_Test = c(
     "08_Regression/08-46_Regressionsvorraussetzung.Rmd"

@@ -1,6 +1,9 @@
 # Quizze
 
+library(here)
 library(exams)
+
+category <- "Wdh-Quizze"
 
 Quizzes <- list(
   
