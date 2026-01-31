@@ -14,7 +14,7 @@ Answerlist
 Solution
 ========
 
-Das 1. Quartil ist das 25%-Quantil der Verteilung und die Quantilsfunktion ist monoton steigend.
+Das 1. Quartil ist das 25%-Quantil der Verteilung und die Quantilsfunktion ist streng monoton steigend.
 
 Answerlist
 ----------

@@ -25,7 +25,7 @@ Je höher $n$ ist, desto geringer ist die Streuung der Likelihood-Funktion.
 Damit wird sie bei höherem $n$ schmaler.
 Der Modus, also das Maximum der Likelihood-Funktion, hingegen hängt von $p=\frac{y}{n}$ ab und bleibt damit gleich.
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 20
 y <- 5
 like <- dbinom(y, n, ppi)
@@ -38,7 +38,7 @@ gf_line(like ~ ppi,
   gf_vline(xintercept = 0.25)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 200
 y <- 50
 like <- dbinom(y, n, ppi)
@@ -51,7 +51,7 @@ gf_line(like ~ ppi,
   gf_vline(xintercept = 0.25)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 2000
 y <- 500
 like <- dbinom(y, n, ppi)

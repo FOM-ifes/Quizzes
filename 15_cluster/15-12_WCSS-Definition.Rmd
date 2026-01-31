@@ -10,6 +10,8 @@ Answerlist
 
 Solution
 ========
+
+WCSS (Within Cluster Sum of Squares) ist die Summe der quadrierten Abweichungen jedes Datenpunktes innerhalb des Clusters zum Zentroid des Clusters.
   
 Answerlist
 ----------
@@ -18,6 +20,6 @@ Answerlist
 
 Meta-information
 ================
-exname: cluster_quiz_2
+exname: Cluster WCSS
 extype: schoice
 exsolution: 01

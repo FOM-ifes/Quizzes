@@ -8,6 +8,7 @@ Answerlist
 * Die Einteilung einer Datentabelle in eine Anzahl $k$ an Clustern.
 * Das Zusammenfassen ausgewählter Variablen zu einem neuen Faktor $k$.
 * Die Ermittlung des Mittelwertes $k$ für die gesamte Datentabelle.
+* Die Ermittlung der Anzahl der zu bildenden Cluster.
 * Keines der zuvor genannten Ziele.
 
 Solution
@@ -16,12 +17,13 @@ Solution
 Answerlist
 ----------
 * Richtig.
-* Falsch.
+* Falsch, das Zusammenfassen von Variablen (Dimensionsreduktion) ist das Ziel der Hauptkomponentenanalyse.
 * Falsch. 
+* Falsch, in der k-Means-Analyse muss die Anzahl der zu bildenden Cluster vorgegeben werden. Eine mögliche Anzahl kann mit hierarchischen Clusterverfahren bestimmt werden.
 * Falsch.
 
 Meta-information
 ================
-exname: cluster_quiz_1
+exname: Cluster k-Means
 extype: schoice
-exsolution: 1000
+exsolution: 10000

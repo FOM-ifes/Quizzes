@@ -20,7 +20,7 @@ Answerlist
 Solution
 ========
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 20
 y <- 5
 like <- dbinom(y, n, ppi)
@@ -33,7 +33,7 @@ gf_line(like ~ ppi,
   gf_vline(xintercept = 0.25)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 20
 y <- 10
 like <- dbinom(y, n, ppi)
@@ -46,7 +46,7 @@ gf_line(like ~ ppi,
   gf_vline(xintercept = 0.5)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 n <- 20
 y <- 15
 like <- dbinom(y, n, ppi)

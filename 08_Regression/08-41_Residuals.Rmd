@@ -21,7 +21,7 @@ Von einer Peer-to-Peer-Kreditplattform liegen folgende Daten vor (siehe [hier](h
 - `laufzeit`: Laufzeit in Monaten.
 - `h.ausfall`: Ist in der Vergangenheit schon einmal eine Zahlung ausgefallen (`ja`, `nein`)?
 
-```{r, warning=FALSE, fig.cap=""}
+```{r, warning=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 # Lineare Modellierung
 erglm <- lm(zins ~ laufzeit + h.ausfall, data = Kredit)
 # Ergebniszusammenfassung

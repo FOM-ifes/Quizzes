@@ -31,8 +31,8 @@ Answerlist
 Solution
 ========
 
-Uns liegen nur die Daten der Stichprobe vor, daher können wir nur eine Aussage über die Stichprobenstatistik treffen, hier $\bar{x}$.
-$\mu$ ist der unbekannte Erwartungswert in der Population.
+Uns liegen nur die Daten der Stichprobe vor, daher können wir nur eine Aussage über die Stichprobenstatistik treffen, hier $\hat\mu=\bar{x}$.
+$\mu$ ist der unbekannte Erwartungswert in der Population, $\hat\mu$ der Punktschätzer basierend auf der Stichprobenstatistik.
 
 Answerlist
 ----------

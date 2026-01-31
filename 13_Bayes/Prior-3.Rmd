@@ -10,7 +10,7 @@ Welche Parameter liegen folgender Beta-Verteilung zugrunde?
 
 *Hinweis:* Sie können zum Beantworten der Frage die App <https://fomshinyapps.shinyapps.io/BaBeBi/> nutzen.
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_prior <- 10
 beta_prior <- 5
 
@@ -36,7 +36,7 @@ Solution
 
 $Modus(\pi)=\frac{\alpha-1}{\alpha+\beta-2}>0.5$, also $\alpha>\beta$.
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_prior <- 10
 beta_prior <- 5
 

@@ -20,7 +20,7 @@ $\hat{\beta}_1 = `r round(betadach,2)[2]`$.
 
 Die Simulation von Stichproben, in denen es nach Konstruktion keinen Zusammenhang zwischen `mpg` und `wt` gibt, ergibt folgendes Ergebnis:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%"}
 # Zufallszahlengenerator setzen
 set.seed(1896)
 # Permutationsverteilung

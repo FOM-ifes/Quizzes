@@ -70,7 +70,7 @@ Angenommen es gelten folgende kausalen Abhängigkeiten:
 
 Welche Abbildung zeigt das entsprechenden kausale Diagramm?
 
-```{r, echo=FALSE, fig.cap="", fig.width=8, fig.asp=1, out.width="80%"}
+```{r, echo=FALSE, fig.cap="", fig.width=7.2, fig.asp=1, out.width="80%"}
 gridExtra::grid.arrange(DAG_A, DAG_B, DAG_C, DAG_D, nrow = 2)
 ```
 

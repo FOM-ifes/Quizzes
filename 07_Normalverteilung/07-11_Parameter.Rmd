@@ -7,7 +7,7 @@ Question
 
 Welche Parameter hat diese Normalverteilung?
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 gf_dist("norm", mean=10, sd=2)
 ```
 
@@ -27,7 +27,7 @@ Solution
 Bei einer Normalverteilung ist der Erwartungswert $\mu$ bei dem Maximum des Grafen abzulesen (-$\,$-$\,$-), hier also $\mu=10$.
 Die Standardabweichung ist an den Wendepunkten des Grafen abzulesen, $\mu\pm\sigma$ ($\cdots$), hier also $\sigma=2$.
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 yval <- dnorm(8, mean = 10, sd = 2)
 gf_dist("norm", mean=10, sd=2) |> 
   gf_vline(xintercept = 10, linetype = 2) |> 

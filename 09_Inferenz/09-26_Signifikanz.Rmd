@@ -1,0 +1,38 @@
+Question
+========
+
+Es soll die Nullhypothese
+
+$H_0: \mu \geq \mu_0 = 50$
+
+zu einem Signifikanzniveau von $\alpha=1\,\%$ getestet werden.
+
+Der p-Wert ergibt sich zu
+
+$\text{p-Wert} = 0.0246.$
+
+Welche Aussage stimmt?
+
+Answerlist
+----------
+* Das Ergebnis ist statistisch signifikant.
+* Das Ergebnis ist statistisch nicht signifikant.
+* Ob das Ergebnis statistisch signifikant ist oder nicht, kann nicht entschieden werden.
+
+Solution
+========
+
+Da $\text{p-Wert} = 0.0246 > \alpha = 0.01$ kann die Nullhypothese nicht verworfen werden und das Ergebnis ist statistisch nicht signifikant.
+
+Answerlist
+----------
+* Falsch
+* Richtig
+* Falsch
+
+
+Meta-information
+================
+exname: Signifikanz
+extype: schoice
+exsolution: 010

@@ -30,7 +30,7 @@ Der Mosaikplot stellt den Zusammenhang zwischen kategorialen Variablen dar.
 
 Der Zusammenhang zwischen metrischen Variablen wird mit einem Streudiagramm dargestellt.
 
-```{r, results="hide", fig.height = 4, fig.width = 4, fig.cap = "", warning=FALSE}
+```{r, results="hide", fig.height = 4.5, fig.width = 4.5, fig.cap = "", warning=FALSE, out.width="50%"}
 gf_point(fare ~ age, data = titanic)
 ```
 

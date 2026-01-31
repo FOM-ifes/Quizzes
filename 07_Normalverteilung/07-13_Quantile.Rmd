@@ -20,7 +20,7 @@ Solution
 ========
 
 Die Quantilsfunktion $F^{-1}(p)$ ist die Umkehrfunktion der Verteilungsfunktion $F(q)$. 
-Da die Verteilungsfunktion monoton steigend ist (je größer $q$, desto größer $p$), ist auch die Umkehrfunktion monoton steigend (je größer $p$, desto größer $q$).
+Da die Verteilungsfunktion streng monoton steigend ist (je größer $q$, desto größer $p$), ist auch die Umkehrfunktion monoton steigend (je größer $p$, desto größer $q$).
 
 Answerlist
 ----------

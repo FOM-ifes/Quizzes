@@ -17,12 +17,12 @@ Solution
 Answerlist
 ----------
 * Falsch.
-* Richtig.
+* Richtig, wenn die Punkte nahe beieinander liegen, sind die Abstände zum Zentroiden des Clusters geringer und damit auch die WCSS. Nahe beieinanderliegende Punkte bedeuten eine höhere Dichte im Cluster.
 * Falsch.
 * Falsch.
 
 Meta-information
 ================
-exname: cluster_quiz_3
+exname: Cluster WCSS Wert
 extype: schoice
 exsolution: 0100

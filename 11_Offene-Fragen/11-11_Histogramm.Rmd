@@ -19,7 +19,7 @@ Question
 
 Für die Schadenssumme von Versicherungsfällen ergibt sich folgendes Histogramm:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%", message=FALSE}
 gf_histogram( ~ x)
 ```
 

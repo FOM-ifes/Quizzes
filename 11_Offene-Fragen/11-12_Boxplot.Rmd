@@ -20,7 +20,7 @@ Question
 
 Für die Ankunftszeiten der Läufer beim 5-km-Lauf ergibt sich folgender Boxplot:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%", message=FALSE}
 gf_boxplot( ~ x)
 ```
 

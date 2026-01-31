@@ -8,7 +8,7 @@ Question
 
 Für die Überlebenden und die Klasse auf der Titatic ergibt sich folgender Mosaikplot:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%"}
 mosaicplot(~ Class + Survived, data = Titanic, color = TRUE)
 ```
 

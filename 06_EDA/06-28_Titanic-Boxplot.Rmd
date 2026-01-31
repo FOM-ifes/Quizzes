@@ -12,7 +12,7 @@ Question
 Ein Boxplot des Alters in Abhängigkeit davon, ob die Katastrophe überlebt wurde oder nicht, ergibt folgendes Ergebnis:
 
 
-```{r, fig.cap="", warning=FALSE}
+```{r, fig.cap="", warning=FALSE, fig.width=5.5, out.width="60%"}
 gf_boxplot(age ~ survived, data = titanic)
 ```
 

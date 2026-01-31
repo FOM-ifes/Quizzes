@@ -36,7 +36,7 @@ Solution
 Answerlist
 ----------
 * Falsch, *Titanic* ist die Datentabelle.
-* Richtig, *Passagier:in* ist die Beobachtungseinheit, zu der verschiedene Werte erfasst werden.
+* Richtig, *Passagier:in* ist die Beobachtungseinheit, zu der verschiedene Werte erfasst werden. Eine Beobachtung sind die erfassten Werte zu einer konkreten Passagier:in.
 * Falsch, *Geschlecht* ist ein Merkmal, das eine:r Passagier:in zugeordnet werden kann.
 * Falsch, *Southampton* ist eine Ausprägung, die das Merkmal `embarked` für einzelne Passagiere angenommen hat.
 

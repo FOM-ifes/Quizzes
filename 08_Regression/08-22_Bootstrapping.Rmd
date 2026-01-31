@@ -20,7 +20,7 @@ $\hat{\beta}_1 = `r round(betadach,2)[2]`$.
 
 Wird das zufällige Ziehen simuliert (mit Zurücklegen, *Bootstrapping*), ergibt sich folgendes Ergebnis für die Verteilung der geschätzten Steigung:
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%"}
 # Zufallszahlengenerator setzen
 set.seed(1896)
 # Bootstrapping

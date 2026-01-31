@@ -191,19 +191,20 @@ Quizzes <- list(
     "09_Inferenz/09-22_pZweifel.Rmd", 
     "09_Inferenz/09-23_pTeststatistik.Rmd", 
     "09_Inferenz/09-24_Testentscheidung.Rmd", 
-    "09_Inferenz/09-25_Fehler.Rmd"
+    "09_Inferenz/09-25_Fehler.Rmd",
+    "09_Inferenz/09-26_Signifikanz.Rmd"
   ),
   
   # Bayes
   Wdh_Bayes = c(
     "13_Bayes/Prior-1.Rmd", 
-    "13_Bayes/Prior-2.Rmd", 
+    "13_Bayes/Prior-2.Rmd",
     "13_Bayes/Prior-3.Rmd",
-    "13_Bayes/Like-1.Rmd", 
-    "13_Bayes/Like-2.Rmd", 
+    "13_Bayes/Like-1.Rmd",
+    "13_Bayes/Like-2.Rmd",
     "13_Bayes/Like-3.Rmd",
-    "13_Bayes/Post-1.Rmd", 
-    "13_Bayes/Post-2.Rmd", 
+    "13_Bayes/Post-1.Rmd",
+    "13_Bayes/Post-2.Rmd",
     "13_Bayes/Post-3.Rmd"
   ),
   
@@ -296,7 +297,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Test"
+quiz <- "Wdh_Inferenz_2"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

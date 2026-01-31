@@ -13,7 +13,7 @@ Question
 
 Die Altersverteilung der Passagiere, die mind. 15 Jahre alt sind, sieht wie folgt aus:
 
-```{r, results="hide", fig.height = 4, fig.width = 6, fig.cap = "", warning=FALSE}
+```{r, results="hide", fig.height = 4, fig.width = 4.6, out.width = "50%", fig.cap = "", warning=FALSE, message=FALSE}
 gf_histogram( ~ age, data = titanic, center = 17.5, binwidth = 5)
 ```
 
@@ -37,7 +37,7 @@ Solution
 
 Answerlist
 ----------
-* Falsch, der Median der Daten liegt bei `r qdata(~ age, data = titanic, p = 0.5)`, was hier aber nicht (näherungsweise) die Mitte auf der x-Achse ist.
+* Falsch, der Median der Daten liegt bei `r qdata(~ age, data = titanic, p = 0.5)` (in der Abbildung nur geschätzt, 50 % der Daten liegen vor, 50 % der Daten liegen hinter dem Median), was hier aber nicht (näherungsweise) die Mitte auf der x-Achse ist.
 * Richtig, die Verteilung steigt links steil an und fällt nach rechts hin flach ab.
 * Falsch, dann würde die Verteilung links flach ansteigen und nach rechts steil abfallen.
 

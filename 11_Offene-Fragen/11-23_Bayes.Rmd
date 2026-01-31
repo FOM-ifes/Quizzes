@@ -21,7 +21,7 @@ Question
 
 Angelehnt an das Beispiel aus *Bayes Rules!*, S. 54 ff, zeigen sich für Wahlumfragen einer Kandidatin folgende Ergebnisse.
 
-```{r, fig.cap = ""}
+```{r, fig.cap = "", fig.width=4.5, out.width="50%"}
 # Vektor für pi bereitstellen
 ppi <- seq(from = 0, to = 1, by = 1/1000)
 # Prior

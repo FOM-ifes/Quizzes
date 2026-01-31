@@ -20,7 +20,7 @@ Answerlist
 Solution
 ========
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_post <- 20
 beta_post <- 30
 
@@ -38,7 +38,7 @@ gf_line(d_post ~ ppi,
   gf_vline(xintercept = ki)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_post <- 30
 beta_post <- 20
 

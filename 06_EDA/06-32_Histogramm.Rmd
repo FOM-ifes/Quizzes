@@ -10,7 +10,7 @@ Question
 
 Auf Grundlage welcher Daten wurde dieses Histogramm erzeugt?
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 gf_histogram(~xA, center=10.5, binwidth = 1)  |> 
   gf_labs(x="x")
 ```

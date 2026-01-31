@@ -17,7 +17,7 @@ fav2 <- favstats(~ fare, data = titanic |> filter(fare < 500)) |> round(2)
 ```
 
 
-```{r, fig.cap="", warning=FALSE}
+```{r}
 favstats(~ fare, data = titanic)
 ```
 
@@ -38,7 +38,7 @@ Solution
 
 Die Statistiken ergeben sich mit Filterung zu:
 
-```{r, fig.cap="", warning=FALSE}
+```{r}
 favstats(~ fare, data = titanic |> filter(fare < 500))
 ```
 

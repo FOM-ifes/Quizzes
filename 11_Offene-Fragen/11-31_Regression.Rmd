@@ -21,7 +21,7 @@ Im Rahmen einer Studie wurden für 94 Lehrende die Evaluierungsergebnisse unters
 Eine lineare Regression des Evaluierungsergebnisses auf die Schönheit und das Geschlecht ergibt folgendes Ergebnis:
 
 ```{r}
-erglm <- lm(score ~  gender + beauty, data = Eval)
+erglm <- lm(score ~ gender + beauty, data = Eval)
 summary(erglm)
 ```
 

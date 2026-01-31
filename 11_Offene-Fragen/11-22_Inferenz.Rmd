@@ -38,7 +38,7 @@ mn <- mosaic::mean(nachsichtigkeit ~ gesicht, data = Laecheln)
 mn
 ```
 
-```{r, fig.cap=""}
+```{r, fig.cap="", message=FALSE, fig.width=4.5, out.width="50%", message=FALSE}
 # Differenz Mittelwert
 dmn <- diffmean(nachsichtigkeit ~ gesicht, data = Laecheln)
 dmn 

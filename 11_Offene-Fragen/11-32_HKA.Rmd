@@ -37,7 +37,7 @@ Bei der Analyse wurden 13 Inhaltsstoffe bestimmt, die in jeder der drei Weinsort
 
 Im Rahmen einer Hauptkomponenten-Analyse wurden folgende Schritte vorgenommen:
 
-```{r fig.cap=""}
+```{r fig.cap="", fig.width=4.5, out.width="50%"}
 # KMO-Kriterium und Bartlett-Test
 KMOS(wine)$KMO
 bart_spher(wine)

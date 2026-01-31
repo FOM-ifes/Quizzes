@@ -7,7 +7,7 @@ Question
 
 In welcher/n der folgenden vier Grafiken ist der Korrelationskoeffizient eine geeignete Kennzahl zur Beschreibung des wahren Zusammenhangs?
 
-```{r, results="hide", fig.height = 4, fig.width = 4, fig.cap = "", warning = FALSE, echo = FALSE}
+```{r, results="hide", fig.height = 5.4, fig.width = 5.4, out.width="60%", fig.cap = "", warning = FALSE, echo = FALSE}
 data(anscombe)
 x <- c(anscombe$x1, anscombe$x2, anscombe$x3, anscombe$x4)
 y <- c(anscombe$y1, anscombe$y2, anscombe$y3, anscombe$y4)

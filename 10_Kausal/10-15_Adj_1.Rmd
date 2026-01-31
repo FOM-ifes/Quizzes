@@ -24,7 +24,7 @@ Question
 
 Angenommen es gelte folgende kausale Struktur:
 
-```{r, echo=FALSE, fig.cap="", fig.width=4, fig.asp=1, out.width="40%"}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, fig.asp=1, out.width="50%"}
 plot(DAG_A)
 ```
 

@@ -23,7 +23,7 @@ Solution
 
 Es gilt: $\alpha_{post} = \alpha_{prior} + y, \quad \beta_{post} = \beta_{prior} + n - y$.
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_post <- 1 + 5
 beta_post <- 1 + 10 - 5
 
@@ -41,7 +41,7 @@ gf_line(d_post ~ ppi,
   gf_vline(xintercept = ki)
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_post <- 1 + 50
 beta_post <- 1 + 100 - 50
 

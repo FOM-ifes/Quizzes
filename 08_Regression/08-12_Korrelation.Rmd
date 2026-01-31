@@ -33,7 +33,7 @@ Solution
 
 Der Zusammenhang zwischen Reichweite (`mpg`) und Gewicht (`wt`) wird negativ sein (je schwerer das Auto ist, desto kürzer wird die Reichweite sein). Das zeigt auch das Streudiagramm der beiden Variablen.
 
-```{r, fig.cap=""}
+```{r, fig.cap="", fig.width=4.5, out.width="50%"}
 gf_point(mpg ~ wt, data = mtcars)
 ```
 

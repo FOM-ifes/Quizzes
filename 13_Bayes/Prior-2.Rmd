@@ -21,7 +21,7 @@ Answerlist
 Solution
 ========
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_prior <- 2
 beta_prior <- 2
 
@@ -35,7 +35,7 @@ gf_line(d_prior ~ ppi,
           title = paste0("Beta(", alpha_prior, ", " , beta_prior, ")"))
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_prior <- 20
 beta_prior <- 20
 
@@ -49,7 +49,7 @@ gf_line(d_prior ~ ppi,
           title = paste0("Beta(", alpha_prior, ", " , beta_prior, ")"))
 ```
 
-```{r, echo=FALSE, fig.cap=""}
+```{r, echo=FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 alpha_prior <- 200
 beta_prior <- 200
 

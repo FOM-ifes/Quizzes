@@ -10,7 +10,7 @@ Question
 
 Ein Streudiagramm zeigt folgendes Bild:
 
-```{r, echo = FALSE, fig.cap=""}
+```{r, echo = FALSE, fig.cap="", fig.width=4.5, out.width="50%"}
 gf_point(y ~ x)
 ```
 

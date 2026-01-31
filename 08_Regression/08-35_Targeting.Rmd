@@ -23,7 +23,7 @@ summary(erglm)
 ```
 
 
-Wenn Kund:innen mit hohen Ausgaben angesprochen werden sollen, wie lautet dann die Zielgruppenbeschreibung?
+Wenn neue Kund:innen mit hohen Ausgaben angesprochen werden sollen, wie lautet dann die Zielgruppenbeschreibung?
 
 
 Answerlist
