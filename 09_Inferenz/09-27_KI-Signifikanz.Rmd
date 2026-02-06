@@ -1,7 +1,7 @@
 Question
 ========
 
-Für einen Korrelationskoeffizienten $r_{xy}$ ergibt sich ein $95\,\%$ Konfidenzintervall von $+0.23$ bis $+0.34$.
+Für einen Korrelationskoeffizienten $r_{xy}$ ergibt sich ein $95\%$-Konfidenzintervall von $+0.23$ bis $+0.34$.
 
 Was gilt für die Hypothese
 
@@ -20,9 +20,9 @@ Solution
 
 Während das geschätzte Konfidenzintervall von den Daten ausgeht und dazu kompatible Parameterwerte ausgibt, wird beim Hypothesenprüfen geguckt, welche Daten (hier $r$) zu einem vorgegeben Parameterwert (hier $\rho_0=0$) kompatibel sind.
 
-Es wäre (zumindest theoretisch) möglich ein $95\,\%$ so zu konstruieren, dass es alle Parameterwerte enthält, für die die Nullhypothese zum Niveau $5\,\%$ nicht verworfen wird.
+Es wäre (zumindest theoretisch) möglich, ein $95\%$-Konfidenzintervall so zu konstruieren, das es alle Parameterwerte enthält, für die die Nullhypothese zum Niveau $5\,\%$ nicht verworfen wird.
 
-Im überdeckt das $95\,\%$-Konfidenzintervall nicht den Wert $0$.
+Im vorliegenden Fall überdeckt das $95\,\%$-Konfidenzintervall nicht den Wert $0$, damit kann die Nuyllhypothese $\rho =0$ verworfen werden.
 
 Answerlist
 ----------
