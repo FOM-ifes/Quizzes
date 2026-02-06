@@ -192,7 +192,8 @@ Quizzes <- list(
     "09_Inferenz/09-23_pTeststatistik.Rmd", 
     "09_Inferenz/09-24_Testentscheidung.Rmd", 
     "09_Inferenz/09-25_Fehler.Rmd",
-    "09_Inferenz/09-26_Signifikanz.Rmd"
+    "09_Inferenz/09-26_Signifikanz.Rmd",
+    "09_Inferenz/09-27_KI-Signifikanz.Rmd"
   ),
   
   # Bayes
