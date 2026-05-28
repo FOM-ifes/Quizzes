@@ -56,7 +56,7 @@ Fassen Sie die vorangegangene Analyse zusammen. Was sind Forschungsfrage und vor
 Solution
 ========
 
-Durch wie viele Hauptkomponten können die Daten erklärt werden?
+Durch wie viele Hauptkomponenten können die Daten erklärt werden?
 
 Das KMO-Kriterium (Kaiser-Meyer-Olkin-Kriterium) liegt mit `r round(KMOS(wine)$KMO, 2)` über 0.5, der Bartlett-Test verwirft mit einem sehr kleinen p-Wert die H~0~, dass die Korrelationsmatrix sich nicht von der Einheitsmatrix unterscheidet. Somit sind die Daten für eine Hauptkomponentenanalyse geeignet.
 
