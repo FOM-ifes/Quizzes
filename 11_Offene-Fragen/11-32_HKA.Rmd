@@ -64,6 +64,8 @@ Der Scree-Plot zeigt einen deutlichen Knick bei vier, was für drei Hauptkompone
 
 Die Hauptkomponentenanalyse erfolgt unter Varimax-Rotation. Die Hauptkomponenten erklären `r varhka(wine)[3] * 100` % der Varianz. Sieben Variablen laden deutlich auf die erste Hauptkomponente, vier auf die zweite und zwei auf die dritte.
 
+Wer in Chemie versiert ist, kann jetzt noch versuchen, die drei Hauptkomponenten inhaltlich sinnvoll zu benennen. 
+
 
 Meta-information
 ================
