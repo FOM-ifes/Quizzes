@@ -87,8 +87,7 @@ Quizzes <- list(
     "06_EDA/06-23_Titanic-Verteilungsform.Rmd",
     "06_EDA/06-24_Titanic-Generalisierung.Rmd",
     "06_EDA/06-27_Titanic-Verteilungsfunktion.Rmd",
-    "06_EDA/06-32_Histogramm.Rmd",
-    "06_EDA/06-33_Verteilungsform.Rmd"
+    "06_EDA/06-32_Histogramm.Rmd"
   ),
   
   # EDA metrisch: Lage- und Streumaße
@@ -298,7 +297,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Inferenz_2"
+quiz <- "Wdh_Kausal_1"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle

@@ -15,6 +15,8 @@ Solution
 
 Der MSE (Mean Squared Error) berechnet die mittlere quadratische Abweichung und ist somit für Klassifikationsprobleme ungeeignet.
 
+Accuracy (Genauigkeit): Anteil richtig vorhergesagter Werte (True Negative, *TN,* und True Positive, *TP*) an allen Werten; F1-Score: Kombination aus True Positive Rate (Anteil *TP* vorhergesagter Werte an allen positiv vorhergesagten Werten [*TP* + False Negative, *FN*]) und Präzision (Anteil *TP* an *TP* plus False Positiv, *FP*); AUC (Area under Curve): Gütemaß für die Klassifikation.
+
 Answerlist
 ----------
 * Falsch

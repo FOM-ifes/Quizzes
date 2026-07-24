@@ -11,8 +11,8 @@ bei einem Signifikanznviveau von $\alpha = 5\,\%$?
 
 Answerlist
 ----------
-* Die Nullhypothese wird verworfen, der Korrelationskoeffizient ist statistisch signifikant von Null verschieden.
-* Die Nullhypothese wird nicht verworfen, der Korrelationskoeffizient ist nicht statistisch signifikant von Null verschieden.
+* Die Nullhypothese wird verworfen, der Korrelationskoeffizient ist statistisch erkennbar von Null verschieden.
+* Die Nullhypothese wird nicht verworfen, der Korrelationskoeffizient ist nicht statistisch erkennbar von Null verschieden.
 * Es kann keine Aussage über das Ergebnis einer Hypothesenprüfung getroffen werden.
 
 Solution
