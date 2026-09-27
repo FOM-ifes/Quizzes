@@ -31,10 +31,16 @@ Die Standardabweichung ist an den Wendepunkten des Grafen abzulesen, $\mu\pm\sig
 yval <- dnorm(8, mean = 10, sd = 2)
 gf_dist("norm", mean=10, sd=2) |> 
   gf_vline(xintercept = 10, linetype = 2) |> 
-  gf_segment(yval + yval ~ 8 + 12, linetype = 3 ) |> 
-  gf_text(yval ~ 9, label = expression(sigma), vjust = 2, size = 5) |>
-  gf_text(yval ~ 11, label = expression(sigma), vjust = 2, size = 5) |>
-  gf_text(0.05 ~ 10, label = expression(mu), hjust = -0.5, size = 5)
+  gf_annotate(y = yval, yend = yval, x = 8, xend = 12, geom = "segment", linetype = 3) |> 
+  gf_annotate(y = yval, x = 9, label = "σ", vjust = 2, size = 5) |> 
+  gf_annotate(y = yval, x = 11, label = "σ", vjust = 2, size = 5) |>
+  gf_annotate(y = 0.05, x = 10, label = "μ", hjust = -0.5, size = 5)
+# nachfolgender Code gibt Warnhinweise  
+#  gf_segment(yval + yval ~ 8 + 12, linetype = 3 ) |> 
+#  gf_text(yval ~ 9, label = "σ", vjust = 2, size = 5) |> 
+#  gf_text(yval ~ 11, label = "σ", vjust = 2, size = 5) |>
+#  gf_text(0.05 ~ 10, label = "μ", hjust = -0.5, size = 5)
+# expression funktioniert gar nicht mehr
 ```
 
 

@@ -286,7 +286,7 @@ Quizzes <- list(
   
   # Test
   Wdh_Test = c(
-    "08_Regression/08-46_Regressionsvorraussetzung.Rmd"
+    "07_Normalverteilung/07-11_Parameter.Rmd"
   )
   
 )
@@ -297,7 +297,7 @@ Quizzes <- list(
 lengths(Quizzes) |> sum()
 
 # Eins exportieren
-quiz <- "Wdh_Kausal_1"
+quiz <- "Wdh_Test"
 # html
 exams2html(Quizzes[[quiz]], converter = "pandoc-mathjax")
 # moodle
